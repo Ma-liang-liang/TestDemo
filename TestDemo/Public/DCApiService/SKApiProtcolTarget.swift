@@ -28,10 +28,13 @@ struct SKApiProtcolTarget: TargetType {
     
     private let _downloadDestination: SKDownloadDestination?
     
-    init(baseUrl: String, path: String,
-         method: SKMethodType, requestType: SKRequestType,
-         parameters: [String: Any], contentType: SKApiContentType,
+    init(baseUrl: String,
+         path: String,
+         method: SKMethodType,
+         requestType: SKRequestType,
          headers: [String: String]? = nil,
+         parameters: [String: Any],
+         contentType: SKApiContentType,
          multipartDatas: [SKMultiPartFormData]? = nil,
          downloadDestination: SKDownloadDestination? = nil) {
         

@@ -25,7 +25,8 @@ class ThirdController: SKBaseController {
             make.top.equalToSuperview().offset(180)
             make.height.equalTo(40)
         }
-                
+             
+        test1()
     }
     
     @objc func onClick(_ sender: UIButton) {

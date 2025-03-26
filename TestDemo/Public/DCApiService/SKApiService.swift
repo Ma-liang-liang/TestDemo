@@ -41,9 +41,9 @@ class SKApiService: NSObject {
                                        path: apiProtocol.path,
                                        method: apiProtocol.methodType,
                                        requestType: apiProtocol.requestType,
+                                       headers: headers,
                                        parameters: params,
                                        contentType: apiProtocol.contentType,
-                                       headers: headers,
                                        multipartDatas: apiProtocol.multipartDatas,
                                        downloadDestination: apiProtocol.downloadDestination)
 

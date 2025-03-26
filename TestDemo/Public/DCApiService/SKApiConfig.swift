@@ -51,7 +51,7 @@ class SKApiConfig: NSObject {
     
     static var commonHeaders: [String: String] = [:]
     
-    static var commonParams: [String: String] = [:]
+    static var commonParams: [String: Any] = [:]
     
     //监听指定code码回调
     static func addListenerByBusinessCodes(codes: [Int], callBack:((Int) -> Void)?) {
