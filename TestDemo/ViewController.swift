@@ -65,6 +65,12 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         case .third:
             let vc = ThirdController()
             navigationController?.pushViewController(vc, animated: true)
+        case .web1:
+            guard let url = URL(string: "https://www.baidu.com/") else {
+                return
+            }
+            let vc = WebViewController(url: url)
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
     
@@ -78,5 +84,7 @@ enum PageType: String, CaseIterable {
     case second = "SecondController"
     
     case third = "ThirdController"
+    
+    case web1 = "WebViewController"
     
 }
