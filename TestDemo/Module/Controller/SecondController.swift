@@ -31,12 +31,22 @@ class SecondController: SKBaseController {
             print("v = \(v)")
         }.store(in: &cancelables)
         
+
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        print("viewWillAppear ---isMovingToParent = \(isMovingToParent)")
+
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         
         MessageCenter.shared.removeObserver(self, messageType: LoginMessage.self)
+        
+        print("viewDidDisappear ---isMovingFromParent = \(isMovingFromParent)")
     }
     
     func addMessageObserver() {
