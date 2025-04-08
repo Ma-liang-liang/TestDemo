@@ -279,6 +279,71 @@ public extension String {
         }
         
     }
+    
+    /// Highlights all occurrences of a search string within the original string
+    /// - Parameters:
+    ///   - searchText: The text to search for and highlight
+    ///   - highlightColor: The color to use for highlighting (default is system yellow)
+    ///   - highlightFont: The font for highlighted text (nil keeps original font)
+    ///   - defaultColor: The color for unmatched text (default is black)
+    ///   - defaultFont: The font for unmatched text (default is system font of size 17)
+    ///   - caseSensitive: Whether the search should be case sensitive (default is false)
+    /// - Returns: An attributed string with highlighted matches
+    func cg_highlight(
+        _ searchText: String,
+        highlightColor: UIColor = .systemYellow,
+        highlightFont: UIFont? = nil,
+        defaultColor: UIColor = .black,
+        defaultFont: UIFont = UIFont.systemFont(ofSize: 17),
+        caseSensitive: Bool = false
+    ) -> NSAttributedString {
+        let attributedString = NSMutableAttributedString(
+            string: self,
+            attributes: [
+                .foregroundColor: defaultColor,
+                .font: defaultFont
+            ]
+        )
+        
+        // If search text is empty, return string with default styling
+        guard !searchText.isEmpty else {
+            return attributedString
+        }
+        
+        let options: String.CompareOptions = caseSensitive ? [] : .caseInsensitive
+        var searchRange = Range(uncheckedBounds: (lower: self.startIndex, upper: self.endIndex))
+        
+        while let foundRange = self.range(
+            of: searchText,
+            options: options,
+            range: searchRange,
+            locale: nil
+        ) {
+            let nsRange = NSRange(foundRange, in: self)
+            
+            // Apply highlight color
+            attributedString.addAttribute(
+                .foregroundColor,
+                value: highlightColor,
+                range: nsRange
+            )
+            
+            // Apply highlight font if specified
+            if let highlightFont = highlightFont {
+                attributedString.addAttribute(
+                    .font,
+                    value: highlightFont,
+                    range: nsRange
+                )
+            }
+            
+            // Update search range to continue searching after this match
+            searchRange = Range(uncheckedBounds: (lower: foundRange.upperBound, upper: self.endIndex))
+        }
+        
+        return attributedString
+    }
+    
 }
 
 public extension UIImage {
