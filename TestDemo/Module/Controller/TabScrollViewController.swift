@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 class TabScrollViewController: SKBaseController {
     
     // 顶部标签栏
@@ -23,10 +22,21 @@ class TabScrollViewController: SKBaseController {
     private let tabs = ["首页", "推荐", "热门", "最新", "关注"]
     private var tabButtons: [UIButton] = []
     
+    // 字体设置
+    private let selectedFont = UIFont.systemFont(ofSize: 16, weight: .bold)
+    private let normalFont = UIFont.systemFont(ofSize: 14, weight: .medium)
+    private let selectedColor: UIColor = .black
+    private let normalColor: UIColor = .gray
+    
     // 当前选中索引
-    private var currentIndex = 0
-    // 记录上一次的滚动偏移量
-    private var lastContentOffset: CGFloat = 0
+    private var currentIndex = 0 {
+        didSet {
+            // 只有在真正变化时才更新
+            if oldValue != currentIndex {
+                updateTabButtonsAppearance()
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,21 +45,17 @@ class TabScrollViewController: SKBaseController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-      
+        // 确保视图布局完成后更新指示器位置
+        if tabButtons.count > 0 && indicatorView.frame == .zero {
+            updateIndicatorPosition(animated: false)
+        }
     }
     
     private func setupUI() {
         view.backgroundColor = .white
         
-        // 1. 设置顶部 TabView
         setupTabView()
-        
-        // 2. 设置内容 ScrollView
         setupScrollView()
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
-            self.updateIndicatorPosition()
-        }
     }
     
     private func setupTabView() {
@@ -80,8 +86,8 @@ class TabScrollViewController: SKBaseController {
         for (index, title) in tabs.enumerated() {
             let button = UIButton(type: .system)
             button.setTitle(title, for: .normal)
-            button.setTitleColor(index == 0 ? .black : .gray, for: .normal)
-            button.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .medium)
+            button.setTitleColor(index == 0 ? selectedColor : normalColor, for: .normal)
+            button.titleLabel?.font = index == 0 ? selectedFont : normalFont
             button.tag = index
             button.addTarget(self, action: #selector(tabButtonTapped(_:)), for: .touchUpInside)
             tabStackView.addArrangedSubview(button)
@@ -91,13 +97,13 @@ class TabScrollViewController: SKBaseController {
         // 设置指示器
         indicatorView.backgroundColor = .green
         tabView.addSubview(indicatorView)
-        updateIndicatorPosition(animated: false)
     }
     
     private func setupScrollView() {
         scrollView.delegate = self
         scrollView.isPagingEnabled = true
         scrollView.showsHorizontalScrollIndicator = false
+        scrollView.bounces = false
         view.addSubview(scrollView)
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
@@ -106,6 +112,7 @@ class TabScrollViewController: SKBaseController {
             scrollView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             scrollView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
+        
         // 内容视图
         scrollView.addSubview(contentView)
         contentView.translatesAutoresizingMaskIntoConstraints = false
@@ -157,7 +164,6 @@ class TabScrollViewController: SKBaseController {
             previousView = pageView
         }
         
-        // 设置内容视图的 trailing 约束
         if let lastView = previousView {
             contentView.trailingAnchor.constraint(equalTo: lastView.trailingAnchor).isActive = true
         }
@@ -168,11 +174,9 @@ class TabScrollViewController: SKBaseController {
         guard currentIndex < tabButtons.count else { return }
         
         let selectedButton = tabButtons[currentIndex]
+        let indicatorWidth: CGFloat = 30
         
-        // 计算指示器位置 - 中心对齐
-        let buttonFrame = selectedButton.frame
-        let indicatorWidth: CGFloat = 30 // 固定宽度
-        let centerX = buttonFrame.midX - indicatorWidth / 2
+        let centerX = selectedButton.center.x - indicatorWidth / 2
         
         if animated {
             UIView.animate(withDuration: 0.25) {
@@ -191,10 +195,14 @@ class TabScrollViewController: SKBaseController {
                 height: 3
             )
         }
-        
-        // 更新按钮颜色
+    }
+    
+    // 更新标签按钮外观
+    private func updateTabButtonsAppearance() {
         tabButtons.forEach { button in
-            button.setTitleColor(button.tag == currentIndex ? .black : .gray, for: .normal)
+            let isSelected = button.tag == currentIndex
+            button.setTitleColor(isSelected ? selectedColor : normalColor, for: .normal)
+            button.titleLabel?.font = isSelected ? selectedFont : normalFont
         }
     }
     
@@ -217,37 +225,45 @@ class TabScrollViewController: SKBaseController {
         guard pageWidth > 0 else { return }
         
         let progress = offsetX / pageWidth
-        let isSwipingLeft = offsetX > lastContentOffset
-        lastContentOffset = offsetX
-        
-        // 计算当前索引和下一个索引
-        var fromIndex = Int(floor(progress))
-        var toIndex = fromIndex + 1
+        let currentPage = Int(progress)
+        let nextPage = currentPage + 1
         
         // 边界检查
-        if toIndex >= tabButtons.count {
-            toIndex = tabButtons.count - 1
-        }
-        if fromIndex < 0 {
-            fromIndex = 0
-        }
+        guard nextPage < tabButtons.count else { return }
         
-        // 计算相对进度 (0.0 ~ 1.0)
-        let relativeProgress = progress - CGFloat(fromIndex)
+        // 计算过渡进度 (0.0 ~ 1.0)
+        let transitionProgress = progress - CGFloat(currentPage)
         
-        // 获取对应的按钮
-        let fromButton = tabButtons[fromIndex]
-        let toButton = tabButtons[toIndex]
+        // 获取当前和下一个按钮
+        let currentButton = tabButtons[currentPage]
+        let nextButton = tabButtons[nextPage]
         
-        // 计算两个按钮的中心点
-        let fromCenter = fromButton.center.x
-        let toCenter = toButton.center.x
+        // 更新颜色过渡
+        let currentColor = selectedColor.interpolate(to: normalColor, progress: transitionProgress)
+        let nextColor = normalColor.interpolate(to: selectedColor, progress: transitionProgress)
         
-        // 计算指示器的中间位置
-        let indicatorCenterX = fromCenter + (toCenter - fromCenter) * relativeProgress
+        currentButton.setTitleColor(currentColor, for: .normal)
+        nextButton.setTitleColor(nextColor, for: .normal)
+        
+        // 更新字体大小过渡
+        let currentFontSize = 16 - (2 * transitionProgress)
+        let nextFontSize = 14 + (2 * transitionProgress)
+        
+        currentButton.titleLabel?.font = UIFont.systemFont(
+            ofSize: currentFontSize,
+            weight: transitionProgress > 0.5 ? .medium : .bold
+        )
+        nextButton.titleLabel?.font = UIFont.systemFont(
+            ofSize: nextFontSize,
+            weight: transitionProgress > 0.5 ? .bold : .medium
+        )
         
         // 更新指示器位置
-        let indicatorWidth: CGFloat = 30 // 固定宽度
+        let currentCenter = currentButton.center.x
+        let nextCenter = nextButton.center.x
+        let indicatorWidth: CGFloat = 30
+        let indicatorCenterX = currentCenter + (nextCenter - currentCenter) * transitionProgress
+        
         indicatorView.frame = CGRect(
             x: indicatorCenterX - indicatorWidth / 2,
             y: tabView.frame.height - 3,
@@ -255,18 +271,11 @@ class TabScrollViewController: SKBaseController {
             height: 3
         )
         
-        // 更新按钮颜色过渡
-        let fromColor = UIColor.black.interpolate(to: UIColor.gray, progress: relativeProgress)
-        let toColor = UIColor.gray.interpolate(to: UIColor.black, progress: relativeProgress)
-        
-        fromButton.setTitleColor(fromColor, for: .normal)
-        toButton.setTitleColor(toColor, for: .normal)
-        
-        // 更新当前索引
-        if relativeProgress > 0.5 {
-            currentIndex = toIndex
+        // 只有当滑动超过50%时才更新当前索引
+        if transitionProgress > 0.5 {
+            currentIndex = nextPage
         } else {
-            currentIndex = fromIndex
+            currentIndex = currentPage
         }
     }
 }
