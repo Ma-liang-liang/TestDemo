@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ViewController: SKBaseController {
 
@@ -71,6 +72,12 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             }
             let vc = WebViewController(url: url)
             navigationController?.pushViewController(vc, animated: true)
+        case .swiftui_one:
+            let vc = UIHostingController(rootView: ComplexUIDemo())
+            navigationController?.pushViewController(vc, animated: true)
+        case .tabScroll:
+            let vc = TabScrollViewController()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
     
@@ -86,5 +93,9 @@ enum PageType: String, CaseIterable {
     case third = "ThirdController"
     
     case web1 = "WebViewController"
+    
+    case swiftui_one = "ComplexUIDemo"
+    
+    case tabScroll = "TabScrollViewController"
     
 }

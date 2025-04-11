@@ -60,7 +60,6 @@ class ThirdController: SKBaseController {
                 // 更新 UI（如刷新列表）
             }
             .store(in: &cancelables)
-        
         // 模拟修改数组
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.viewModel.items.append("元素1")
