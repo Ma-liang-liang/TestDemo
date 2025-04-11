@@ -47,6 +47,7 @@ class TabScrollViewController: SKBaseController {
         super.viewDidLayoutSubviews()
         // 确保视图布局完成后更新指示器位置
         if tabButtons.count > 0 && indicatorView.frame == .zero {
+            view.layoutIfNeeded()
             updateIndicatorPosition(animated: false)
         }
     }
