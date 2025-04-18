@@ -25,6 +25,15 @@ class HomeController: SKBaseController {
         
         addMessageObserver()
         
+        // 方法三使用
+        let customLabel = GradientSizeLabel(frame: CGRect(x: 50, y: 200, width: 200, height: 50))
+        customLabel.text = "CoreText渐变"
+        customLabel.startFontSize = 10
+        customLabel.endFontSize = 20
+        customLabel.textAlignment = .center
+        view.addSubview(customLabel)
+
+        
     }
     
     
@@ -99,4 +108,40 @@ struct NetworkMessage: MessageType {
         case disconnected
     }
     let status: Status
+}
+
+class GradientSizeLabel: UILabel {
+    var startFontSize: CGFloat = 12
+    var endFontSize: CGFloat = 24
+    
+    override func drawText(in rect: CGRect) {
+        guard let text = self.text else { return }
+        
+        let context = UIGraphicsGetCurrentContext()!
+        context.saveGState()
+        
+        // 翻转坐标系以匹配CoreText
+        context.textMatrix = .identity
+        context.translateBy(x: 0, y: bounds.size.height)
+        context.scaleBy(x: 1.0, y: -1.0)
+        
+        let path = CGMutablePath()
+        path.addRect(bounds)
+        
+        let length = text.count
+        let attributedString = NSMutableAttributedString(string: text)
+        
+        for i in 0..<length {
+            let size = startFontSize + (endFontSize - startFontSize) * CGFloat(i) / CGFloat(length - 1)
+            let range = NSRange(location: i, length: 1)
+            attributedString.addAttribute(.font, value: self.font.withSize(size), range: range)
+            attributedString.addAttribute(.foregroundColor, value: self.textColor, range: range)
+        }
+        
+        let framesetter = CTFramesetterCreateWithAttributedString(attributedString)
+        let frame = CTFramesetterCreateFrame(framesetter, CFRangeMake(0, attributedString.length), path, nil)
+        
+        CTFrameDraw(frame, context)
+        context.restoreGState()
+    }
 }

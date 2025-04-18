@@ -34,3 +34,12 @@ func getCurrentViewController() -> UIViewController? {
     // 从根视图控制器开始查找最上层的视图控制器
     return findTopViewController(from: rootViewController)
 }
+
+func measureTime(name: String, block: () -> Void) {
+    let startTime = DispatchTime.now()
+    block() // 执行函数
+    let endTime = DispatchTime.now()
+    let nanoTime = endTime.uptimeNanoseconds - startTime.uptimeNanoseconds
+    let timeInterval = TimeInterval(nanoTime) / 1_000_000_000 // 转换为秒
+    print("\(name) 消耗时间 --- \(timeInterval)")
+}
