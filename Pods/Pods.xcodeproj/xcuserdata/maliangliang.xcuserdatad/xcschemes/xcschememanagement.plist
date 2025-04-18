@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>ObjectBox.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>Pods-TestDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
