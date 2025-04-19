@@ -26,8 +26,17 @@ class ThirdController: SKBaseController {
             make.height.equalTo(40)
         }
              
-        test1()
+//        test1()
+        
+        SKAPIConfiguration.addConfig()
+        
+        test_request3()
+      
+        test_request4()
+
     }
+    
+    
     
     @objc func onClick(_ sender: UIButton) {
         test3()
@@ -51,6 +60,57 @@ class ThirdController: SKBaseController {
         super.touchesBegan(touches, with: event)
         
     }
+    
+    private func test_request1() {
+        Task {
+            
+            do {
+                let resuts = try await SKApiService.sendRequest(apiProtocol: MockApi.postPosts)
+                
+                print("resuts = \(resuts)")
+            } catch {
+                let error = error as NSError
+                print("error = \(error.domain)")
+            }
+        }
+    }
+    
+    private func test_request2() {
+        Task {
+            do {
+                let resuts = try await SKApiService.sendArrayRequest(apiProtocol: ReqResApi.getUsers(page: 2), modelType: MockUserModel.self)                 
+                print("resuts = \(resuts)")
+            } catch {
+                let error = error as NSError
+                print("error = \(error.domain)")
+            }
+        }
+    }
+    
+    private func test_request3() {
+        Task {
+            do {
+                let resuts = try await SKApiService.sendObjectRequest(apiProtocol: ReqResApi.getSingleUser(id: 2), modelType: MockUserModel.self)
+                print("resuts = \(String(describing: resuts))")
+            } catch {
+                let error = error as NSError
+                print("error = \(error.domain)")
+            }
+        }
+    }
+    
+    private func test_request4() {
+        Task {
+            do {
+                let resuts = try await SKApiService.sendObjectRequest(apiProtocol: ReqResApi.createUser(name: "哈哈哈", job: "CEO"), modelType: MockUserModel.self)
+                print("resuts = \(String(describing: resuts))")
+            } catch {
+                let error = error as NSError
+                print("error = \(error.domain)")
+            }
+        }
+    }
+
     
     func test1() {
         // 订阅数组变化
@@ -119,3 +179,4 @@ class ThirdController: SKBaseController {
 
     
 }
+

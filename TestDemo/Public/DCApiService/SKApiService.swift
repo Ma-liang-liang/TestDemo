@@ -64,23 +64,23 @@ class SKApiService: NSObject {
                     failureCallBack(error)
                     return
                 }
-                let dict = JSONSerialization.getDictionaryFromJSONData(jsonData: response.data) ?? [:]
-                guard let code = dict["code"] as? String else {
-                    print("code解析失败")
-                    return
-                }
-                let intCode = Int(code) ?? 0
-                if SKApiConfig.listenerCodes.contains(intCode) {
-                    SKApiConfig.listenerCallBack?(intCode)
-                    return
-                }
+//                let dict = JSONSerialization.getDictionaryFromJSONData(jsonData: response.data) ?? [:]
+//                guard let code = dict["code"] as? String else {
+//                    print("code解析失败")
+//                    return
+//                }
+//                let intCode = Int(code) ?? 0
+//                if SKApiConfig.listenerCodes.contains(intCode) {
+//                    SKApiConfig.listenerCallBack?(intCode)
+//                    return
+//                }
                 
-                if code == "\(DCHttpCode.successCode)" {
+                if response.statusCode == (DCHttpCode.successCode) {
                     successCallBack(jsonStr)
                 } else {
-                    let message = (dict["message"] as? String) ?? ""
-                    let service_error = NSError(domain: "\(target.path)\n\(message)", code: response.statusCode)
-                    failureCallBack(service_error)
+//                    let message = (dict["message"] as? String) ?? ""
+//                    let service_error = NSError(domain: "\(target.path)\n\(message)", code: response.statusCode)
+//                    failureCallBack(service_error)
                 }
             case .failure(let error):
                 
