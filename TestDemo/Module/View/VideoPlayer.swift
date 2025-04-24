@@ -14,23 +14,30 @@ class VideoPlayer: UIView {
     private var playerLayer: AVPlayerLayer?
     private var playerItem: AVPlayerItem?
     private var timeObserver: Any?
-    
-    private let controlView = VideoPlayerControlView()
     private var isFullscreen = false
     private var originalFrame: CGRect = .zero
     
     var videoURL: URL? {
-        didSet {
-            setupPlayer()
-        }
+        didSet { setupPlayer() }
     }
     
     var qualities: [VideoQuality] = [] {
-        didSet {
-            // Update quality button visibility
-            controlView.isHidden = qualities.isEmpty
-        }
+        didSet { controlView.isHidden = qualities.isEmpty }
     }
+    
+    // MARK: - UI Components
+    private lazy var controlView: VideoPlayerControlView = {
+        let view = VideoPlayerControlView()
+        view.delegate = self
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
+    private lazy var tapGesture: UITapGestureRecognizer = {
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
+        gesture.numberOfTapsRequired = 1
+        return gesture
+    }()
     
     // MARK: - Initialization
     override init(frame: CGRect) {
@@ -47,40 +54,30 @@ class VideoPlayer: UIView {
         removeObservers()
     }
     
-    // MARK: - UI Setup
+    // MARK: - Setup
     private func setupUI() {
         backgroundColor = .black
         clipsToBounds = true
-        
-        // Add control view
-        controlView.delegate = self
         addSubview(controlView)
+        addGestureRecognizer(tapGesture)
         
-        controlView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             controlView.topAnchor.constraint(equalTo: topAnchor),
             controlView.bottomAnchor.constraint(equalTo: bottomAnchor),
             controlView.leadingAnchor.constraint(equalTo: leadingAnchor),
             controlView.trailingAnchor.constraint(equalTo: trailingAnchor)
         ])
-        
-        // 单机手势
-        let tapGesture = UITapGestureRecognizer()
-        tapGesture.numberOfTapsRequired = 1
-        tapGesture.addTarget(self, action: #selector(handleTap(_:)))
-        addGestureRecognizer(tapGesture)
     }
     
-    // MARK: - Player Setup
     private func setupPlayer() {
         guard let url = videoURL else { return }
         
-        // Remove previous player
+        // Clean up previous player
         player?.pause()
         playerLayer?.removeFromSuperlayer()
         removeObservers()
         
-        // Create new player
+        // Initialize new player
         playerItem = AVPlayerItem(url: url)
         player = AVPlayer(playerItem: playerItem)
         
@@ -89,80 +86,90 @@ class VideoPlayer: UIView {
         playerLayer?.frame = bounds
         layer.insertSublayer(playerLayer!, at: 0)
         
-        // Add observers
         addObservers()
-        
-        // Start playback
-        player?.play()
-        controlView.updatePlaybackStatus(isPlaying: true)
+        play()
     }
     
+    // MARK: - Gesture Handling
     @objc private func handleTap(_ gesture: UITapGestureRecognizer) {
-        // 显示/隐藏控制面板
+        let targetAlpha: CGFloat = controlView.alpha == 0 ? 1 : 0
         UIView.animate(withDuration: 0.3) {
-            self.controlView.alpha = self.controlView.alpha == 0 ? 1 : 0
+            self.controlView.alpha = targetAlpha
         }
         
-        // 3秒后自动隐藏
-        NSObject.cancelPreviousPerformRequests(withTarget: self, selector: #selector(hideControls), object: nil)
-        perform(#selector(hideControls), with: nil, afterDelay: 3.0)
+        // Auto-hide after 3 seconds if showing
+        if targetAlpha == 1 {
+            NSObject.cancelPreviousPerformRequests(withTarget: self, selector: #selector(hideControls), object: nil)
+            perform(#selector(hideControls), with: nil, afterDelay: 3.0)
+        }
     }
     
-    @objc func hideControls() {
+    @objc private func hideControls() {
         UIView.animate(withDuration: 0.3) {
             self.controlView.alpha = 0
         }
     }
     
-    // MARK: - Observers
+    // MARK: - Player Observers
     private func addObservers() {
-       
         addTimeObserver()
         
-        // Notification observers
-        NotificationCenter.default.addObserver(self, selector: #selector(playerItemDidPlayToEndTime), name: .AVPlayerItemDidPlayToEndTime, object: playerItem)
-        NotificationCenter.default.addObserver(self, selector: #selector(applicationWillResignActive), name: UIApplication.willResignActiveNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(applicationDidBecomeActive), name: UIApplication.didBecomeActiveNotification, object: nil)
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(playerItemDidPlayToEndTime),
+            name: .AVPlayerItemDidPlayToEndTime,
+            object: playerItem
+        )
+        
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(applicationWillResignActive),
+            name: UIApplication.willResignActiveNotification,
+            object: nil
+        )
+        
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(applicationDidBecomeActive),
+            name: UIApplication.didBecomeActiveNotification,
+            object: nil
+        )
     }
     
     private func addTimeObserver() {
-        // Time observer for progress updates
         let interval = CMTime(seconds: 1, preferredTimescale: CMTimeScale(NSEC_PER_SEC))
-        timeObserver = player?.addPeriodicTimeObserver(forInterval: interval, queue: .main) { [weak self] time in
-            guard let self = self else { return }
-            
-            if self.controlView.isSliding {
-                print("滑动拦截")
-                return
-            }
+        timeObserver = player?.addPeriodicTimeObserver(
+            forInterval: interval,
+            queue: .main
+        ) { [weak self] time in
+            guard let self, !self.controlView.isSliding else { return }
             
             let currentTime = CMTimeGetSeconds(time)
-            let duration = CMTimeGetSeconds(self.playerItem?.duration ?? CMTime.zero)
+            let duration = CMTimeGetSeconds(self.playerItem?.duration ?? .zero)
             
             if !duration.isNaN {
                 self.controlView.updateTime(currentTime: currentTime, duration: duration)
             }
             
-            // Update buffered time
-            if let loadedRanges = self.playerItem?.loadedTimeRanges.first {
-                let bufferedTime = CMTimeGetSeconds(loadedRanges.timeRangeValue.start) + CMTimeGetSeconds(loadedRanges.timeRangeValue.duration)
-                self.controlView.updateBufferedTime(bufferedTime: bufferedTime)
-            }
+            self.updateBufferedTime()
         }
-        
     }
     
-    private func removeTimeObserver() {
-        if let timeObserver = timeObserver {
-            player?.removeTimeObserver(timeObserver)
-            self.timeObserver = nil
-        }
+    private func updateBufferedTime() {
+        guard let loadedRange = playerItem?.loadedTimeRanges.first?.timeRangeValue else { return }
+        let bufferedTime = CMTimeGetSeconds(loadedRange.start) + CMTimeGetSeconds(loadedRange.duration)
+        controlView.updateBufferedTime(bufferedTime: bufferedTime)
     }
     
     private func removeObservers() {
         removeTimeObserver()
-        
         NotificationCenter.default.removeObserver(self)
+    }
+    
+    private func removeTimeObserver() {
+        guard let observer = timeObserver else { return }
+        player?.removeTimeObserver(observer)
+        timeObserver = nil
     }
     
     // MARK: - Layout
@@ -173,22 +180,21 @@ class VideoPlayer: UIView {
     
     // MARK: - Notification Handlers
     @objc private func playerItemDidPlayToEndTime() {
-        player?.seek(to: CMTime.zero)
+        seek(to: 0)
         controlView.updatePlaybackStatus(isPlaying: false)
     }
     
     @objc private func applicationWillResignActive() {
-        player?.pause()
-        controlView.updatePlaybackStatus(isPlaying: false)
+        pause()
     }
     
     @objc private func applicationDidBecomeActive() {
         if controlView.isPlaying {
-            player?.play()
+            play()
         }
     }
     
-    // MARK: - Public Methods
+    // MARK: - Public Controls
     func play() {
         player?.play()
         controlView.updatePlaybackStatus(isPlaying: true)
@@ -200,38 +206,17 @@ class VideoPlayer: UIView {
     }
     
     func toggleFullscreen() {
-        guard let superview = superview else { return }
+        guard let _ = superview else { return }
         
         if isFullscreen {
-            // 退出全屏
-            UIView.animate(withDuration: 0.3) {
-                self.transform = .identity
-                self.frame = self.originalFrame
-                superview.layoutIfNeeded()
-            }
+            exitFullscreen()
         } else {
-            // 进入全屏
-            originalFrame = frame
-            let fullscreenFrame = superview.convert(superview.bounds, to: nil)
-            
-            UIView.animate(withDuration: 0.3) {
-                self.transform = CGAffineTransform(rotationAngle: .pi/2)
-                self.frame = fullscreenFrame
-                superview.layoutIfNeeded()
-            }
+            enterFullscreen()
         }
         
-        isFullscreen = !isFullscreen
+        isFullscreen.toggle()
         controlView.updateFullscreenStatus(isFullscreen: isFullscreen)
-        
-        // 确保控制面板可见
-        UIView.animate(withDuration: 0.3) {
-            self.controlView.alpha = 1
-        }
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            self.hideControls()
-        }
+        showControlsTemporarily()
     }
     
     func seek(to time: TimeInterval) {
@@ -241,14 +226,9 @@ class VideoPlayer: UIView {
     
     func forward(seconds: TimeInterval = 10) {
         guard let currentTime = player?.currentTime() else { return }
-        let newTime = CMTimeGetSeconds(currentTime) + seconds
-        let duration = CMTimeGetSeconds(playerItem?.duration ?? CMTime.zero)
-        
-        if newTime < duration {
-            seek(to: newTime)
-        } else {
-            seek(to: duration)
-        }
+        let duration = CMTimeGetSeconds(playerItem?.duration ?? .zero)
+        let newTime = min(CMTimeGetSeconds(currentTime) + seconds, duration)
+        seek(to: newTime)
     }
     
     func backward(seconds: TimeInterval = 10) {
@@ -260,19 +240,40 @@ class VideoPlayer: UIView {
     func changeQuality(to quality: VideoQuality) {
         videoURL = quality.url
     }
+    
+    // MARK: - Private Helpers
+    private func enterFullscreen() {
+        guard let superview = superview else { return }
+        originalFrame = frame
+        
+        UIView.animate(withDuration: 0.3) {
+            self.transform = CGAffineTransform(rotationAngle: .pi/2)
+            self.frame = superview.bounds
+        }
+    }
+    
+    private func exitFullscreen() {
+        UIView.animate(withDuration: 0.3) {
+            self.transform = .identity
+            self.frame = self.originalFrame
+        }
+    }
+    
+    private func showControlsTemporarily() {
+        UIView.animate(withDuration: 0.3) {
+            self.controlView.alpha = 1
+        }
+        NSObject.cancelPreviousPerformRequests(withTarget: self, selector: #selector(hideControls), object: nil)
+        perform(#selector(hideControls), with: nil, afterDelay: 3.0)
+    }
 }
 
 // MARK: - VideoPlayerControlViewDelegate
 extension VideoPlayer: VideoPlayerControlViewDelegate {
     func controlViewDidTapPlayPause(_ controlView: VideoPlayerControlView) {
-        if controlView.isPlaying {
-            pause()
-        } else {
-            play()
-        }
+        controlView.isPlaying ? pause() : play()
     }
     
-    // 在VideoPlayerControlViewDelegate扩展中处理全屏按钮点击
     func controlViewDidTapFullscreen(_ controlView: VideoPlayerControlView) {
         toggleFullscreen()
     }
@@ -283,12 +284,10 @@ extension VideoPlayer: VideoPlayerControlViewDelegate {
     
     func controlView(_ controlView: VideoPlayerControlView, isSeekingTo time: TimeInterval) {
         seek(to: time)
-//        removeTimeObserver()
     }
     
     func controlView(_ controlView: VideoPlayerControlView, didSeekTo time: TimeInterval) {
         seek(to: time)
-//        addTimeObserver()
     }
     
     func controlViewDidTapBackward(_ controlView: VideoPlayerControlView) {

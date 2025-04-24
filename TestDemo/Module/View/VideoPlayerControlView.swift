@@ -33,7 +33,7 @@ class VideoPlayerControlView: UIView {
         }
     }
     
-    var isSliding = false // 标记是否正在拖动进度条
+    var isSliding = false
     
     private var isFullscreen: Bool = false {
         didSet {
@@ -42,34 +42,18 @@ class VideoPlayerControlView: UIView {
     }
     
     private var currentTime: TimeInterval = 0 {
-        didSet {
-            updateTimeLabels()
-        }
+        didSet { updateTimeLabels() }
     }
     
     private var duration: TimeInterval = 0 {
-        didSet {
-            updateTimeLabels()
-        }
+        didSet { updateTimeLabels() }
     }
     
     private var bufferedTime: TimeInterval = 0 {
-        didSet {
-            updateProgressViews()
-        }
+        didSet { updateProgressViews() }
     }
     
-    // UI Elements
-    private let playPauseButton = UIButton()
-    private let fullscreenButton = UIButton()
-    private let backwardButton = UIButton()
-    private let forwardButton = UIButton()
-    private let qualityButton = UIButton()
-    private let currentTimeLabel = UILabel()
-    private let durationLabel = UILabel()
-    private let progressSlider = UISlider()
-    private let bufferedProgressView = UIProgressView()
-    private let panGesture = UIPanGestureRecognizer()
+    // MARK: - UI Components
     
     // Images
     private let playImage = UIImage(systemName: "play.fill")
@@ -80,98 +64,160 @@ class VideoPlayerControlView: UIView {
     private let forwardImage = UIImage(systemName: "goforward.10")
     private let qualityImage = UIImage(systemName: "list.dash")
     
+    // Buttons
+    private lazy var playPauseButton: UIButton = {
+        let button = UIButton()
+        button.setImage(pauseImage, for: .normal)
+        button.tintColor = .white
+        button.addTarget(self, action: #selector(playPauseTapped), for: .touchUpInside)
+        button.widthAnchor.constraint(equalToConstant: 24).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 24).isActive = true
+        return button
+    }()
+    
+    private lazy var fullscreenButton: UIButton = {
+        let button = UIButton()
+        button.setImage(fullscreenImage, for: .normal)
+        button.tintColor = .white
+        button.addTarget(self, action: #selector(fullscreenTapped), for: .touchUpInside)
+        button.widthAnchor.constraint(equalToConstant: 24).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 24).isActive = true
+        return button
+    }()
+    
+    private lazy var backwardButton: UIButton = {
+        let button = UIButton()
+        button.setImage(backwardImage, for: .normal)
+        button.tintColor = .white
+        button.addTarget(self, action: #selector(backwardTapped), for: .touchUpInside)
+        button.widthAnchor.constraint(equalToConstant: 24).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 24).isActive = true
+        return button
+    }()
+    
+    private lazy var forwardButton: UIButton = {
+        let button = UIButton()
+        button.setImage(forwardImage, for: .normal)
+        button.tintColor = .white
+        button.addTarget(self, action: #selector(forwardTapped), for: .touchUpInside)
+        button.widthAnchor.constraint(equalToConstant: 24).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 24).isActive = true
+        return button
+    }()
+    
+    private lazy var qualityButton: UIButton = {
+        let button = UIButton()
+        button.setImage(qualityImage, for: .normal)
+        button.tintColor = .white
+        button.addTarget(self, action: #selector(qualityTapped), for: .touchUpInside)
+        button.widthAnchor.constraint(equalToConstant: 24).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 24).isActive = true
+        return button
+    }()
+    
+    // Labels
+    private lazy var currentTimeLabel: UILabel = {
+        let label = UILabel()
+        label.text = "00:00"
+        label.textColor = .white
+        label.font = .systemFont(ofSize: 12)
+        return label
+    }()
+    
+    private lazy var durationLabel: UILabel = {
+        let label = UILabel()
+        label.text = "00:00"
+        label.textColor = .white
+        label.font = .systemFont(ofSize: 12)
+        return label
+    }()
+    
+    // Progress Views
+    private lazy var progressSlider: UISlider = {
+        let slider = UISlider()
+        slider.minimumValue = 0
+        slider.maximumValue = 1.0
+        slider.minimumTrackTintColor = .systemBlue
+        slider.maximumTrackTintColor = .clear
+        slider.setThumbImage(UIImage(systemName: "circle.fill"), for: .normal)
+        slider.tintColor = .white
+        slider.addTarget(self, action: #selector(sliderValueChanged(_:)), for: .valueChanged)
+        slider.addTarget(self, action: #selector(sliderTouchUpInside(_:)), for: [.touchUpInside, .touchUpOutside])
+        slider.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        return slider
+    }()
+    
+    private lazy var bufferedProgressView: UIProgressView = {
+        let progressView = UIProgressView()
+        progressView.progressTintColor = UIColor.white.withAlphaComponent(0.5)
+        progressView.trackTintColor = UIColor.lightGray.withAlphaComponent(0.3)
+        progressView.heightAnchor.constraint(equalToConstant: 2).isActive = true
+        return progressView
+    }()
+    
+    // Stack Views
+    private lazy var topStackView: UIStackView = {
+        let stackView = UIStackView(arrangedSubviews: [qualityButton, UIView()])
+        stackView.axis = .horizontal
+        stackView.distribution = .fill
+        stackView.alignment = .center
+        stackView.spacing = 16
+        return stackView
+    }()
+    
+    private lazy var bottomStackView: UIStackView = {
+        let stackView = UIStackView(arrangedSubviews: [
+            backwardButton,
+            playPauseButton,
+            forwardButton,
+            currentTimeLabel,
+            progressSlider,
+            durationLabel,
+            fullscreenButton
+        ])
+        stackView.axis = .horizontal
+        stackView.distribution = .fill
+        stackView.alignment = .center
+        stackView.spacing = 16
+        return stackView
+    }()
+    
+    // Gestures
+    private lazy var doubleTapGesture: UITapGestureRecognizer = {
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(handleDoubleTap(_:)))
+        gesture.numberOfTapsRequired = 2
+        return gesture
+    }()
+    
+    private lazy var panGesture: UIPanGestureRecognizer = {
+        let gesture = UIPanGestureRecognizer(target: self, action: #selector(handlePan(_:)))
+        return gesture
+    }()
+    
     // MARK: - Initialization
     override init(frame: CGRect) {
         super.init(frame: frame)
-        setupUI()
-        setupGestures()
+        setupView()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        setupUI()
+        setupView()
+    }
+    
+    // MARK: - Setup
+    private func setupView() {
+        backgroundColor = UIColor.black.withAlphaComponent(0.5)
+        setupLayout()
         setupGestures()
     }
     
-    // MARK: - UI Setup
-    private func setupUI() {
-        backgroundColor = UIColor.black.withAlphaComponent(0.5)
-        
-        // Stack View for top controls
-        let topStackView = UIStackView()
-        topStackView.axis = .horizontal
-        topStackView.distribution = .fill
-        topStackView.alignment = .center
-        topStackView.spacing = 16
-        
-        // Stack View for bottom controls
-        let bottomStackView = UIStackView()
-        bottomStackView.axis = .horizontal
-        bottomStackView.distribution = .fill
-        bottomStackView.alignment = .center
-        bottomStackView.spacing = 16
-        
-        // Configure buttons
-        playPauseButton.setImage(pauseImage, for: .normal)
-        playPauseButton.tintColor = .white
-        playPauseButton.addTarget(self, action: #selector(playPauseTapped), for: .touchUpInside)
-        
-        fullscreenButton.setImage(fullscreenImage, for: .normal)
-        fullscreenButton.tintColor = .white
-        fullscreenButton.addTarget(self, action: #selector(fullscreenTapped), for: .touchUpInside)
-        
-        backwardButton.setImage(backwardImage, for: .normal)
-        backwardButton.tintColor = .white
-        backwardButton.addTarget(self, action: #selector(backwardTapped), for: .touchUpInside)
-        
-        forwardButton.setImage(forwardImage, for: .normal)
-        forwardButton.tintColor = .white
-        forwardButton.addTarget(self, action: #selector(forwardTapped), for: .touchUpInside)
-        
-        qualityButton.setImage(qualityImage, for: .normal)
-        qualityButton.tintColor = .white
-        qualityButton.addTarget(self, action: #selector(qualityTapped), for: .touchUpInside)
-        
-        // Configure labels
-        currentTimeLabel.text = "00:00"
-        currentTimeLabel.textColor = .white
-        currentTimeLabel.font = .systemFont(ofSize: 12)
-        
-        durationLabel.text = "00:00"
-        durationLabel.textColor = .white
-        durationLabel.font = .systemFont(ofSize: 12)
-        
-        // Configure progress views
-        progressSlider.minimumValue = 0
-        progressSlider.maximumValue = 1.0
-        progressSlider.minimumTrackTintColor = .systemBlue
-        progressSlider.maximumTrackTintColor = .clear
-        progressSlider.setThumbImage(UIImage(systemName: "circle.fill"), for: .normal)
-        progressSlider.tintColor = .white
-        progressSlider.addTarget(self, action: #selector(sliderValueChanged(_:)), for: .valueChanged)
-        progressSlider.addTarget(self, action: #selector(sliderTouchUpInside(_:)), for: [.touchUpInside, .touchUpOutside])
-        
-        bufferedProgressView.progressTintColor = UIColor.white.withAlphaComponent(0.5)
-        bufferedProgressView.trackTintColor = UIColor.lightGray.withAlphaComponent(0.3)
-        
-        // Add to stack views
-        topStackView.addArrangedSubview(qualityButton)
-        topStackView.addArrangedSubview(UIView()) // Spacer
-        
-        bottomStackView.addArrangedSubview(backwardButton)
-        bottomStackView.addArrangedSubview(playPauseButton)
-        bottomStackView.addArrangedSubview(forwardButton)
-        bottomStackView.addArrangedSubview(currentTimeLabel)
-        bottomStackView.addArrangedSubview(progressSlider)
-        bottomStackView.addArrangedSubview(durationLabel)
-        bottomStackView.addArrangedSubview(fullscreenButton)
-        
-        // Add to view
+    private func setupLayout() {
         addSubview(topStackView)
         addSubview(bottomStackView)
         addSubview(bufferedProgressView)
         
-        // Layout
+        // Layout Constraints
         topStackView.translatesAutoresizingMaskIntoConstraints = false
         bottomStackView.translatesAutoresizingMaskIntoConstraints = false
         bufferedProgressView.translatesAutoresizingMaskIntoConstraints = false
@@ -187,46 +233,15 @@ class VideoPlayerControlView: UIView {
             
             bufferedProgressView.leadingAnchor.constraint(equalTo: progressSlider.leadingAnchor),
             bufferedProgressView.trailingAnchor.constraint(equalTo: progressSlider.trailingAnchor),
-            bufferedProgressView.centerYAnchor.constraint(equalTo: progressSlider.centerYAnchor),
-            bufferedProgressView.heightAnchor.constraint(equalToConstant: 2),
-            
-            qualityButton.widthAnchor.constraint(equalToConstant: 24),
-            qualityButton.heightAnchor.constraint(equalToConstant: 24),
-            
-            playPauseButton.widthAnchor.constraint(equalToConstant: 24),
-            playPauseButton.heightAnchor.constraint(equalToConstant: 24),
-            
-            backwardButton.widthAnchor.constraint(equalToConstant: 24),
-            backwardButton.heightAnchor.constraint(equalToConstant: 24),
-            
-            forwardButton.widthAnchor.constraint(equalToConstant: 24),
-            forwardButton.heightAnchor.constraint(equalToConstant: 24),
-            
-            fullscreenButton.widthAnchor.constraint(equalToConstant: 24),
-            fullscreenButton.heightAnchor.constraint(equalToConstant: 24),
-            
-            progressSlider.heightAnchor.constraint(equalToConstant: 30)
+            bufferedProgressView.centerYAnchor.constraint(equalTo: progressSlider.centerYAnchor)
         ])
         
-        // Bring slider to front
         bringSubviewToFront(progressSlider)
     }
     
     private func setupGestures() {
-        
-        // 双击手势（用于播放/暂停）
-        let doubleTapGesture = UITapGestureRecognizer(target: self, action: #selector(handleDoubleTap(_:)))
-        doubleTapGesture.numberOfTapsRequired = 2
         addGestureRecognizer(doubleTapGesture)
-        
-        // 滑动手势
-        panGesture.addTarget(self, action: #selector(handlePan(_:)))
         addGestureRecognizer(panGesture)
-    }
-
-
-    @objc private func handleDoubleTap(_ gesture: UITapGestureRecognizer) {
-        delegate?.controlViewDidTapPlayPause(self)
     }
     
     // MARK: - Public Methods
@@ -284,14 +299,11 @@ class VideoPlayerControlView: UIView {
     }
     
     @objc private func qualityTapped() {
-        // In a real implementation, you would show a quality selection menu
-        // For simplicity, we'll just notify the delegate
         let quality = VideoQuality(title: "720p", url: URL(string: "https://example.com")!)
         delegate?.controlView(self, didSelectQuality: quality)
     }
     
     @objc private func sliderValueChanged(_ slider: UISlider) {
-        print("sliderValueChanged slider.value = \(slider.value)")
         isSliding = true
         let seekTime = TimeInterval(slider.value) * duration
         currentTimeLabel.text = formatTime(seconds: seekTime)
@@ -299,19 +311,19 @@ class VideoPlayerControlView: UIView {
     }
     
     @objc private func sliderTouchUpInside(_ slider: UISlider) {
-        print("sliderTouchUpInside  slider.value = \(slider.value)")
         isSliding = false
         let seekTime = TimeInterval(slider.value) * duration
         delegate?.controlView(self, didSeekTo: seekTime)
     }
     
+    @objc private func handleDoubleTap(_ gesture: UITapGestureRecognizer) {
+        delegate?.controlViewDidTapPlayPause(self)
+    }
+    
     @objc private func handlePan(_ gesture: UIPanGestureRecognizer) {
-        // Implement brightness/volume/slider control based on pan direction
-        // This is a simplified version - you can expand it
         let translation = gesture.translation(in: self)
         
         if abs(translation.x) > abs(translation.y) {
-            // Horizontal pan - seek
             let progress = Float(translation.x / bounds.width)
             let newValue = progressSlider.value + progress
             progressSlider.value = min(max(newValue, 0), 1)
