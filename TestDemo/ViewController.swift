@@ -78,6 +78,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         case .tabScroll:
             let vc = TabScrollViewController()
             navigationController?.pushViewController(vc, animated: true)
+        case .videoDemo:
+            let vc = VideoDemoController()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
     
@@ -97,5 +100,7 @@ enum PageType: String, CaseIterable {
     case swiftui_one = "ComplexUIDemo"
     
     case tabScroll = "TabScrollViewController"
+    
+    case videoDemo = "VideoDemoController"
     
 }
