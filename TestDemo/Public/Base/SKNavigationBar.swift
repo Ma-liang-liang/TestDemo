@@ -12,7 +12,9 @@ class SKNavigationBar: SKBaseView {
     
     lazy var backBtn: UIButton = {
         let btn = UIButton(type: .custom)
-        btn.setImage(UIImage(named: "close_normal"), for: .normal)
+        let image = SystemIcon.getIcon(icon: .arrowLeft)
+//        let image = AppIcon.close.image()
+        btn.setImage(image, for: .normal)
         return btn
     }()
     

@@ -81,6 +81,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         case .videoDemo:
             let vc = VideoDemoController()
             navigationController?.pushViewController(vc, animated: true)
+        case .iconFont:
+            let vc = IconFontController()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
     
@@ -102,5 +105,7 @@ enum PageType: String, CaseIterable {
     case tabScroll = "TabScrollViewController"
     
     case videoDemo = "VideoDemoController"
+    
+    case iconFont = "IconFontController"
     
 }

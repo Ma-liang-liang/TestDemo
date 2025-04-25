@@ -32,10 +32,8 @@ class HomeController: SKBaseController {
         customLabel.endFontSize = 20
         customLabel.textAlignment = .center
         view.addSubview(customLabel)
-
         
     }
-    
     
     func addMessageObserver() {
         
