@@ -20,21 +20,21 @@ final class IconFontManager {
     // MARK: - 字体注册（App启动时调用）
     static func registerFont() {
         guard !registered else { return }
-        
-        guard let fontURL = Bundle.main.url(forResource: "iconfont", withExtension: "ttf"),
-              let fontData = try? Data(contentsOf: fontURL),
-              let provider = CGDataProvider(data: fontData as CFData),
-              let font = CGFont(provider) else {
-            fatalError("Failed to load iconfont")
+        DispatchQueue.global().async {
+            guard let fontURL = Bundle.main.url(forResource: "iconfont", withExtension: "ttf"),
+                  let fontData = try? Data(contentsOf: fontURL),
+                  let provider = CGDataProvider(data: fontData as CFData),
+                  let font = CGFont(provider) else {
+                fatalError("Failed to load iconfont")
+            }
+            
+            var error: Unmanaged<CFError>?
+            guard CTFontManagerRegisterGraphicsFont(font, &error) else {
+                print("Font registration failed: \(error?.takeRetainedValue().localizedDescription ?? "")")
+                return
+            }
+            self.registered = true
         }
-        
-        var error: Unmanaged<CFError>?
-        guard CTFontManagerRegisterGraphicsFont(font, &error) else {
-            print("Font registration failed: \(error?.takeRetainedValue().localizedDescription ?? "")")
-            return
-        }
-        
-        registered = true
     }
     
     // MARK: - 核心方法（内存优化版）
