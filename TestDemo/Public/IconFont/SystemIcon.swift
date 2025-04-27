@@ -143,3 +143,17 @@ extension SystemIcon {
                    color: color, configuration: configuration)
     }
 }
+
+extension UIImage {
+    
+    static func systemIconImage(
+        systemIcon: SystemIcon,
+        size: CGFloat = 24,
+        weight: UIImage.SymbolWeight = .regular,
+        scale: UIImage.SymbolScale = .default,
+        color: UIColor? = .black,
+        configuration: UIImage.Configuration? = nil
+    ) -> UIImage? {
+        systemIcon.image(size: size, weight: weight, scale: scale, color: color, configuration: configuration)
+    }
+}

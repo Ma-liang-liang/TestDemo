@@ -138,7 +138,17 @@ enum AppIcon: String {
     
     case close = "\u{e669}"
     
+    case refresh = "\u{e67b}"
+    
     func image(size: CGFloat = 24, color: UIColor = .black) -> UIImage? {
         IconFontManager.icon(rawValue, size: size, color: color)
     }
+}
+
+extension UIImage {
+    
+    static func appIconImage(appIcon: AppIcon, size: CGFloat = 24, color: UIColor = .black) -> UIImage? {
+         appIcon.image(size: size, color: color)
+    }
+    
 }

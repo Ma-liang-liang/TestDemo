@@ -92,7 +92,7 @@ extension IconFontController: UICollectionViewDataSource, UICollectionViewDelega
         }
         
         let cell = collectionView.dequeueReusableCell(withClass: LabelCell.self, for: indexPath)
-        cell.textLabel.setIcon(AppIcon.search.rawValue, size: 36, color: .random)
+        cell.textLabel.setIcon(AppIcon.refresh.rawValue, size: 36, color: .random)
         return cell
     }
     
