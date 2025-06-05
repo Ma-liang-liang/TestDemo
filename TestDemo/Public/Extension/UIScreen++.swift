@@ -45,7 +45,8 @@ extension UIScreen {
         if #available(iOS 13.0, *) {
             // iOS 13+ 使用 windowScene 获取状态栏高度
             let windowScene = UIApplication.shared.connectedScenes
-                .first { $0.activationState == .foregroundActive } as? UIWindowScene
+                .first { $0.activationState == .foregroundActive ||
+                    $0.activationState == .foregroundInactive } as? UIWindowScene
             return windowScene?.statusBarManager?.statusBarFrame.height ?? 44
         } else {
             // iOS 12 及以下版本直接获取状态栏高度

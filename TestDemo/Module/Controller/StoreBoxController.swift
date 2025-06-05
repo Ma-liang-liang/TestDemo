@@ -12,8 +12,11 @@ class StoreBoxController: SKBaseController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        var nums: [Int] = []
         
+        let dict: [String: Int] = [:]
 
+        dict.sorted(by: { $0.value < $1.value }).forEach { print("\($0.key)") }
     }
     
 

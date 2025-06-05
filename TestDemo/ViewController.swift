@@ -84,6 +84,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         case .iconFont:
             let vc = IconFontController()
             navigationController?.pushViewController(vc, animated: true)
+        case .storeBox:
+            let vc = StoreBoxController()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
     
@@ -107,5 +110,7 @@ enum PageType: String, CaseIterable {
     case videoDemo = "VideoDemoController"
     
     case iconFont = "IconFontController"
+    
+    case storeBox = "StoreBoxController"
     
 }

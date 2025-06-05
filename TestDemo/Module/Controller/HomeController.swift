@@ -32,6 +32,9 @@ class HomeController: SKBaseController {
         customLabel.endFontSize = 20
         customLabel.textAlignment = .center
         view.addSubview(customLabel)
+
+        UIImage().preparingForDisplay()
+
         
     }
     
@@ -142,4 +145,15 @@ class GradientSizeLabel: UILabel {
         CTFrameDraw(frame, context)
         context.restoreGState()
     }
+}
+protocol P {
+   func foo()
+}
+extension P {
+   func foo() { print("P") }
+   func bar() { print("bar") }
+}
+class C: P {
+   func foo() { print("C") }
+   func bar() { print("BAR") }
 }

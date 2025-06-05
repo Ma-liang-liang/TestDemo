@@ -13,7 +13,6 @@ struct GridLayout: Layout {
     
     func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
         guard !subviews.isEmpty else { return .zero }
-        
         let width = proposal.width ?? .infinity
         let itemWidth = (width - spacing * CGFloat(columns - 1)) / CGFloat(columns)
         var totalHeight: CGFloat = 0
