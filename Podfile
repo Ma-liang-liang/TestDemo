@@ -19,5 +19,7 @@ pod 'ZLPhotoBrowser', :git => 'https://github.com/Ma-liang-liang/ZLPhotoBrowser.
 
 pod 'HXPhotoPicker','~> 5.0.0.2'
 
+pod 'AgoraRtcEngine_iOS', '~> 4.5.1'
+
 
 end

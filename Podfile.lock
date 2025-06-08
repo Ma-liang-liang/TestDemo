@@ -1,4 +1,45 @@
 PODS:
+  - AgoraInfra_iOS (1.2.13.1)
+  - AgoraRtcEngine_iOS (4.5.2):
+    - AgoraRtcEngine_iOS/AIAEC (= 4.5.2)
+    - AgoraRtcEngine_iOS/AIAECLL (= 4.5.2)
+    - AgoraRtcEngine_iOS/AINS (= 4.5.2)
+    - AgoraRtcEngine_iOS/AINSLL (= 4.5.2)
+    - AgoraRtcEngine_iOS/AudioBeauty (= 4.5.2)
+    - AgoraRtcEngine_iOS/ClearVision (= 4.5.2)
+    - AgoraRtcEngine_iOS/ContentInspect (= 4.5.2)
+    - AgoraRtcEngine_iOS/FaceCapture (= 4.5.2)
+    - AgoraRtcEngine_iOS/FaceDetection (= 4.5.2)
+    - AgoraRtcEngine_iOS/LipSync (= 4.5.2)
+    - AgoraRtcEngine_iOS/ReplayKit (= 4.5.2)
+    - AgoraRtcEngine_iOS/RtcBasic (= 4.5.2)
+    - AgoraRtcEngine_iOS/SpatialAudio (= 4.5.2)
+    - AgoraRtcEngine_iOS/VideoAv1CodecDec (= 4.5.2)
+    - AgoraRtcEngine_iOS/VideoAv1CodecEnc (= 4.5.2)
+    - AgoraRtcEngine_iOS/VideoCodecDec (= 4.5.2)
+    - AgoraRtcEngine_iOS/VideoCodecEnc (= 4.5.2)
+    - AgoraRtcEngine_iOS/VirtualBackground (= 4.5.2)
+    - AgoraRtcEngine_iOS/VQA (= 4.5.2)
+  - AgoraRtcEngine_iOS/AIAEC (4.5.2)
+  - AgoraRtcEngine_iOS/AIAECLL (4.5.2)
+  - AgoraRtcEngine_iOS/AINS (4.5.2)
+  - AgoraRtcEngine_iOS/AINSLL (4.5.2)
+  - AgoraRtcEngine_iOS/AudioBeauty (4.5.2)
+  - AgoraRtcEngine_iOS/ClearVision (4.5.2)
+  - AgoraRtcEngine_iOS/ContentInspect (4.5.2)
+  - AgoraRtcEngine_iOS/FaceCapture (4.5.2)
+  - AgoraRtcEngine_iOS/FaceDetection (4.5.2)
+  - AgoraRtcEngine_iOS/LipSync (4.5.2)
+  - AgoraRtcEngine_iOS/ReplayKit (4.5.2)
+  - AgoraRtcEngine_iOS/RtcBasic (4.5.2):
+    - AgoraInfra_iOS (= 1.2.13.1)
+  - AgoraRtcEngine_iOS/SpatialAudio (4.5.2)
+  - AgoraRtcEngine_iOS/VideoAv1CodecDec (4.5.2)
+  - AgoraRtcEngine_iOS/VideoAv1CodecEnc (4.5.2)
+  - AgoraRtcEngine_iOS/VideoCodecDec (4.5.2)
+  - AgoraRtcEngine_iOS/VideoCodecEnc (4.5.2)
+  - AgoraRtcEngine_iOS/VirtualBackground (4.5.2)
+  - AgoraRtcEngine_iOS/VQA (4.5.2)
   - Alamofire (5.10.2)
   - CombineCocoa (0.4.1)
   - HXPhotoPicker (5.0.0.2):
@@ -72,6 +113,7 @@ PODS:
   - ZLPhotoBrowser/Core (4.5.8)
 
 DEPENDENCIES:
+  - AgoraRtcEngine_iOS (~> 4.5.1)
   - CombineCocoa
   - HXPhotoPicker (~> 5.0.0.2)
   - Kingfisher
@@ -85,6 +127,8 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AgoraInfra_iOS
+    - AgoraRtcEngine_iOS
     - Alamofire
     - CombineCocoa
     - HXPhotoPicker
@@ -107,6 +151,8 @@ CHECKOUT OPTIONS:
     :git: https://github.com/Ma-liang-liang/ZLPhotoBrowser.git
 
 SPEC CHECKSUMS:
+  AgoraInfra_iOS: 3691b2b277a1712a35ae96de25af319de0d73d08
+  AgoraRtcEngine_iOS: 97e2398a2addda9057815a2a583a658e36796ff6
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
   CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
   HXPhotoPicker: 8b8b2cd989e9ae6bf9225dfc6281ff056272eee7
@@ -120,6 +166,6 @@ SPEC CHECKSUMS:
   SwifterSwift: e9caf990fc72e835432280755d1f4c43f2a483d5
   ZLPhotoBrowser: 52c8b386e3f9a7885676027c529a015147df502c
 
-PODFILE CHECKSUM: edc9c803e55f744897c7cc77f76462f56de320a7
+PODFILE CHECKSUM: fbe920fb072e420adf0fcf68ddcc7adbb533115a
 
 COCOAPODS: 1.16.2
