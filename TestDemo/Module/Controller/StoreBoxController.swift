@@ -111,6 +111,9 @@ class StoreBoxController: SKBaseController {
         ])
     }
 
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        
+    }
     
 
     private func setupExampleViews11() {

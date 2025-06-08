@@ -89,10 +89,6 @@ extension UIScreen {
     static func getKeyWindow() -> UIWindow? {
         if #available(iOS 13.0, *) {
             let window = UIApplication.shared.connectedScenes
-                .filter {
-                    $0.activationState == .foregroundActive ||
-                    $0.activationState == .foregroundInactive // 放宽条件
-                }
                 .compactMap { $0 as? UIWindowScene }
                 .flatMap(\.windows)
                 .first(where: \.isKeyWindow)
@@ -101,4 +97,16 @@ extension UIScreen {
             return UIApplication.shared.keyWindow
         }
     }
+    
+    /// 获取 App 中所有窗口（兼容 iOS 13 前后）
+    static var allWindows: [UIWindow] {
+        if #available(iOS 13.0, *) {
+            return UIApplication.shared.connectedScenes
+                .compactMap { $0 as? UIWindowScene }
+                .flatMap { $0.windows }
+        } else {
+            return UIApplication.shared.windows
+        }
+    }
 }
+

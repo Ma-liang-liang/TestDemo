@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IconFontManager.registerFont()
+        ALThemeManager.shared.setAppTheme(.dark)
 //        window = UIWindow(frame: UIScreen.main.bounds)
 //        window?.makeKeyAndVisible()
 ////        let storyboard = UIStoryboard(name: "Main", bundle: nil) // "Main"是你的storyboard文件名，不包括扩展名

@@ -87,6 +87,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         case .storeBox:
             let vc = StoreBoxController()
             navigationController?.pushViewController(vc, animated: true)
+        case .theme:
+            let vc = SKThemeSetController()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
     
@@ -112,5 +115,7 @@ enum PageType: String, CaseIterable {
     case iconFont = "IconFontController"
     
     case storeBox = "StoreBoxController"
+    
+    case theme = "SKThemeSetController"
     
 }

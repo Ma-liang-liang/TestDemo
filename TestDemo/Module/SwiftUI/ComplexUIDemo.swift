@@ -18,6 +18,9 @@ struct ComplexUIDemo: View {
     @State private var selectedPhotoIndex = 0
     @State private var isAnimating = false
     
+    @Environment(\.dismiss) private var dismiss // 获取 dismiss 方法
+
+    
     let posts: [Post] = [
         Post(id: 1, imageName: "photo1", title: "Mountain Adventure", likes: 124, comments: 32),
         Post(id: 2, imageName: "photo2", title: "Beach Sunset", likes: 89, comments: 12),
@@ -63,6 +66,16 @@ struct ComplexUIDemo: View {
                     
                     // 用户信息
                     VStack(spacing: 8) {
+                        
+                        Button {
+                            dismiss()
+                        } label: {
+                            Image(systemName: "chevron.left")
+                                .resizable()
+                                .frame(width: 36, height: 36)
+                                .foregroundStyle(Color.red)
+                        }
+                        
                         Text("Alex Johnson")
                             .font(.title)
                             .fontWeight(.bold)
