@@ -34,7 +34,7 @@ class VideoPlayer: UIView {
     }()
     
     private lazy var tapGesture: UITapGestureRecognizer = {
-        let gesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(handleTap11(_:)))
         gesture.numberOfTapsRequired = 1
         return gesture
     }()
@@ -91,7 +91,7 @@ class VideoPlayer: UIView {
     }
     
     // MARK: - Gesture Handling
-    @objc private func handleTap(_ gesture: UITapGestureRecognizer) {
+    @objc private func handleTap11(_ gesture: UITapGestureRecognizer) {
         let targetAlpha: CGFloat = controlView.alpha == 0 ? 1 : 0
         UIView.animate(withDuration: 0.3) {
             self.controlView.alpha = targetAlpha

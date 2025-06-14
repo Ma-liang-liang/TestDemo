@@ -9,6 +9,10 @@ import UIKit
 import AgoraRtcKit
 import Foundation
 
+
+let agoraAPPID = "5ebd265f8146475ebe572bf9b1145551"
+let agoraToken = "007eJxTYEg4tTy8uuD1/rnHbq3Qf2PM++TK9qjL0T9Xev69fcxU2ClHgcE0NSnFyMw0zcLQxMzEHMhLNTU3SkqzTDI0NDE1NTV8dtknoyGQkeHr9BpmRgYIBPGZGQyNjBkYACvcIdY="
+
 // MARK: - 直播间信息模型
 struct LiveRoom {
     let roomId: String
@@ -84,7 +88,8 @@ class LiveStreamManager: NSObject {
     }
     
     // MARK: - Engine Setup
-    private func setupAgoraEngine() -> Bool {
+    @discardableResult
+    func setupAgoraEngine() -> Bool {
         guard !isEngineInitialized else { return true }
         
         let config = AgoraRtcEngineConfig()

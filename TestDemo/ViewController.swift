@@ -90,6 +90,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         case .theme:
             let vc = SKThemeSetController()
             navigationController?.pushViewController(vc, animated: true)
+        case .liveBroadcast:
+            let vc = ALLiveBroadcastController()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
     
@@ -118,4 +121,5 @@ enum PageType: String, CaseIterable {
     
     case theme = "SKThemeSetController"
     
+    case liveBroadcast = "ALLiveBroadcastController"
 }

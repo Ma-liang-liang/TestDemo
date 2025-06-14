@@ -75,3 +75,56 @@ extension UIView {
         layer.masksToBounds = true
     }
 }
+
+// MARK: - 点击事件闭包扩展（无内存泄漏风险）
+extension UIView {
+    private struct AssociatedKeys {
+        static var tapGestureKey: UInt8 = 0
+        static var tapHandlerKey: UInt8 = 0
+    }
+    
+    /// 添加点击事件（无动画）
+    func addTapAction(_ handler: @escaping () -> Void) {
+        isUserInteractionEnabled = true
+        
+        // 创建手势识别器
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture(_:)))
+        tapGesture.cancelsTouchesInView = false
+        
+        // 存储闭包（使用weak-strong dance避免循环引用）
+        let wrapper = ClosureWrapper(handler: handler)
+        objc_setAssociatedObject(self, &AssociatedKeys.tapHandlerKey, wrapper, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        
+        // 存储手势（用于后续移除）
+        objc_setAssociatedObject(self, &AssociatedKeys.tapGestureKey, tapGesture, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        
+        addGestureRecognizer(tapGesture)
+    }
+    
+    /// 处理点击事件
+    @objc private func handleTapGesture(_ gesture: UITapGestureRecognizer) {
+        guard gesture.state == .ended else { return }
+        
+        // 安全获取闭包
+        if let wrapper = objc_getAssociatedObject(self, &AssociatedKeys.tapHandlerKey) as? ClosureWrapper {
+            wrapper.handler()
+        }
+    }
+    
+    /// 移除点击事件（可选）
+    func removeTapAction() {
+        if let gesture = objc_getAssociatedObject(self, &AssociatedKeys.tapGestureKey) as? UIGestureRecognizer {
+            removeGestureRecognizer(gesture)
+        }
+        objc_setAssociatedObject(self, &AssociatedKeys.tapGestureKey, nil, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        objc_setAssociatedObject(self, &AssociatedKeys.tapHandlerKey, nil, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+    }
+    
+    /// 闭包包装器（解决内存泄漏问题）
+    private class ClosureWrapper {
+        let handler: () -> Void
+        init(handler: @escaping () -> Void) {
+            self.handler = handler
+        }
+    }
+}
