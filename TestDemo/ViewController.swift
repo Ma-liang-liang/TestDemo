@@ -96,6 +96,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         case .homeSwiftUI:
             let vc = UIHostingController(rootView: HomeListPage())
             navigationController?.pushViewController(vc, animated: true)
+        case .pagingTable:
+            let vc = PagingTableViewController()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
     
@@ -127,4 +130,6 @@ enum PageType: String, CaseIterable {
     case liveBroadcast = "ALLiveBroadcastController"
     
     case homeSwiftUI = "HomeListPage"
+    
+    case pagingTable = "PagingTableViewController"
 }
