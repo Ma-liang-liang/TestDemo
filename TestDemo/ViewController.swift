@@ -93,6 +93,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         case .liveBroadcast:
             let vc = ALLiveBroadcastController()
             navigationController?.pushViewController(vc, animated: true)
+        case .homeSwiftUI:
+            let vc = UIHostingController(rootView: HomeListPage())
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
     
@@ -122,4 +125,6 @@ enum PageType: String, CaseIterable {
     case theme = "SKThemeSetController"
     
     case liveBroadcast = "ALLiveBroadcastController"
+    
+    case homeSwiftUI = "HomeListPage"
 }
