@@ -187,36 +187,3 @@ extension View {
 }
 
 
-struct NavigationBarModifier: ViewModifier {
-    var backgroundColor: UIColor
-    
-    init(backgroundColor: UIColor) {
-           self.backgroundColor = backgroundColor
-           
-           // 1. 配置标准外观
-           let standardAppearance = UINavigationBarAppearance()
-           standardAppearance.configureWithOpaqueBackground()
-           standardAppearance.backgroundColor = backgroundColor
-           standardAppearance.shadowColor = .clear // 隐藏分割线
-           standardAppearance.shadowImage = UIImage() // 关键：移除阴影图片
-           
-           // 2. 应用到全局导航栏
-           UINavigationBar.appearance().standardAppearance = standardAppearance
-           UINavigationBar.appearance().compactAppearance = standardAppearance
-           UINavigationBar.appearance().scrollEdgeAppearance = standardAppearance
-           UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default) // 备用方案
-           UINavigationBar.appearance().shadowImage = UIImage() // 再次确保隐藏分割线
-//           UINavigationBar.appearance().barTintColor = backgroundColor
-       }
-       
-    
-    func body(content: Content) -> some View {
-        content
-    }
-}
-
-extension View {
-    func navigationBarColor(backgroundColor: UIColor) -> some View {
-        self.modifier(NavigationBarModifier(backgroundColor: backgroundColor))
-    }
-}
