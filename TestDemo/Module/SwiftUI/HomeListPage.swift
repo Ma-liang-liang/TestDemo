@@ -23,7 +23,9 @@ struct HomeListPage: View {
                 
                 List(items, id: \.self) { item in
                     NavigationLink {
-                        ALDetailItemPage(title: item)
+//                        ALDetailItemPage(title: item)
+                        CGKitContentView()
+                            .navigationBarHidden(true)
                     } label: {
                         Text(item)
                             .foregroundStyle(Color.pink)
