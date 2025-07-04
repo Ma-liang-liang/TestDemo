@@ -11,30 +11,30 @@ import SwiftUI
 
 // MARK: - 导航管理器
 class CGNavigationManager: ObservableObject {
-    static let shared = CGNavigationManager()
-    private weak var navigationController: UINavigationController?
+//    static let shared = CGNavigationManager()
+    private static var navigationController: UINavigationController?
     
     private init() {}
     
-    func setNavigationController(_ nc: UINavigationController) {
+   static func setNavigationController(_ nc: UINavigationController) {
         self.navigationController = nc
     }
     
-    func push<Content: View>(_ view: Content) {
+    static func push<Content: View>(_ view: Content) {
         let hostingController = UIHostingController(rootView: view)
         hostingController.hidesBottomBarWhenPushed = false
-        navigationController?.pushViewController(hostingController, animated: true)
+        CGNavigationManager.navigationController?.pushViewController(hostingController, animated: true)
     }
     
-    func pop() {
+    static func pop() {
         navigationController?.popViewController(animated: true)
     }
     
-    func popToRoot() {
+    static func popToRoot() {
         navigationController?.popToRootViewController(animated: true)
     }
     
-    func popTo(_ viewControllerType: AnyClass) {
+    static func popTo(_ viewControllerType: AnyClass) {
         guard let navigationController = navigationController else { return }
         for vc in navigationController.viewControllers.reversed() {
             if vc.isKind(of: viewControllerType) {
@@ -44,7 +44,7 @@ class CGNavigationManager: ObservableObject {
         }
     }
     
-    var canPop: Bool {
+    static var canPop: Bool {
         guard let nc = navigationController else { return false }
         return nc.viewControllers.count > 1
     }
@@ -80,7 +80,7 @@ struct CGNavigationControllerWrapper<RootView: View>: UIViewControllerRepresenta
         navigationController.interactivePopGestureRecognizer?.delegate = context.coordinator
         
         // 设置导航管理器
-        CGNavigationManager.shared.setNavigationController(navigationController)
+        CGNavigationManager.setNavigationController(navigationController)
         
         return navigationController
     }
@@ -93,7 +93,7 @@ struct CGNavigationControllerWrapper<RootView: View>: UIViewControllerRepresenta
     
     class Coordinator: NSObject, UIGestureRecognizerDelegate {
         func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
-            return CGNavigationManager.shared.canPop
+            return CGNavigationManager.canPop
         }
     }
 }
@@ -158,9 +158,9 @@ struct CGCustomNavigationBar: View {
         VStack(spacing: 0) {
             HStack {
                 // 返回按钮
-                if config.showBackButton && CGNavigationManager.shared.canPop {
+                if config.showBackButton && CGNavigationManager.canPop {
                     Button(action: {
-                        CGNavigationManager.shared.pop()
+                        CGNavigationManager.pop()
                     }) {
                         HStack(spacing: 4) {
                             Image(systemName: "chevron.left")
@@ -267,7 +267,7 @@ extension View {
     }
     
     func navigate<T: View>(to destination: T) {
-        CGNavigationManager.shared.push(destination)
+        CGNavigationManager.push(destination)
     }
 }
 
@@ -291,7 +291,7 @@ struct HomeView: View {
                         icon: "person.circle",
                         color: .blue
                     ) {
-                        CGNavigationManager.shared.push(CGUserCenterView())
+                        CGNavigationManager.push(CGUserCenterView())
                     }
                     
                     CGNavigationCard(
@@ -299,7 +299,7 @@ struct HomeView: View {
                         icon: "bag",
                         color: .green
                     ) {
-                        CGNavigationManager.shared.push(CGProductListView())
+                        CGNavigationManager.push(CGProductListView())
                     }
                     
                     CGNavigationCard(
@@ -307,7 +307,7 @@ struct HomeView: View {
                         icon: "doc.text",
                         color: .orange
                     ) {
-                        CGNavigationManager.shared.push(CGOrderListView())
+                        CGNavigationManager.push(CGOrderListView())
                     }
                     
                     CGNavigationCard(
@@ -315,7 +315,7 @@ struct HomeView: View {
                         icon: "gearshape",
                         color: .purple
                     ) {
-                        CGNavigationManager.shared.push(CGSettingsView())
+                        CGNavigationManager.push(CGSettingsView())
                     }
                 }
                 .padding(.horizontal)
@@ -327,7 +327,7 @@ struct HomeView: View {
             showBackButton: false,
             rightBarItems: [
                 CGNavigationBarItem(icon: "bell") {
-                    CGNavigationManager.shared.push(CGNotificationView())
+                    CGNavigationManager.push(CGNotificationView())
                 },
                 CGNavigationBarItem(icon: "magnifyingglass") {
                     showAlert = true
@@ -396,19 +396,19 @@ struct CGUserCenterView: View {
                 // 功能列表
                 VStack(spacing: 0) {
                     CGUserCenterRow(icon: "person", title: "个人信息") {
-                        CGNavigationManager.shared.push(CGProfileView())
+                        CGNavigationManager.push(CGProfileView())
                     }
                     
                     CGUserCenterRow(icon: "heart", title: "我的收藏") {
-                        CGNavigationManager.shared.push(CGFavoriteView())
+                        CGNavigationManager.push(CGFavoriteView())
                     }
                     
                     CGUserCenterRow(icon: "clock", title: "浏览历史") {
-                        CGNavigationManager.shared.push(CGHistoryView())
+                        CGNavigationManager.push(CGHistoryView())
                     }
                     
                     CGUserCenterRow(icon: "questionmark.circle", title: "帮助中心") {
-                        CGNavigationManager.shared.push(CGHelpView())
+                        CGNavigationManager.push(CGHelpView())
                     }
                 }
                 .background(Color(.systemBackground))
@@ -421,8 +421,8 @@ struct CGUserCenterView: View {
         .onAppear {
             print("CGUserCenterView-----onAppear")
         }
-        .task {
-            print("CGUserCenterView-----task")
+        .onDisappear {
+            print("CGUserCenterView-----onDisappear")
         }
     }
 }
@@ -463,7 +463,7 @@ struct CGProductListView: View {
     var body: some View {
         List(products, id: \.self) { product in
             Button(product) {
-                CGNavigationManager.shared.push(CGProductDetailView(productName: product))
+                CGNavigationManager.push(CGProductDetailView(productName: product))
             }
             .foregroundColor(.primary)
         }
@@ -519,7 +519,7 @@ struct CGProductDetailView: View {
                     .cornerRadius(8)
                     
                     Button("立即购买") {
-                        CGNavigationManager.shared.push(CGCheckoutView(productName: productName))
+                        CGNavigationManager.push(CGCheckoutView(productName: productName))
                     }
                     .frame(maxWidth: .infinity)
                     .padding()
@@ -640,7 +640,7 @@ struct CGCheckoutView: View {
             Spacer()
             
             Button("返回首页") {
-                CGNavigationManager.shared.popToRoot()
+                CGNavigationManager.popToRoot()
             }
             .padding()
             .background(Color.blue)
