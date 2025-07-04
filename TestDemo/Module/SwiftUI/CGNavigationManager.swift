@@ -555,6 +555,9 @@ struct CGOrderListView: View {
 }
 
 struct CGSettingsView: View {
+    
+    @StateObject var hudMgr = HUDManager.shared
+    
     var body: some View {
         List {
             Section("账户") {
@@ -566,8 +569,25 @@ struct CGSettingsView: View {
                 Text("推送通知")
                 Text("清除缓存")
             }
+            
+            Button {
+                hudMgr.showLoading()
+            } label: {
+                Text("加载中...")
+                    .foregroundColor(.white)
+                    .font(.system(size: 24))
+                    .frame(width: 260, height: 44)
+                    .background(Color.cyan)
+                    .cornerRadius(8)
+            }
+        }
+        .onDisappear {
+            hudMgr.hide()
         }
         .navigationPage(title: "设置")
+        .disabled(hudMgr.disabled)
+        .hudView()
+
     }
 }
 
