@@ -130,7 +130,16 @@ struct CGCustomLayoutPage: View {
             )
             List {
                 Text("内容1")
+                    .onTapGesture {
+                        let vc = SecondController()
+                        CGNavigationManager.shared.push(vc)
+                    }
                 Text("内容2")
+                    .onTapGesture {
+                        let vc = SecondController()
+                        CGNavigationManager.shared.replace(vc)
+                    }
+                
             }
         }
     }

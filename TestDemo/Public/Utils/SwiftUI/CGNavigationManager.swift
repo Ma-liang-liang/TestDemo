@@ -116,6 +116,17 @@ class CGNavigationManager: ObservableObject {
         navigationController.pushViewController(hostingController, animated: animated)
     }
     
+    func push(_ viewController: UIViewController, animated: Bool = true, stackId: CGStackIdentifier? = nil) {
+        let targetStackId = stackId ?? currentStackId
+        guard let navigationController = navigationStacks[targetStackId] else {
+            print("Navigation stack not found for id: \(targetStackId.rawValue)")
+            return
+        }
+        
+        viewController.hidesBottomBarWhenPushed = true
+        navigationController.pushViewController(viewController, animated: animated)
+    }
+    
     /// 弹出当前页面
     func pop(animated: Bool = true, stackId: CGStackIdentifier? = nil) {
         let targetStackId = stackId ?? currentStackId
@@ -152,6 +163,25 @@ class CGNavigationManager: ObservableObject {
         print("Could not find a page of type \(targetTypeName) in the navigation stack.")
     }
     
+    func popTo<T: UIViewController>(pageType: T.Type, animated: Bool = true, stackId: CGStackIdentifier? = nil) {
+        let targetStackId = stackId ?? currentStackId
+        guard let navigationController = navigationStacks[targetStackId] else {
+            print("Navigation stack not found for id: \(targetStackId.rawValue)")
+            return
+        }
+        
+        let targetTypeName = String(describing: pageType)
+        // 从后往前遍历寻找目标 VC
+        for vc in navigationController.viewControllers.reversed() {
+            if vc.isMember(of: pageType) {
+                navigationController.popToViewController(vc, animated: animated)
+                return // 找到后立即返回
+            }
+        }
+        
+        print("Could not find a page of type \(targetTypeName) in the navigation stack.")
+    }
+    
     /// 替换当前页面
     func replace<Content: View>(_ view: Content, animated: Bool = true, stackId: CGStackIdentifier? = nil) {
         let targetStackId = stackId ?? currentStackId
@@ -167,6 +197,19 @@ class CGNavigationManager: ObservableObject {
         var viewControllers = navigationController.viewControllers
         if !viewControllers.isEmpty {
             viewControllers[viewControllers.count - 1] = hostingController
+            navigationController.setViewControllers(viewControllers, animated: animated)
+        }
+    }
+    
+    func replace(_ viewController: UIViewController, animated: Bool = true, stackId: CGStackIdentifier? = nil) {
+        let targetStackId = stackId ?? currentStackId
+        guard let navigationController = navigationStacks[targetStackId] else { return }
+        
+        viewController.hidesBottomBarWhenPushed = true
+        
+        var viewControllers = navigationController.viewControllers
+        if !viewControllers.isEmpty {
+            viewControllers[viewControllers.count - 1] = viewController
             navigationController.setViewControllers(viewControllers, animated: animated)
         }
     }
