@@ -18,6 +18,9 @@ enum CGStackIdentifier: String, CaseIterable {
 private struct AssociatedKeys {
     // 使用一个静态变量的地址作为唯一的 key，保证安全
     static var swiftUIViewTypeNameKey: UInt8 = 0
+    
+    static var stackIdKey: UInt8 = 1 // 新增
+
 }
 
 // MARK: - UIViewController 扩展，用于关联 SwiftUI 视图类型名称
@@ -37,6 +40,19 @@ extension UIViewController {
         }
     }
 }
+
+extension UINavigationController {
+    var stackId: CGStackIdentifier? {
+        get {
+            guard let rawValue = objc_getAssociatedObject(self, &AssociatedKeys.stackIdKey) as? String else { return nil }
+            return CGStackIdentifier(rawValue: rawValue)
+        }
+        set {
+            objc_setAssociatedObject(self, &AssociatedKeys.stackIdKey, newValue?.rawValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
+    }
+}
+
 
 // MARK: - 多栈导航管理器
 class CGNavigationManager: ObservableObject {
