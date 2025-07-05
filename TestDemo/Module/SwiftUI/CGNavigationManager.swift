@@ -20,6 +20,24 @@ private struct AssociatedKeys {
     static var swiftUIViewTypeNameKey: UInt8 = 0
 }
 
+// MARK: - UIViewController 扩展，用于关联 SwiftUI 视图类型名称
+extension UIViewController {
+    
+    /// 一个计算属性，用于通过 Objective-C 运行时来存储和读取关联的 SwiftUI 视图类型名称。
+    /// - 这使得我们可以在不知道具体 SwiftUI 视图类型的情况下，识别 UIViewController 是由哪个 View 创建的。
+    var swiftUIViewTypeName: String? {
+        get {
+            // 获取关联对象
+            return objc_getAssociatedObject(self, &AssociatedKeys.swiftUIViewTypeNameKey) as? String
+        }
+        set {
+            // 设置关联对象
+            // 使用 RETAIN_NONATOMIC 策略，因为我们正在存储一个对象（String）
+            objc_setAssociatedObject(self, &AssociatedKeys.swiftUIViewTypeNameKey, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
+    }
+}
+
 // MARK: - 多栈导航管理器
 class CGNavigationManager: ObservableObject {
     // 单例
@@ -73,14 +91,12 @@ class CGNavigationManager: ObservableObject {
             return
         }
         
-        // 使用标准的 UIHostingController
         let hostingController = UIHostingController(rootView: view)
         
-        // 【核心】通过运行时将 SwiftUI 视图的类型名称字符串关联到 controller 实例上
-        let typeName = String(describing: Content.self)
-        objc_setAssociatedObject(hostingController, &AssociatedKeys.swiftUIViewTypeNameKey, typeName, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        // 【优化】使用封装好的计算属性来设置类型名称
+        hostingController.swiftUIViewTypeName = String(describing: Content.self)
         
-        hostingController.hidesBottomBarWhenPushed = false
+        hostingController.hidesBottomBarWhenPushed = true
         navigationController.pushViewController(hostingController, animated: animated)
     }
     
@@ -110,13 +126,10 @@ class CGNavigationManager: ObservableObject {
         
         // 从后往前遍历寻找目标 VC
         for vc in navigationController.viewControllers.reversed() {
-            // 【核心】通过运行时获取之前关联的类型名称字符串
-            if let storedTypeName = objc_getAssociatedObject(vc, &AssociatedKeys.swiftUIViewTypeNameKey) as? String {
-                // 如果名称匹配，就弹出到这个 vc
-                if storedTypeName == targetTypeName {
-                    navigationController.popToViewController(vc, animated: animated)
-                    return // 找到后立即返回
-                }
+            // 【优化】直接通过计算属性读取并比较，代码更清晰
+            if vc.swiftUIViewTypeName == targetTypeName {
+                navigationController.popToViewController(vc, animated: animated)
+                return // 找到后立即返回
             }
         }
         
@@ -130,11 +143,10 @@ class CGNavigationManager: ObservableObject {
         
         let hostingController = UIHostingController(rootView: view)
         
-        // 同样需要关联类型名称
-        let typeName = String(describing: Content.self)
-        objc_setAssociatedObject(hostingController, &AssociatedKeys.swiftUIViewTypeNameKey, typeName, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        // 【优化】同样使用计算属性
+        hostingController.swiftUIViewTypeName = String(describing: Content.self)
         
-        hostingController.hidesBottomBarWhenPushed = false
+        hostingController.hidesBottomBarWhenPushed = true
         
         var viewControllers = navigationController.viewControllers
         if !viewControllers.isEmpty {
@@ -143,21 +155,19 @@ class CGNavigationManager: ObservableObject {
         }
     }
     
-    /// 检查是否可以弹出
+    // ... (canPop, getStackCount, clearStack 等方法保持不变) ...
     func canPop(stackId: CGStackIdentifier? = nil) -> Bool {
         let targetStackId = stackId ?? currentStackId
         guard let navigationController = navigationStacks[targetStackId] else { return false }
         return navigationController.viewControllers.count > 1
     }
     
-    /// 获取当前栈的页面数量
     func getStackCount(stackId: CGStackIdentifier? = nil) -> Int {
         let targetStackId = stackId ?? currentStackId
         guard let navigationController = navigationStacks[targetStackId] else { return 0 }
         return navigationController.viewControllers.count
     }
     
-    /// 清空指定栈
     func clearStack(stackId: CGStackIdentifier? = nil) {
         let targetStackId = stackId ?? currentStackId
         guard let navigationController = navigationStacks[targetStackId] else { return }
@@ -309,7 +319,7 @@ struct CGCustomNavigationBar: View {
             ZStack {
                 HStack {
                     leftItems()
-                   
+                    
                     Spacer()
                     
                     rightItems()
@@ -690,7 +700,7 @@ struct CGSettingsPage: View {
                     .font(.title)
                     .padding(50)
                 Text("Terms and conditions go here.")
-                .padding(50)
+                    .padding(50)
                 Button("Dismiss",
                        action: {
                     showSheet.toggle()
