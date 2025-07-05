@@ -8,13 +8,17 @@ import SwiftUI
 import UIKit
 
 // MARK: - 导航栈标识符
-/// 使用枚举管理导航栈，方便扩展和类型安全
 enum CGStackIdentifier: String, CaseIterable {
     case main = "mainStack"
     case explore = "exploreStack"
     case profile = "profileStack"
 }
 
+// MARK: - 运行时关联 Key
+private struct AssociatedKeys {
+    // 使用一个静态变量的地址作为唯一的 key，保证安全
+    static var swiftUIViewTypeNameKey: UInt8 = 0
+}
 
 // MARK: - 多栈导航管理器
 class CGNavigationManager: ObservableObject {
@@ -30,7 +34,7 @@ class CGNavigationManager: ObservableObject {
     private init() {}
     
     // MARK: - 栈管理
-    /// 创建或获取导航栈
+    /// 获取或创建导航栈
     func getOrCreateStack(id: CGStackIdentifier) -> UINavigationController? {
         if let existingStack = navigationStacks[id] {
             return existingStack
@@ -69,7 +73,13 @@ class CGNavigationManager: ObservableObject {
             return
         }
         
+        // 使用标准的 UIHostingController
         let hostingController = UIHostingController(rootView: view)
+        
+        // 【核心】通过运行时将 SwiftUI 视图的类型名称字符串关联到 controller 实例上
+        let typeName = String(describing: Content.self)
+        objc_setAssociatedObject(hostingController, &AssociatedKeys.swiftUIViewTypeNameKey, typeName, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        
         hostingController.hidesBottomBarWhenPushed = false
         navigationController.pushViewController(hostingController, animated: animated)
     }
@@ -88,17 +98,29 @@ class CGNavigationManager: ObservableObject {
         navigationController.popToRootViewController(animated: animated)
     }
     
-    /// 弹出到指定类型页面
-    func popTo(_ viewControllerType: AnyClass, animated: Bool = true, stackId: CGStackIdentifier? = nil) {
+    /// 弹出到指定 SwiftUI 页面类型
+    func popTo<T: View>(pageType: T.Type, animated: Bool = true, stackId: CGStackIdentifier? = nil) {
         let targetStackId = stackId ?? currentStackId
-        guard let navigationController = navigationStacks[targetStackId] else { return }
+        guard let navigationController = navigationStacks[targetStackId] else {
+            print("Navigation stack not found for id: \(targetStackId.rawValue)")
+            return
+        }
         
+        let targetTypeName = String(describing: pageType)
+        
+        // 从后往前遍历寻找目标 VC
         for vc in navigationController.viewControllers.reversed() {
-            if vc.isKind(of: viewControllerType) {
-                navigationController.popToViewController(vc, animated: animated)
-                break
+            // 【核心】通过运行时获取之前关联的类型名称字符串
+            if let storedTypeName = objc_getAssociatedObject(vc, &AssociatedKeys.swiftUIViewTypeNameKey) as? String {
+                // 如果名称匹配，就弹出到这个 vc
+                if storedTypeName == targetTypeName {
+                    navigationController.popToViewController(vc, animated: animated)
+                    return // 找到后立即返回
+                }
             }
         }
+        
+        print("Could not find a page of type \(targetTypeName) in the navigation stack.")
     }
     
     /// 替换当前页面
@@ -107,6 +129,11 @@ class CGNavigationManager: ObservableObject {
         guard let navigationController = navigationStacks[targetStackId] else { return }
         
         let hostingController = UIHostingController(rootView: view)
+        
+        // 同样需要关联类型名称
+        let typeName = String(describing: Content.self)
+        objc_setAssociatedObject(hostingController, &AssociatedKeys.swiftUIViewTypeNameKey, typeName, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        
         hostingController.hidesBottomBarWhenPushed = false
         
         var viewControllers = navigationController.viewControllers
@@ -164,6 +191,11 @@ struct CGNavigationControllerWrapper<RootView: View>: UIViewControllerRepresenta
     
     func makeUIViewController(context: Context) -> UINavigationController {
         let hostingController = UIHostingController(rootView: rootView)
+        
+        // 【核心】根视图控制器也需要关联类型名称
+        let typeName = String(describing: RootView.self)
+        objc_setAssociatedObject(hostingController, &AssociatedKeys.swiftUIViewTypeNameKey, typeName, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        
         let navigationController = UINavigationController(rootViewController: hostingController)
         
         navigationController.setNavigationBarHidden(true, animated: false)
@@ -172,7 +204,11 @@ struct CGNavigationControllerWrapper<RootView: View>: UIViewControllerRepresenta
         navigationController.interactivePopGestureRecognizer?.delegate = context.coordinator
         
         CGNavigationManager.shared.setNavigationStack(navigationController, forId: stackId)
-        CGNavigationManager.shared.switchToStack(id: stackId)
+        
+        // 只有当 manager 里还没有活跃栈时，才切换到当前创建的栈
+        if CGNavigationManager.shared.getOrCreateStack(id: CGNavigationManager.shared.currentStackId) == nil {
+            CGNavigationManager.shared.switchToStack(id: stackId)
+        }
         
         return navigationController
     }
@@ -264,9 +300,6 @@ struct CGNavigationBarItem: Identifiable {
 }
 
 // MARK: - SwiftUI 导航栏 (可复用组件)
-/// 这是一个可复用的自定义导航栏视图。
-/// 您可以像使用任何其他SwiftUI视图一样，在您的页面布局中直接使用它，以实现完全自定义的布局。
-/// 对于标准用法，推荐使用下面的 `.navigationBar()` 修饰符。
 struct CGCustomNavigationBar: View {
     let config: CGNavigationBarConfig
     @StateObject private var navigationManager = CGNavigationManager.shared
@@ -297,11 +330,9 @@ struct CGCustomNavigationBar: View {
                     ForEach(config.leftBarItems) { item in
                         Button(action: item.action) {
                             if let icon = item.icon {
-                                Image(systemName: icon)
-                                    .font(.system(size: 18))
+                                Image(systemName: icon).font(.system(size: 18))
                             } else if let text = item.text {
-                                Text(text)
-                                    .font(.system(size: 17))
+                                Text(text).font(.system(size: 17))
                             }
                         }
                         .foregroundColor(item.color)
@@ -322,11 +353,9 @@ struct CGCustomNavigationBar: View {
                     ForEach(config.rightBarItems) { item in
                         Button(action: item.action) {
                             if let icon = item.icon {
-                                Image(systemName: icon)
-                                    .font(.system(size: 18))
+                                Image(systemName: icon).font(.system(size: 18))
                             } else if let text = item.text {
-                                Text(text)
-                                    .font(.system(size: 17))
+                                Text(text).font(.system(size: 17))
                             }
                         }
                         .foregroundColor(item.color)
@@ -454,39 +483,25 @@ struct CGMultiStackTestPage: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("多栈导航测试")
-                .font(.title2)
-                .fontWeight(.bold)
-            
-            Text("当前栈ID: \(navigationManager.currentStackId.rawValue)")
-                .font(.caption)
-                .foregroundColor(.secondary)
+            Text("多栈导航测试").font(.title2).fontWeight(.bold)
+            Text("当前栈ID: \(navigationManager.currentStackId.rawValue)").font(.caption).foregroundColor(.secondary)
             
             VStack(spacing: 16) {
-                // 在实际App中，切换栈通常由TabView等根容器完成
-                // 这里仅作演示
                 Button("切换到 'explore' 栈") {
-                    // 假设'explore'栈已在别处(如TabView)创建
-                    // navigationManager.switchToStack(id: .explore)
-                    // 为了演示，我们直接在当前栈中push页面
                     CGNavigationManager.shared.push(Text("在'explore'栈的页面"), stackId: .explore)
-                }
-                .buttonStyle(CGButtonStyle(color: .purple))
+                }.buttonStyle(CGButtonStyle(color: .purple))
                 
                 Button("无动画跳转") {
                     navigationManager.push(CGTestAnimationPage(), animated: false)
-                }
-                .buttonStyle(CGButtonStyle(color: .green))
+                }.buttonStyle(CGButtonStyle(color: .green))
                 
                 Button("替换当前页面") {
                     navigationManager.replace(CGReplacementPage(), animated: true)
-                }
-                .buttonStyle(CGButtonStyle(color: .orange))
+                }.buttonStyle(CGButtonStyle(color: .orange))
                 
                 Button("清空栈(保留根页面)") {
                     navigationManager.clearStack()
-                }
-                .buttonStyle(CGButtonStyle(color: .red))
+                }.buttonStyle(CGButtonStyle(color: .red))
             }
             
             Spacer()
@@ -507,17 +522,11 @@ struct CGNoNavBarPage: View {
                     .multilineTextAlignment(.center)
                     .padding()
                 
-                // 需要自己实现返回按钮
                 Button(action: { CGNavigationManager.shared.pop() }) {
-                    Text("手动返回")
-                        .padding()
-                        .background(.white)
-                        .foregroundColor(.black)
-                        .cornerRadius(10)
+                    Text("手动返回").padding().background(.white).foregroundColor(.black).cornerRadius(10)
                 }
             }
         }
-        // 注意：没有调用 .navigationBar(...)
     }
 }
 
@@ -525,25 +534,14 @@ struct CGNoNavBarPage: View {
 struct CGCustomLayoutPage: View {
     var body: some View {
         VStack(spacing: 0) {
-            // 在这里, 我们可以完全控制导航栏的位置和样式
-            // 比如在它上面加一个Banner
-            Text("这是一个广告Banner")
-                .frame(maxWidth: .infinity)
-                .padding()
-                .background(Color.yellow)
-            
-            // 手动放置导航栏组件
+            Text("这是一个广告Banner").frame(maxWidth: .infinity).padding().background(Color.yellow)
             CGCustomNavigationBar(
                 config: .init(
                     title: "自定义布局",
                     backgroundColor: .mint,
-                    rightBarItems: [
-                        .init(icon: "star.fill", action: {})
-                    ]
+                    rightBarItems: [.init(icon: "star.fill", action: {})]
                 )
             )
-            
-            // 页面主要内容
             List {
                 Text("内容1")
                 Text("内容2")
@@ -552,22 +550,16 @@ struct CGCustomLayoutPage: View {
     }
 }
 
-
 struct CGTestAnimationPage: View {
     var body: some View {
         VStack(spacing: 20) {
-            Text("无动画跳转测试")
-                .font(.title2)
-            
+            Text("无动画跳转测试").font(.title2)
             Button("返回(有动画)") {
                 CGNavigationManager.shared.pop(animated: true)
-            }
-            .buttonStyle(CGButtonStyle(color: .blue))
-            
+            }.buttonStyle(CGButtonStyle(color: .blue))
             Button("返回(无动画)") {
                 CGNavigationManager.shared.pop(animated: false)
-            }
-            .buttonStyle(CGButtonStyle(color: .red))
+            }.buttonStyle(CGButtonStyle(color: .red))
         }
         .navigationBar(title: "动画测试")
     }
@@ -576,11 +568,8 @@ struct CGTestAnimationPage: View {
 struct CGReplacementPage: View {
     var body: some View {
         VStack {
-            Text("页面已被替换")
-                .font(.title2)
-            
-            Text("这个页面替换了之前的页面")
-                .foregroundColor(.secondary)
+            Text("页面已被替换").font(.title2)
+            Text("这个页面替换了之前的页面").foregroundColor(.secondary)
         }
         .navigationBar(title: "替换页面")
     }
@@ -638,10 +627,24 @@ struct CGProductDetailPage: View {
                     Text(productName).font(.title2).fontWeight(.bold)
                     Text("￥199.00").font(.title3).foregroundColor(.red)
                 }
+                VStack(spacing: 12) {
+                    Button("再 Push 一个商品列表页") {
+                        CGNavigationManager.shared.push(CGProductListPage())
+                    }.buttonStyle(CGButtonStyle(color: .purple))
+                    
+                    Button("返回到上一个商品列表页 (popTo pageType)") {
+                        CGNavigationManager.shared.popTo(pageType: CGProductListPage.self)
+                    }.buttonStyle(CGButtonStyle(color: .blue))
+                    
+                    Button("返回首页 (popToRoot)") {
+                        CGNavigationManager.shared.popToRoot()
+                    }.buttonStyle(CGButtonStyle(color: .green))
+                }
+                .padding(.top, 30)
                 Spacer()
             }.padding()
         }
-        .navigationBar(title: "商品详情")
+        .navigationBar(title: productName)
     }
 }
 
@@ -681,7 +684,6 @@ struct CGNotificationPage: View {
         Text("通知中心").frame(maxWidth: .infinity, maxHeight: .infinity).navigationBar(title: "通知")
     }
 }
-
 
 // MARK: - 辅助视图
 struct CGNavigationCard: View {
@@ -724,22 +726,12 @@ struct CGButtonStyle: ButtonStyle {
     }
 }
 
-
 // MARK: - 应用入口
 struct CGKitContentView: View {
     var body: some View {
-        // 在这里可以设置根容器，例如一个TabView来管理多个导航栈
         CGNavigationContainer(stackId: .main) {
             CGHomePage()
         }
-        // 如果有多个Tab, 可以这样实现:
-        // TabView {
-        //     CGNavigationContainer(stackId: .main) { CGHomePage() }
-        //         .tabItem { Label("首页", systemImage: "house") }
-        //
-        //     CGNavigationContainer(stackId: .explore) { Text("探索页面") }
-        //         .tabItem { Label("探索", systemImage: "magnifyingglass") }
-        // }
     }
 }
 
