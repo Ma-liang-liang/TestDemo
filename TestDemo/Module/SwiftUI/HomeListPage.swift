@@ -67,9 +67,6 @@ struct HomeListPage: View {
                     
                 }
             }
-            .navigationBarColor(backgroundColor: UIColor.yellow)
-//            .toolbarBackground(.green, for: .navigationBar)
-//            .toolbarBackground(.visible, for: .navigationBar)
             
         }
         .navigationBarHidden(true)
