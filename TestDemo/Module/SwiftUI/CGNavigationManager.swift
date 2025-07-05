@@ -7,22 +7,31 @@
 import SwiftUI
 import UIKit
 
+// MARK: - 导航栈标识符
+/// 使用枚举管理导航栈，方便扩展和类型安全
+enum CGStackIdentifier: String, CaseIterable {
+    case main = "mainStack"
+    case explore = "exploreStack"
+    case profile = "profileStack"
+}
+
+
 // MARK: - 多栈导航管理器
 class CGNavigationManager: ObservableObject {
     // 单例
     static let shared = CGNavigationManager()
     
     // 存储多个导航栈
-    private var navigationStacks: [String: UINavigationController] = [:]
+    private var navigationStacks: [CGStackIdentifier: UINavigationController] = [:]
     
     // 当前活跃的栈标识
-    @Published var currentStackId: String = "default"
+    @Published var currentStackId: CGStackIdentifier = .main
     
     private init() {}
     
     // MARK: - 栈管理
     /// 创建或获取导航栈
-    func getOrCreateStack(id: String) -> UINavigationController? {
+    func getOrCreateStack(id: CGStackIdentifier) -> UINavigationController? {
         if let existingStack = navigationStacks[id] {
             return existingStack
         }
@@ -30,19 +39,19 @@ class CGNavigationManager: ObservableObject {
     }
     
     /// 设置导航栈
-    func setNavigationStack(_ navigationController: UINavigationController, forId id: String) {
+    func setNavigationStack(_ navigationController: UINavigationController, forId id: CGStackIdentifier) {
         navigationStacks[id] = navigationController
     }
     
     /// 切换当前活跃栈
-    func switchToStack(id: String) {
+    func switchToStack(id: CGStackIdentifier) {
         if navigationStacks[id] != nil {
             currentStackId = id
         }
     }
     
     /// 移除导航栈
-    func removeStack(id: String) {
+    func removeStack(id: CGStackIdentifier) {
         navigationStacks.removeValue(forKey: id)
     }
     
@@ -53,10 +62,10 @@ class CGNavigationManager: ObservableObject {
     
     // MARK: - 导航操作
     /// 推入新页面
-    func push<Content: View>(_ view: Content, animated: Bool = true, stackId: String? = nil) {
+    func push<Content: View>(_ view: Content, animated: Bool = true, stackId: CGStackIdentifier? = nil) {
         let targetStackId = stackId ?? currentStackId
         guard let navigationController = navigationStacks[targetStackId] else {
-            print("Navigation stack not found for id: \(targetStackId)")
+            print("Navigation stack not found for id: \(targetStackId.rawValue)")
             return
         }
         
@@ -66,21 +75,21 @@ class CGNavigationManager: ObservableObject {
     }
     
     /// 弹出当前页面
-    func pop(animated: Bool = true, stackId: String? = nil) {
+    func pop(animated: Bool = true, stackId: CGStackIdentifier? = nil) {
         let targetStackId = stackId ?? currentStackId
         guard let navigationController = navigationStacks[targetStackId] else { return }
         navigationController.popViewController(animated: animated)
     }
     
     /// 弹出到根页面
-    func popToRoot(animated: Bool = true, stackId: String? = nil) {
+    func popToRoot(animated: Bool = true, stackId: CGStackIdentifier? = nil) {
         let targetStackId = stackId ?? currentStackId
         guard let navigationController = navigationStacks[targetStackId] else { return }
         navigationController.popToRootViewController(animated: animated)
     }
     
     /// 弹出到指定类型页面
-    func popTo(_ viewControllerType: AnyClass, animated: Bool = true, stackId: String? = nil) {
+    func popTo(_ viewControllerType: AnyClass, animated: Bool = true, stackId: CGStackIdentifier? = nil) {
         let targetStackId = stackId ?? currentStackId
         guard let navigationController = navigationStacks[targetStackId] else { return }
         
@@ -93,7 +102,7 @@ class CGNavigationManager: ObservableObject {
     }
     
     /// 替换当前页面
-    func replace<Content: View>(_ view: Content, animated: Bool = true, stackId: String? = nil) {
+    func replace<Content: View>(_ view: Content, animated: Bool = true, stackId: CGStackIdentifier? = nil) {
         let targetStackId = stackId ?? currentStackId
         guard let navigationController = navigationStacks[targetStackId] else { return }
         
@@ -108,21 +117,21 @@ class CGNavigationManager: ObservableObject {
     }
     
     /// 检查是否可以弹出
-    func canPop(stackId: String? = nil) -> Bool {
+    func canPop(stackId: CGStackIdentifier? = nil) -> Bool {
         let targetStackId = stackId ?? currentStackId
         guard let navigationController = navigationStacks[targetStackId] else { return false }
         return navigationController.viewControllers.count > 1
     }
     
     /// 获取当前栈的页面数量
-    func getStackCount(stackId: String? = nil) -> Int {
+    func getStackCount(stackId: CGStackIdentifier? = nil) -> Int {
         let targetStackId = stackId ?? currentStackId
         guard let navigationController = navigationStacks[targetStackId] else { return 0 }
         return navigationController.viewControllers.count
     }
     
     /// 清空指定栈
-    func clearStack(stackId: String? = nil) {
+    func clearStack(stackId: CGStackIdentifier? = nil) {
         let targetStackId = stackId ?? currentStackId
         guard let navigationController = navigationStacks[targetStackId] else { return }
         
@@ -135,9 +144,9 @@ class CGNavigationManager: ObservableObject {
 // MARK: - 导航容器视图
 struct CGNavigationContainer<Content: View>: View {
     let content: Content
-    let stackId: String
+    let stackId: CGStackIdentifier
     
-    init(stackId: String = "default", @ViewBuilder content: () -> Content) {
+    init(stackId: CGStackIdentifier = .main, @ViewBuilder content: () -> Content) {
         self.stackId = stackId
         self.content = content()
     }
@@ -151,20 +160,17 @@ struct CGNavigationContainer<Content: View>: View {
 // MARK: - UINavigationController 包装器
 struct CGNavigationControllerWrapper<RootView: View>: UIViewControllerRepresentable {
     let rootView: RootView
-    let stackId: String
+    let stackId: CGStackIdentifier
     
     func makeUIViewController(context: Context) -> UINavigationController {
         let hostingController = UIHostingController(rootView: rootView)
         let navigationController = UINavigationController(rootViewController: hostingController)
         
-        // 隐藏系统导航栏
         navigationController.setNavigationBarHidden(true, animated: false)
         
-        // 启用侧滑返回
         navigationController.interactivePopGestureRecognizer?.isEnabled = true
         navigationController.interactivePopGestureRecognizer?.delegate = context.coordinator
         
-        // 设置导航管理器
         CGNavigationManager.shared.setNavigationStack(navigationController, forId: stackId)
         CGNavigationManager.shared.switchToStack(id: stackId)
         
@@ -178,9 +184,9 @@ struct CGNavigationControllerWrapper<RootView: View>: UIViewControllerRepresenta
     }
     
     class Coordinator: NSObject, UIGestureRecognizerDelegate {
-        let stackId: String
+        let stackId: CGStackIdentifier
         
-        init(stackId: String) {
+        init(stackId: CGStackIdentifier) {
             self.stackId = stackId
         }
         
@@ -257,7 +263,10 @@ struct CGNavigationBarItem: Identifiable {
     }
 }
 
-// MARK: - SwiftUI 导航栏
+// MARK: - SwiftUI 导航栏 (可复用组件)
+/// 这是一个可复用的自定义导航栏视图。
+/// 您可以像使用任何其他SwiftUI视图一样，在您的页面布局中直接使用它，以实现完全自定义的布局。
+/// 对于标准用法，推荐使用下面的 `.navigationBar()` 修饰符。
 struct CGCustomNavigationBar: View {
     let config: CGNavigationBarConfig
     @StateObject private var navigationManager = CGNavigationManager.shared
@@ -267,7 +276,6 @@ struct CGCustomNavigationBar: View {
             HStack {
                 // 左侧区域
                 HStack(spacing: 8) {
-                    // 返回按钮
                     if config.showBackButton && navigationManager.canPop() {
                         Button(action: {
                             if let customAction = config.customBackAction {
@@ -286,7 +294,6 @@ struct CGCustomNavigationBar: View {
                         }
                     }
                     
-                    // 左侧自定义按钮
                     ForEach(config.leftBarItems) { item in
                         Button(action: item.action) {
                             if let icon = item.icon {
@@ -303,7 +310,6 @@ struct CGCustomNavigationBar: View {
                 
                 Spacer()
                 
-                // 标题
                 Text(config.title)
                     .font(config.titleFont)
                     .fontWeight(.semibold)
@@ -312,7 +318,6 @@ struct CGCustomNavigationBar: View {
                 
                 Spacer()
                 
-                // 右侧按钮
                 HStack(spacing: 8) {
                     ForEach(config.rightBarItems) { item in
                         Button(action: item.action) {
@@ -333,7 +338,6 @@ struct CGCustomNavigationBar: View {
             .frame(height: config.height)
             .background(config.backgroundColor)
             
-            // 分割线
             if config.showSeparator {
                 Rectangle()
                     .frame(height: 0.5)
@@ -344,34 +348,28 @@ struct CGCustomNavigationBar: View {
 }
 
 // MARK: - 导航栏修饰符
-struct NavigationBarModifier: ViewModifier {
+struct CGNavigationBarModifier: ViewModifier {
     let config: CGNavigationBarConfig
     
     func body(content: Content) -> some View {
         VStack(spacing: 0) {
-            // 状态栏占位
-            Color.clear
-                .frame(height: 0)
-                .background(config.backgroundColor)
-            
-            // 自定义导航栏
             CGCustomNavigationBar(config: config)
-            
-            // 页面内容
             content
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-        .background(config.backgroundColor.ignoresSafeArea(.all, edges: .top))
+        .background(config.backgroundColor.edgesIgnoringSafeArea(.top))
+        .edgesIgnoringSafeArea(.bottom)
     }
 }
 
 // MARK: - 便捷扩展
 extension View {
-    /// 添加导航栏
+    /// 添加自定义导航栏 (完整配置)
     func navigationBar(config: CGNavigationBarConfig) -> some View {
-        self.modifier(NavigationBarModifier(config: config))
+        self.modifier(CGNavigationBarModifier(config: config))
     }
     
-    /// 简化的导航栏配置
+    /// 添加自定义导航栏 (简化配置)
     func navigationBar(
         title: String = "",
         showBackButton: Bool = true,
@@ -380,7 +378,7 @@ extension View {
         leftBarItems: [CGNavigationBarItem] = [],
         customBackAction: (() -> Void)? = nil
     ) -> some View {
-        self.modifier(NavigationBarModifier(
+        self.modifier(CGNavigationBarModifier(
             config: CGNavigationBarConfig(
                 title: title,
                 showBackButton: showBackButton,
@@ -391,19 +389,10 @@ extension View {
             )
         ))
     }
-    
-    /// 导航跳转
-    func navigate<T: View>(
-        to destination: T,
-        animated: Bool = true,
-        stackId: String? = nil
-    ) {
-        CGNavigationManager.shared.push(destination, animated: animated, stackId: stackId)
-    }
 }
 
 // MARK: - 示例页面
-struct HomeView: View {
+struct CGHomePage: View {
     @State private var showAlert = false
     
     var body: some View {
@@ -413,40 +402,24 @@ struct HomeView: View {
                     .font(.title)
                     .padding()
                 
-                LazyVGrid(columns: [
-                    GridItem(.flexible()),
-                    GridItem(.flexible())
-                ], spacing: 16) {
-                    CGNavigationCard(
-                        title: "用户中心",
-                        icon: "person.circle",
-                        color: .blue
-                    ) {
-                        CGNavigationManager.shared.push(CGUserCenterView())
+                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
+                    CGNavigationCard(title: "用户中心", icon: "person.circle", color: .blue) {
+                        CGNavigationManager.shared.push(CGUserCenterPage())
                     }
-                    
-                    CGNavigationCard(
-                        title: "商品列表",
-                        icon: "bag",
-                        color: .green
-                    ) {
-                        CGNavigationManager.shared.push(CGProductListView())
+                    CGNavigationCard(title: "商品列表", icon: "bag", color: .green) {
+                        CGNavigationManager.shared.push(CGProductListPage())
                     }
-                    
-                    CGNavigationCard(
-                        title: "多栈测试",
-                        icon: "square.stack.3d.up",
-                        color: .purple
-                    ) {
-                        CGNavigationManager.shared.push(MultiStackTestView())
+                    CGNavigationCard(title: "多栈测试", icon: "square.stack.3d.up", color: .purple) {
+                        CGNavigationManager.shared.push(CGMultiStackTestPage())
                     }
-                    
-                    CGNavigationCard(
-                        title: "设置",
-                        icon: "gearshape",
-                        color: .orange
-                    ) {
-                        CGNavigationManager.shared.push(CGSettingsView())
+                    CGNavigationCard(title: "无导航栏页面", icon: "eye.slash", color: .gray) {
+                        CGNavigationManager.shared.push(CGNoNavBarPage())
+                    }
+                    CGNavigationCard(title: "自定义布局导航栏", icon: "wand.and.stars", color: .yellow) {
+                        CGNavigationManager.shared.push(CGCustomLayoutPage())
+                    }
+                    CGNavigationCard(title: "设置", icon: "gearshape", color: .orange) {
+                        CGNavigationManager.shared.push(CGSettingsPage())
                     }
                 }
                 .padding(.horizontal)
@@ -458,7 +431,7 @@ struct HomeView: View {
             showBackButton: false,
             rightBarItems: [
                 CGNavigationBarItem(icon: "bell", color: .red) {
-                    CGNavigationManager.shared.push(CGNotificationView())
+                    CGNavigationManager.shared.push(CGNotificationPage())
                 },
                 CGNavigationBarItem(icon: "magnifyingglass") {
                     showAlert = true
@@ -473,8 +446,10 @@ struct HomeView: View {
     }
 }
 
-// MARK: - 多栈测试页面
-struct MultiStackTestView: View {
+// MARK: - 其他页面实现 (Page后缀)
+
+// MARK: 多栈测试
+struct CGMultiStackTestPage: View {
     @StateObject private var navigationManager = CGNavigationManager.shared
     
     var body: some View {
@@ -483,24 +458,28 @@ struct MultiStackTestView: View {
                 .font(.title2)
                 .fontWeight(.bold)
             
-            Text("当前栈ID: \(navigationManager.currentStackId)")
+            Text("当前栈ID: \(navigationManager.currentStackId.rawValue)")
                 .font(.caption)
                 .foregroundColor(.secondary)
             
             VStack(spacing: 16) {
-                Button("创建新栈 (stack2)") {
-                    // 这里需要在新的容器中创建新栈
-                    // 实际使用时可能需要在TabView或其他容器中实现
+                // 在实际App中，切换栈通常由TabView等根容器完成
+                // 这里仅作演示
+                Button("切换到 'explore' 栈") {
+                    // 假设'explore'栈已在别处(如TabView)创建
+                    // navigationManager.switchToStack(id: .explore)
+                    // 为了演示，我们直接在当前栈中push页面
+                    CGNavigationManager.shared.push(Text("在'explore'栈的页面"), stackId: .explore)
                 }
-                .buttonStyle(CGButtonStyle(color: .blue))
+                .buttonStyle(CGButtonStyle(color: .purple))
                 
                 Button("无动画跳转") {
-                    navigationManager.push(CGTestAnimationView(), animated: false)
+                    navigationManager.push(CGTestAnimationPage(), animated: false)
                 }
                 .buttonStyle(CGButtonStyle(color: .green))
                 
                 Button("替换当前页面") {
-                    navigationManager.replace(CGReplacementView(), animated: true)
+                    navigationManager.replace(CGReplacementPage(), animated: true)
                 }
                 .buttonStyle(CGButtonStyle(color: .orange))
                 
@@ -517,10 +496,66 @@ struct MultiStackTestView: View {
     }
 }
 
-// MARK: - 测试页面
-struct CGTestAnimationView: View {
+// MARK: 无导航栏页面示例
+struct CGNoNavBarPage: View {
     var body: some View {
-        VStack {
+        ZStack {
+            Color.mint.ignoresSafeArea()
+            VStack {
+                Text("这是一个没有使用\n`.navigationBar` 修饰符的页面")
+                    .font(.title2)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                
+                // 需要自己实现返回按钮
+                Button(action: { CGNavigationManager.shared.pop() }) {
+                    Text("手动返回")
+                        .padding()
+                        .background(.white)
+                        .foregroundColor(.black)
+                        .cornerRadius(10)
+                }
+            }
+        }
+        // 注意：没有调用 .navigationBar(...)
+    }
+}
+
+// MARK: 自定义布局导航栏示例
+struct CGCustomLayoutPage: View {
+    var body: some View {
+        VStack(spacing: 0) {
+            // 在这里, 我们可以完全控制导航栏的位置和样式
+            // 比如在它上面加一个Banner
+            Text("这是一个广告Banner")
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(Color.yellow)
+            
+            // 手动放置导航栏组件
+            CGCustomNavigationBar(
+                config: .init(
+                    title: "自定义布局",
+                    backgroundColor: .mint,
+                    rightBarItems: [
+                        .init(icon: "star.fill", action: {})
+                    ]
+                )
+            )
+            
+            // 页面主要内容
+            List {
+                Text("内容1")
+                Text("内容2")
+            }
+        }
+    }
+}
+
+
+struct CGTestAnimationPage: View {
+    var body: some View {
+        VStack(spacing: 20) {
             Text("无动画跳转测试")
                 .font(.title2)
             
@@ -538,7 +573,7 @@ struct CGTestAnimationView: View {
     }
 }
 
-struct CGReplacementView: View {
+struct CGReplacementPage: View {
     var body: some View {
         VStack {
             Text("页面已被替换")
@@ -551,246 +586,160 @@ struct CGReplacementView: View {
     }
 }
 
-// MARK: - 按钮样式
-struct CGButtonStyle: ButtonStyle {
-    let color: Color
-    
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .foregroundColor(.white)
-            .padding()
-            .frame(maxWidth: .infinity)
-            .background(color)
-            .cornerRadius(8)
-            .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
-    }
-}
-
-// MARK: - 用户中心页面
-struct CGUserCenterView: View {
+struct CGUserCenterPage: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
-                // 用户头像和信息
                 VStack(spacing: 12) {
-                    Image(systemName: "person.circle.fill")
-                        .font(.system(size: 80))
-                        .foregroundColor(.blue)
-                    
-                    Text("张三")
-                        .font(.title2)
-                        .fontWeight(.semibold)
-                    
-                    Text("ID: 123456789")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                }
-                .padding(.vertical, 20)
+                    Image(systemName: "person.circle.fill").font(.system(size: 80)).foregroundColor(.blue)
+                    Text("张三").font(.title2).fontWeight(.semibold)
+                    Text("ID: 123456789").font(.caption).foregroundColor(.secondary)
+                }.padding(.vertical, 20)
                 
-                // 功能列表
                 VStack(spacing: 0) {
-                    CGUserCenterRow(icon: "person", title: "个人信息") {
-                        CGNavigationManager.shared.push(CGProfileView())
-                    }
-                    
-                    CGUserCenterRow(icon: "heart", title: "我的收藏") {
-                        CGNavigationManager.shared.push(CGFavoriteView())
-                    }
-                    
-                    CGUserCenterRow(icon: "clock", title: "浏览历史") {
-                        CGNavigationManager.shared.push(CGHistoryView())
-                    }
+                    CGUserCenterRow(icon: "person", title: "个人信息") { CGNavigationManager.shared.push(CGProfilePage()) }
+                    CGUserCenterRow(icon: "heart", title: "我的收藏") { CGNavigationManager.shared.push(CGFavoritePage()) }
+                    CGUserCenterRow(icon: "clock", title: "浏览历史") { CGNavigationManager.shared.push(CGHistoryPage()) }
                 }
-                .background(Color(.systemBackground))
-                .cornerRadius(12)
-            }
-            .padding()
+                .background(Color(.systemBackground)).cornerRadius(12)
+            }.padding()
         }
         .navigationBar(
             title: "用户中心",
-            rightBarItems: [
-                CGNavigationBarItem(icon: "gearshape") {
-                    CGNavigationManager.shared.push(CGSettingsView())
-                }
-            ]
+            rightBarItems: [CGNavigationBarItem(icon: "gearshape") { CGNavigationManager.shared.push(CGSettingsPage()) }]
         )
         .background(Color(.systemGroupedBackground))
     }
 }
 
-// MARK: - 其他页面组件
+struct CGProductListPage: View {
+    let products = (1...20).map { "商品 \($0)" }
+    var body: some View {
+        List(products, id: \.self) { product in
+            Button(product) {
+                CGNavigationManager.shared.push(CGProductDetailPage(productName: product))
+            }
+            .foregroundColor(.primary)
+        }
+        .navigationBar(
+            title: "商品列表",
+            rightBarItems: [CGNavigationBarItem(icon: "line.3.horizontal.decrease.circle") {}]
+        )
+    }
+}
+
+struct CGProductDetailPage: View {
+    let productName: String
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 16) {
+                Rectangle().fill(Color.gray.opacity(0.3)).frame(height: 200).cornerRadius(8)
+                VStack(alignment: .leading, spacing: 8) {
+                    Text(productName).font(.title2).fontWeight(.bold)
+                    Text("￥199.00").font(.title3).foregroundColor(.red)
+                }
+                Spacer()
+            }.padding()
+        }
+        .navigationBar(title: "商品详情")
+    }
+}
+
+struct CGSettingsPage: View {
+    var body: some View {
+        List {
+            Section("账户") { Text("修改密码"); Text("隐私设置") }
+            Section("通用") { Text("推送通知"); Text("清除缓存") }
+        }
+        .navigationBar(title: "设置")
+    }
+}
+
+struct CGProfilePage: View {
+    var body: some View {
+        Form {
+            Section("基本信息") { HStack { Text("姓名"); Spacer(); Text("张三").foregroundColor(.secondary) } }
+        }
+        .navigationBar(title: "个人信息")
+    }
+}
+
+struct CGFavoritePage: View {
+    var body: some View {
+        Text("我的收藏").frame(maxWidth: .infinity, maxHeight: .infinity).navigationBar(title: "我的收藏")
+    }
+}
+
+struct CGHistoryPage: View {
+    var body: some View {
+        Text("浏览历史").frame(maxWidth: .infinity, maxHeight: .infinity).navigationBar(title: "浏览历史")
+    }
+}
+
+struct CGNotificationPage: View {
+    var body: some View {
+        Text("通知中心").frame(maxWidth: .infinity, maxHeight: .infinity).navigationBar(title: "通知")
+    }
+}
+
+
+// MARK: - 辅助视图
 struct CGNavigationCard: View {
-    let title: String
-    let icon: String
-    let color: Color
-    let action: () -> Void
-    
+    let title: String, icon: String, color: Color, action: () -> Void
     var body: some View {
         Button(action: action) {
             VStack(spacing: 12) {
-                Image(systemName: icon)
-                    .font(.system(size: 32))
-                    .foregroundColor(color)
-                
-                Text(title)
-                    .font(.system(size: 16, weight: .medium))
-                    .foregroundColor(.primary)
+                Image(systemName: icon).font(.system(size: 32)).foregroundColor(color)
+                Text(title).font(.system(size: 16, weight: .medium)).foregroundColor(.primary)
             }
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 24)
-            .background(
-                RoundedRectangle(cornerRadius: 12)
-                    .fill(Color(.systemBackground))
-                    .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 1)
-            )
+            .frame(maxWidth: .infinity).padding(.vertical, 24)
+            .background(RoundedRectangle(cornerRadius: 12).fill(Color(.systemBackground)).shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 1))
         }
         .buttonStyle(PlainButtonStyle())
     }
 }
 
 struct CGUserCenterRow: View {
-    let icon: String
-    let title: String
-    let action: () -> Void
-    
+    let icon: String, title: String, action: () -> Void
     var body: some View {
         Button(action: action) {
             HStack {
-                Image(systemName: icon)
-                    .font(.system(size: 16))
-                    .foregroundColor(.blue)
-                    .frame(width: 24)
-                
-                Text(title)
-                    .foregroundColor(.primary)
-                
+                Image(systemName: icon).font(.system(size: 16)).foregroundColor(.blue).frame(width: 24)
+                Text(title).foregroundColor(.primary)
                 Spacer()
-                
-                Image(systemName: "chevron.right")
-                    .font(.system(size: 14))
-                    .foregroundColor(.secondary)
+                Image(systemName: "chevron.right").font(.system(size: 14)).foregroundColor(.secondary)
             }
-            .padding(.horizontal, 16)
-            .padding(.vertical, 12)
+            .padding(.horizontal, 16).padding(.vertical, 12)
         }
         .buttonStyle(PlainButtonStyle())
     }
 }
 
-// MARK: - 其他示例页面
-struct CGProductListView: View {
-    let products = (1...20).map { "商品 \($0)" }
-    
-    var body: some View {
-        List(products, id: \.self) { product in
-            Button(product) {
-                CGNavigationManager.shared.push(CGProductDetailView(productName: product))
-            }
-            .foregroundColor(.primary)
-        }
-        .navigationBar(
-            title: "商品列表",
-            rightBarItems: [
-                CGNavigationBarItem(icon: "line.3.horizontal.decrease.circle") {
-                    // 筛选功能
-                }
-            ]
-        )
+struct CGButtonStyle: ButtonStyle {
+    let color: Color
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .foregroundColor(.white).padding().frame(maxWidth: .infinity)
+            .background(color).cornerRadius(8).scaleEffect(configuration.isPressed ? 0.95 : 1.0)
     }
 }
 
-struct CGProductDetailView: View {
-    let productName: String
-    
-    var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
-                Rectangle()
-                    .fill(Color.gray.opacity(0.3))
-                    .frame(height: 200)
-                    .cornerRadius(8)
-                
-                VStack(alignment: .leading, spacing: 8) {
-                    Text(productName)
-                        .font(.title2)
-                        .fontWeight(.bold)
-                    
-                    Text("￥199.00")
-                        .font(.title3)
-                        .foregroundColor(.red)
-                }
-                
-                Spacer()
-            }
-            .padding()
-        }
-        .navigationBar(title: "商品详情")
-    }
-}
-
-struct CGSettingsView: View {
-    var body: some View {
-        List {
-            Section("账户") {
-                Text("修改密码")
-                Text("隐私设置")
-            }
-            
-            Section("通用") {
-                Text("推送通知")
-                Text("清除缓存")
-            }
-        }
-        .navigationBar(title: "设置")
-    }
-}
-
-struct CGProfileView: View {
-    var body: some View {
-        Form {
-            Section("基本信息") {
-                HStack {
-                    Text("姓名")
-                    Spacer()
-                    Text("张三")
-                        .foregroundColor(.secondary)
-                }
-            }
-        }
-        .navigationBar(title: "个人信息")
-    }
-}
-
-struct CGFavoriteView: View {
-    var body: some View {
-        Text("我的收藏")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .navigationBar(title: "我的收藏")
-    }
-}
-
-struct CGHistoryView: View {
-    var body: some View {
-        Text("浏览历史")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .navigationBar(title: "浏览历史")
-    }
-}
-
-struct CGNotificationView: View {
-    var body: some View {
-        Text("通知中心")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .navigationBar(title: "通知")
-    }
-}
 
 // MARK: - 应用入口
 struct CGKitContentView: View {
     var body: some View {
-        CGNavigationContainer(stackId: "main") {
-            HomeView()
+        // 在这里可以设置根容器，例如一个TabView来管理多个导航栈
+        CGNavigationContainer(stackId: .main) {
+            CGHomePage()
         }
+        // 如果有多个Tab, 可以这样实现:
+        // TabView {
+        //     CGNavigationContainer(stackId: .main) { CGHomePage() }
+        //         .tabItem { Label("首页", systemImage: "house") }
+        //
+        //     CGNavigationContainer(stackId: .explore) { Text("探索页面") }
+        //         .tabItem { Label("探索", systemImage: "magnifyingglass") }
+        // }
     }
 }
 
