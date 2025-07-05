@@ -306,62 +306,15 @@ struct CGCustomNavigationBar: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            HStack {
-                // 左侧区域
-                HStack(spacing: 8) {
-                    if config.showBackButton && navigationManager.canPop() {
-                        Button(action: {
-                            if let customAction = config.customBackAction {
-                                customAction()
-                            } else {
-                                navigationManager.pop()
-                            }
-                        }) {
-                            HStack(spacing: 4) {
-                                Image(systemName: "chevron.left")
-                                    .font(.system(size: 18, weight: .medium))
-                                Text(config.backButtonText)
-                                    .font(.system(size: 17))
-                            }
-                            .foregroundColor(config.backButtonColor)
-                        }
-                    }
+            ZStack {
+                HStack {
+                    leftItems()
+                   
+                    Spacer()
                     
-                    ForEach(config.leftBarItems) { item in
-                        Button(action: item.action) {
-                            if let icon = item.icon {
-                                Image(systemName: icon).font(.system(size: 18))
-                            } else if let text = item.text {
-                                Text(text).font(.system(size: 17))
-                            }
-                        }
-                        .foregroundColor(item.color)
-                    }
+                    rightItems()
                 }
-                
-                Spacer()
-                
-                Text(config.title)
-                    .font(config.titleFont)
-                    .fontWeight(.semibold)
-                    .foregroundColor(config.titleColor)
-                    .lineLimit(1)
-                
-                Spacer()
-                
-                HStack(spacing: 8) {
-                    ForEach(config.rightBarItems) { item in
-                        Button(action: item.action) {
-                            if let icon = item.icon {
-                                Image(systemName: icon).font(.system(size: 18))
-                            } else if let text = item.text {
-                                Text(text).font(.system(size: 17))
-                            }
-                        }
-                        .foregroundColor(item.color)
-                    }
-                }
-                .frame(minWidth: 60, alignment: .trailing)
+                titleView()
             }
             .padding(.horizontal, 16)
             .frame(height: config.height)
@@ -374,6 +327,67 @@ struct CGCustomNavigationBar: View {
             }
         }
     }
+    
+    
+    private func titleView() -> some View {
+        Text(config.title)
+            .font(config.titleFont)
+            .fontWeight(.semibold)
+            .foregroundColor(config.titleColor)
+            .lineLimit(1)
+    }
+    
+    private func leftItems() -> some View {
+        // 左侧区域
+        HStack(spacing: 8) {
+            if config.showBackButton && navigationManager.canPop() {
+                Button(action: {
+                    if let customAction = config.customBackAction {
+                        customAction()
+                    } else {
+                        navigationManager.pop()
+                    }
+                }) {
+                    HStack(spacing: 4) {
+                        Image(systemName: "chevron.left")
+                            .font(.system(size: 18, weight: .medium))
+                        Text(config.backButtonText)
+                            .font(.system(size: 17))
+                    }
+                    .foregroundColor(config.backButtonColor)
+                }
+            }
+            
+            ForEach(config.leftBarItems) { item in
+                Button(action: item.action) {
+                    if let icon = item.icon {
+                        Image(systemName: icon).font(.system(size: 18))
+                    } else if let text = item.text {
+                        Text(text).font(.system(size: 17))
+                    }
+                }
+                .foregroundColor(item.color)
+            }
+        }
+    }
+    
+    private func rightItems() -> some View {
+        HStack(spacing: 8) {
+            ForEach(config.rightBarItems) { item in
+                Button(action: item.action) {
+                    if let icon = item.icon {
+                        Image(systemName: icon).font(.system(size: 18))
+                    } else if let text = item.text {
+                        Text(text).font(.system(size: 17))
+                    }
+                }
+                .foregroundColor(item.color)
+            }
+        }
+        .frame(minWidth: 60, alignment: .trailing)
+    }
+    
+    
 }
 
 // MARK: - 导航栏修饰符
@@ -649,12 +663,40 @@ struct CGProductDetailPage: View {
 }
 
 struct CGSettingsPage: View {
+    
+    @State private var showSheet = false
+    
     var body: some View {
-        List {
-            Section("账户") { Text("修改密码"); Text("隐私设置") }
-            Section("通用") { Text("推送通知"); Text("清除缓存") }
+        VStack {
+            List {
+                Section("账户") { Text("修改密码"); Text("隐私设置") }
+                Section("通用") { Text("推送通知"); Text("清除缓存") }
+            }
+            
+            Spacer()
+            
+            Button("清空栈(保留根页面)") {
+                showSheet.toggle()
+            }
+            .buttonStyle(CGButtonStyle(color: .red))
+            .padding(.horizontal, 16)
+            
+            Spacer(minLength: UIScreen.safeAreaBottomHeight + 16)
         }
         .navigationBar(title: "设置")
+        .sheet(isPresented: $showSheet) {
+            VStack {
+                Text("License Agreement")
+                    .font(.title)
+                    .padding(50)
+                Text("Terms and conditions go here.")
+                .padding(50)
+                Button("Dismiss",
+                       action: {
+                    showSheet.toggle()
+                })
+            }
+        }
     }
 }
 
