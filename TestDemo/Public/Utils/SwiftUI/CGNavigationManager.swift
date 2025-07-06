@@ -326,7 +326,7 @@ struct CGNavigationBarConfig {
         leftBarItems: [CGNavigationBarItem] = [],
         height: CGFloat = 44,
         showSeparator: Bool = true,
-        backButtonText: String = "返回",
+        backButtonText: String = "",
         titleFont: Font = .headline,
         customBackAction: (() -> Void)? = nil
     ) {
@@ -419,7 +419,7 @@ struct CGCustomNavigationBar: View {
                 }) {
                     HStack(spacing: 4) {
                         Image(systemName: "chevron.left")
-                            .font(.system(size: 18, weight: .medium))
+                            .font(.system(size: 24, weight: .medium))
                         Text(config.backButtonText)
                             .font(.system(size: 17))
                     }
@@ -469,7 +469,6 @@ struct CGNavigationBarModifier: ViewModifier {
             content
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-        .background(config.backgroundColor.edgesIgnoringSafeArea(.top))
         .edgesIgnoringSafeArea(.bottom)
     }
 }

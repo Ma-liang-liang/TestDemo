@@ -190,6 +190,7 @@ struct CGUserCenterPage: View {
         }
         .navigationBar(
             title: "用户中心",
+            backgroundColor: .green.opacity(0.6),
             rightBarItems: [CGNavigationBarItem(icon: "gearshape") { CGNavigationManager.shared.push(CGSettingsPage()) }]
         )
         .background(Color(.systemGroupedBackground))
