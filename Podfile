@@ -21,6 +21,7 @@ pod 'HXPhotoPicker','~> 5.0.0.2'
 
 pod 'AgoraRtcEngine_iOS', '~> 4.5.1'
 pod 'AlertToast'
+pod 'MijickPopups', '~> 4.0.0'
 
 
 end
