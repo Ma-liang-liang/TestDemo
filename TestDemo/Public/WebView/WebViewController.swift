@@ -10,10 +10,10 @@ import WebKit
 
 class WebViewController: SKBaseController {
     private let webView = CustomWebView()
-    private let url: URL?
+    private var urlString = ""
     
-    init(url: URL) {
-        self.url = url
+    init(url: String) {
+        self.urlString = url
         super.init(nibName: nil, bundle: nil)
     }
     

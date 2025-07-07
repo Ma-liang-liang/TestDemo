@@ -140,6 +140,19 @@ struct CGCustomLayoutPage: View {
                         CGNavigationManager.shared.replace(vc)
                     }
                 
+                Text("内容3 - web")
+                    .onTapGesture {
+                        let vc = WebViewController(url: "https://www.baidu.com/")
+                        CGNavigationManager.shared.push(vc)
+                    }
+                
+                Text("内容4 - present")
+                    .onTapGesture {
+                        let vc = UIHostingController(rootView: CGSettingsPage())
+                        vc.modalPresentationStyle = .formSheet
+                        getCurrentViewController()?.present(vc, animated: true)
+                    }
+                
             }
         }
     }
@@ -190,7 +203,7 @@ struct CGUserCenterPage: View {
         }
         .navigationBar(
             title: "用户中心",
-            backgroundColor: .green.opacity(0.6),
+            backgroundColor: .pink.opacity(0.6),
             rightBarItems: [CGNavigationBarItem(icon: "gearshape") { CGNavigationManager.shared.push(CGSettingsPage()) }]
         )
         .background(Color(.systemGroupedBackground))

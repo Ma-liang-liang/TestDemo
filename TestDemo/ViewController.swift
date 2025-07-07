@@ -67,10 +67,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             let vc = ThirdController()
             navigationController?.pushViewController(vc, animated: true)
         case .web1:
-            guard let url = URL(string: "https://www.baidu.com/") else {
-                return
-            }
-            let vc = WebViewController(url: url)
+            let vc = WebViewController(url: "https://www.baidu.com/")
             navigationController?.pushViewController(vc, animated: true)
         case .swiftui_one:
             let vc = UIHostingController(rootView: ComplexUIDemo())
