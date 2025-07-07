@@ -153,6 +153,11 @@ struct CGCustomLayoutPage: View {
                         getCurrentViewController()?.present(vc, animated: true)
                     }
                 
+                Text("内容4 - input")
+                    .onTapGesture {
+                        CGNavigationManager.shared.push(InputPage())
+                    }
+                
             }
         }
     }
