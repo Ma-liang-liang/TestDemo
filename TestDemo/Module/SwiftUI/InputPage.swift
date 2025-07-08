@@ -300,6 +300,7 @@ struct InputPage: View {
                                 
                                 TextField("搜索商品...", text: $searchText)
                                     .textFieldStyle(PlainTextFieldStyle())
+                                    .foregroundColor(Color.pink)
                                 
                                 if !searchText.isEmpty {
                                     Button(action: {
@@ -561,6 +562,7 @@ struct InputPage: View {
                 }
                 .padding()
             }
+            .scrollDismissesKeyboard(.interactively)
             .navigationTitle("输入框示例")
         }
     }
