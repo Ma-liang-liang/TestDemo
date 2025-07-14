@@ -96,6 +96,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         case .pagingTable:
             let vc = PagingTableViewController()
             navigationController?.pushViewController(vc, animated: true)
+        case .collection:
+            let vc = ALCollectionController()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
     
@@ -129,4 +132,6 @@ enum PageType: String, CaseIterable {
     case homeSwiftUI = "HomeListPage"
     
     case pagingTable = "PagingTableViewController"
+    
+    case collection = "ALCollectionController"
 }
