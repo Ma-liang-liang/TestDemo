@@ -8,7 +8,8 @@
 import Foundation
 import Alamofire
 import Network
-import Security // 需要导入Security框架来处理证书
+import Security
+import SmartCodable // 导入 SmartCodable
 
 // MARK: - 网络错误
 public struct SNNetworkError: Error {
@@ -51,12 +52,8 @@ public enum SNHTTPMethod: String {
 
 // MARK: - 证书配置类型
 public enum SNSSLConfigType {
-    case none                                                   // 不设置证书
-    // 单向认证 (服务器证书验证)
+    case none
     case oneWay(certificateData: Data)
-    // 双向认证 (服务器证书验证 + 客户端证书)
-    // clientP12Data: .p12格式的客户端证书数据
-    // p12Password: .p12证书的密码
     case twoWay(serverCertData: Data, clientP12Data: Data, p12Password: String)
 }
 
@@ -121,26 +118,18 @@ public class SNNetworkManager {
     private var networkMonitor: NWPathMonitor?
     private var isNetworkAvailable = true
     
-    /// 自定义的 SessionDelegate，用于处理双向认证中的客户端证书质询。
-    private class SNClientCertSessionDelegate: SessionDelegate, @unchecked Sendable {
+    // 自定义的 SessionDelegate，用于处理双向认证
+    private class SNClientCertSessionDelegate: SessionDelegate {
         private let clientIdentity: SecIdentity
-
         init(clientIdentity: SecIdentity) {
             self.clientIdentity = clientIdentity
             super.init()
         }
-
-        // 重写此方法以提供客户端证书
         override func urlSession(_ session: URLSession, task: URLSessionTask, didReceive challenge: URLAuthenticationChallenge, completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Void) {
-            // 确保是客户端证书认证
             guard challenge.protectionSpace.authenticationMethod == NSURLAuthenticationMethodClientCertificate else {
-                // 如果不是我们关心的质询，则调用父类的默认实现
                 super.urlSession(session, task: task, didReceive: challenge, completionHandler: completionHandler)
                 return
             }
-
-            // 是客户端证书质询，使用我们持有的 identity 创建凭证
-            NSLog("[SNNetwork] 🤝 处理客户端证书认证质询...")
             let credential = URLCredential(identity: clientIdentity, certificates: nil, persistence: .forSession)
             completionHandler(.useCredential, credential)
         }
@@ -154,17 +143,13 @@ public class SNNetworkManager {
     public var enableLog: Bool = true
     public var interceptors: [SNInterceptorConfig] = []
     
-    // SSL配置
     public var sslConfig: SNSSLConfigType = .none {
-        didSet {
-            setupSession()
-        }
+        didSet { setupSession() }
     }
     
     // MARK: - 初始化
     public init() {
-        let configuration = URLSessionConfiguration.default
-        self.session = Session(configuration: configuration)
+        self.session = Session(configuration: .default)
         setupNetworkMonitoring()
         setupSession()
     }
@@ -176,38 +161,27 @@ public class SNNetworkManager {
         configuration.timeoutIntervalForResource = timeout
         
         var serverTrustManager: ServerTrustManager?
-        // 默认使用标准的 SessionDelegate
         var sessionDelegate: SessionDelegate = SessionDelegate()
         
         switch sslConfig {
         case .none:
             serverTrustManager = nil
-            
         case .oneWay(let certificateData):
             do {
                 serverTrustManager = try createOneWayEvaluators(certificateData: certificateData)
-            } catch let error as SNNetworkError {
-                log("❌ 单向认证配置失败: \(error.description)")
             } catch {
                 log("❌ 单向认证配置失败: \(error.localizedDescription)")
             }
-            
         case .twoWay(let serverCertData, let clientP12Data, let p12Password):
             do {
-                // 1. 配置服务器证书验证
                 serverTrustManager = try createOneWayEvaluators(certificateData: serverCertData)
-                // 2. 配置客户端证书，并创建我们自定义的 delegate
                 let identity = try createClientIdentity(p12Data: clientP12Data, password: p12Password)
                 sessionDelegate = SNClientCertSessionDelegate(clientIdentity: identity)
-                
-            } catch let error as SNNetworkError {
-                log("❌ 双向认证配置失败: \(error.description)")
             } catch {
                 log("❌ 双向认证配置失败: \(error.localizedDescription)")
             }
         }
         
-        // 使用配置好的 delegate 和 serverTrustManager 初始化 Session
         session = Session(
             configuration: configuration,
             delegate: sessionDelegate,
@@ -215,6 +189,7 @@ public class SNNetworkManager {
         )
     }
     
+    // ... 其他基础方法 (createOneWayEvaluators, log, buildFullURL等保持不变) ...
     // MARK: - 创建单向认证评估器 (服务器证书验证)
     private func createOneWayEvaluators(certificateData: Data) throws -> ServerTrustManager {
         guard let host = URL(string: baseURL)?.host else {
@@ -354,12 +329,12 @@ public class SNNetworkManager {
             return SNNetworkError(code: -1000, message: afError.localizedDescription)
         }
     }
-    
+
     // MARK: - 处理响应
-    private func handleResponse<T>(
+    private func handleResponse(
         url: String,
         response: DataResponse<Data, AFError>,
-        success: SNSuccessHandler<T>?,
+        dataSuccess: ((Data) -> Void)?,
         failure: SNFailureHandler?
     ) {
         let statusCode = response.response?.statusCode ?? 0
@@ -372,58 +347,26 @@ public class SNNetworkManager {
                 return
             }
             
-            do {
-                if T.self == String.self {
-                    let jsonString = String(data: data, encoding: .utf8) ?? ""
-                    if let result = jsonString as? T {
-                        success?(result)
-                    } else {
-                        throw SNNetworkError.parseError("无法将响应转换为String类型")
-                    }
-                } else if T.self == Data.self {
-                    if let result = data as? T {
-                         success?(result)
-                    } else {
-                         throw SNNetworkError.parseError("无法将响应转换为Data类型")
-                    }
-                } else {
-                    let jsonObject = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
-                    if let result = jsonObject as? T {
-                        success?(result)
-                    } else {
-                        throw SNNetworkError.parseError("无法将JSON对象(\(type(of: jsonObject)))转换为期望的 \(T.self) 类型")
-                    }
-                }
-            } catch let error as SNNetworkError {
-                log("❌ 解析失败: \(error.description)")
-                failure?(error)
-            } catch {
-                let parseError = SNNetworkError.parseError(error.localizedDescription)
-                log("❌ 解析失败: \(parseError.description)")
-                failure?(parseError)
-            }
+            dataSuccess?(data)
             
         case .failure(let afError):
             let networkError = convertAFError(afError)
             log("❌ 请求失败: \(networkError.description)")
-            
-            if checkInterceptors(statusCode: statusCode, response: networkError) {
-                return
-            }
-            
+            if checkInterceptors(statusCode: statusCode, response: networkError) { return }
             failure?(networkError)
         }
     }
     
-    // MARK: - 通用请求方法
+    // MARK: - 基础请求方法 (私有化)
+    // 这个方法现在只负责获取原始Data，是所有Codable请求的基础
     @discardableResult
-    public func request<T>(
+    private func requestData(
         _ endpoint: String,
         method: SNHTTPMethod = .GET,
         parameters: [String: Any]? = nil,
         headers: [String: String]? = nil,
         baseURL: String? = nil,
-        success: SNSuccessHandler<T>? = nil,
+        success: ((Data) -> Void)?,
         failure: SNFailureHandler? = nil
     ) -> SNRequestTask? {
         
@@ -448,21 +391,90 @@ public class SNNetworkManager {
         
         let encoding: ParameterEncoding = (method == .GET) ? URLEncoding.default : JSONEncoding.default
         
-        let request = session.request(
-            url,
-            method: convertHTTPMethod(method),
-            parameters: finalParameters,
-            encoding: encoding,
-            headers: finalHeaders
-        )
+        let request = session.request(url, method: convertHTTPMethod(method), parameters: finalParameters, encoding: encoding, headers: finalHeaders)
         
         request.responseData { [weak self] response in
-            self?.handleResponse(url: fullURL, response: response, success: success, failure: failure)
+            self?.handleResponse(url: fullURL, response: response, dataSuccess: success, failure: failure)
         }
         
         return SNRequestTask(dataRequest: request)
     }
+
+    // MARK: - SmartCodable Support
     
+    /// 发送请求并自动将JSON响应解码为单个SmartCodable模型
+    /// - Parameter T: 期望的模型类型，必须遵循SmartCodable协议
+    /// - Parameter keyPath: 从JSON响应的哪个字段开始解析，支持点语法，如"data.user"
+    /// - Returns: SNRequestTask?
+    @discardableResult
+    public func requestModel<T: SmartCodable>(
+        _ endpoint: String,
+        method: SNHTTPMethod = .GET,
+        parameters: [String: Any]? = nil,
+        headers: [String: String]? = nil,
+        baseURL: String? = nil,
+        keyPath: String? = nil,
+        success: SNSuccessHandler<T>? = nil,
+        failure: SNFailureHandler? = nil
+    ) -> SNRequestTask? {
+        
+        return requestData(
+            endpoint,
+            method: method,
+            parameters: parameters,
+            headers: headers,
+            baseURL: baseURL,
+            success: { data in
+                // 使用 SmartCodable 的 deserialize 方法进行解码
+                if let model = T.deserialize(from: data, designatedPath: keyPath) {
+                    success?(model)
+                } else {
+                    let errorDesc = "无法将数据解码为 '\(T.self)' 类型。检查模型定义、JSON结构或指定的keyPath ('\(keyPath ?? "nil")')。"
+                    self.log("❌ 解码失败: \(errorDesc)")
+                    failure?(SNNetworkError.parseError(errorDesc))
+                }
+            },
+            failure: failure
+        )
+    }
+
+    /// 发送请求并自动将JSON响应解码为SmartCodable模型的数组
+    /// - Parameter T: 期望的模型类型，必须遵循SmartCodable协议
+    /// - Parameter keyPath: 从JSON响应的哪个字段开始解析，支持点语法，如"data.list"
+    /// - Returns: SNRequestTask?
+    @discardableResult
+    public func requestModelArray<T: SmartCodable>(
+        _ endpoint: String,
+        method: SNHTTPMethod = .GET,
+        parameters: [String: Any]? = nil,
+        headers: [String: String]? = nil,
+        baseURL: String? = nil,
+        keyPath: String? = nil,
+        success: SNSuccessHandler<[T]>? = nil,
+        failure: SNFailureHandler? = nil
+    ) -> SNRequestTask? {
+        
+        return requestData(
+            endpoint,
+            method: method,
+            parameters: parameters,
+            headers: headers,
+            baseURL: baseURL,
+            success: { data in
+                // 解码为模型数组 [T]
+                if let modelArray = [T].deserialize(from: data, designatedPath: keyPath) {
+                    success?(modelArray)
+                } else {
+                    let errorDesc = "无法将数据解码为 '[\(T.self)]' 数组类型。检查模型定义、JSON结构或指定的keyPath ('\(keyPath ?? "nil")')。"
+                    self.log("❌ 解码失败: \(errorDesc)")
+                    failure?(SNNetworkError.parseError(errorDesc))
+                }
+            },
+            failure: failure
+        )
+    }
+    
+    // ... 其他方法 (upload, download, cancelAllRequests等保持不变) ...
     // MARK: - JSON字符串响应
     @discardableResult
     public func requestJSON(
@@ -475,20 +487,23 @@ public class SNNetworkManager {
         failure: SNFailureHandler? = nil
     ) -> SNRequestTask? {
         
-        return request(
+        return requestData(
             endpoint,
             method: method,
             parameters: parameters,
             headers: headers,
             baseURL: baseURL,
-            success: success,
+            success: { data in
+                let jsonString = String(data: data, encoding: .utf8) ?? ""
+                success?(jsonString)
+            },
             failure: failure
         )
     }
     
     // MARK: - 上传文件
     @discardableResult
-    public func upload<T>(
+    public func upload<T: SmartCodable>(
         _ endpoint: String,
         data: Data,
         name: String = "file",
@@ -497,6 +512,7 @@ public class SNNetworkManager {
         parameters: [String: Any]? = nil,
         headers: [String: String]? = nil,
         baseURL: String? = nil,
+        keyPath: String? = nil, // 上传后也可能需要解析模型
         progress: SNProgressHandler? = nil,
         success: SNSuccessHandler<T>? = nil,
         failure: SNFailureHandler? = nil
@@ -538,7 +554,20 @@ public class SNNetworkManager {
         }
         
         request.responseData { [weak self] response in
-            self?.handleResponse(url: fullURL, response: response, success: success, failure: failure)
+            self?.handleResponse(
+                url: fullURL,
+                response: response,
+                dataSuccess: { responseData in
+                    if let model = T.deserialize(from: responseData, designatedPath: keyPath) {
+                        success?(model)
+                    } else {
+                        let errorDesc = "上传成功，但无法将响应解码为 '\(T.self)' 类型。检查模型或keyPath。"
+                        self?.log("❌ 解码失败: \(errorDesc)")
+                        failure?(SNNetworkError.parseError(errorDesc))
+                    }
+                },
+                failure: failure
+            )
         }
         
         return SNRequestTask(uploadRequest: request)
@@ -625,62 +654,6 @@ public class SNNetworkManager {
     deinit {
         networkMonitor?.cancel()
         cancelAllRequests()
-    }
-}
-
-// MARK: - 便捷方法扩展
-extension SNNetworkManager {
-    
-    // GET请求
-    @discardableResult
-    public func get<T>(
-        _ endpoint: String,
-        parameters: [String: Any]? = nil,
-        headers: [String: String]? = nil,
-        baseURL: String? = nil,
-        success: SNSuccessHandler<T>? = nil,
-        failure: SNFailureHandler? = nil
-    ) -> SNRequestTask? {
-        return request(endpoint, method: .GET, parameters: parameters, headers: headers, baseURL: baseURL, success: success, failure: failure)
-    }
-    
-    // POST请求
-    @discardableResult
-    public func post<T>(
-        _ endpoint: String,
-        parameters: [String: Any]? = nil,
-        headers: [String: String]? = nil,
-        baseURL: String? = nil,
-        success: SNSuccessHandler<T>? = nil,
-        failure: SNFailureHandler? = nil
-    ) -> SNRequestTask? {
-        return request(endpoint, method: .POST, parameters: parameters, headers: headers, baseURL: baseURL, success: success, failure: failure)
-    }
-    
-    // PUT请求
-    @discardableResult
-    public func put<T>(
-        _ endpoint: String,
-        parameters: [String: Any]? = nil,
-        headers: [String: String]? = nil,
-        baseURL: String? = nil,
-        success: SNSuccessHandler<T>? = nil,
-        failure: SNFailureHandler? = nil
-    ) -> SNRequestTask? {
-        return request(endpoint, method: .PUT, parameters: parameters, headers: headers, baseURL: baseURL, success: success, failure: failure)
-    }
-    
-    // DELETE请求
-    @discardableResult
-    public func delete<T>(
-        _ endpoint: String,
-        parameters: [String: Any]? = nil,
-        headers: [String: String]? = nil,
-        baseURL: String? = nil,
-        success: SNSuccessHandler<T>? = nil,
-        failure: SNFailureHandler? = nil
-    ) -> SNRequestTask? {
-        return request(endpoint, method: .DELETE, parameters: parameters, headers: headers, baseURL: baseURL, success: success, failure: failure)
     }
 }
 
