@@ -385,6 +385,9 @@ public class SNNetworkManager {
         }
         
         log("🚀 开始请求: \(method.rawValue) \(fullURL)")
+        if !finalHeaders.isEmpty {
+            log("   请求头: \(finalHeaders)")
+        }
         if !finalParameters.isEmpty {
             log("   参数: \(finalParameters)")
         }
