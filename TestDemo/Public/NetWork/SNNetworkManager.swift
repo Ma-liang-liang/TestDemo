@@ -15,9 +15,16 @@ import SmartCodable // 导入 SmartCodable
 public struct SNNetworkError: Error {
     public let code: Int
     public let message: String
+    public let underlyingError: Error?
     
     public var description: String {
         return "错误[\(code)]: \(message)"
+    }
+    
+    public init(code: Int, message: String, underlyingError: Error? = nil) {
+        self.code = code
+        self.message = message
+        self.underlyingError = underlyingError
     }
     
     // 预定义错误
@@ -322,14 +329,14 @@ public class SNNetworkManager {
                 return SNNetworkError.cancelled
             }
             if nsError.domain == NSURLErrorDomain && nsError.code == NSURLErrorServerCertificateUntrusted {
-                 return SNNetworkError.sslError("服务器证书不受信任。请检查SSL Pinning配置。")
+                return SNNetworkError.sslError("服务器证书不受信任。请检查SSL Pinning配置。")
             }
             return SNNetworkError(code: nsError.code, message: error.localizedDescription)
         default:
             return SNNetworkError(code: -1000, message: afError.localizedDescription)
         }
     }
-
+    
     // MARK: - 处理响应
     private func handleResponse(
         url: String,
@@ -402,7 +409,7 @@ public class SNNetworkManager {
         
         return SNRequestTask(dataRequest: request)
     }
-
+    
     // MARK: - SmartCodable Support
     
     /// 发送请求并自动将JSON响应解码为单个SmartCodable模型
@@ -440,7 +447,7 @@ public class SNNetworkManager {
             failure: failure
         )
     }
-
+    
     /// 发送请求并自动将JSON响应解码为SmartCodable模型的数组
     /// - Parameter T: 期望的模型类型，必须遵循SmartCodable协议
     /// - Parameter keyPath: 从JSON响应的哪个字段开始解析，支持点语法，如"data.list"
