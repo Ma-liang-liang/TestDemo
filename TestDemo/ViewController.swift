@@ -100,7 +100,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             let vc = ALCollectionController()
             navigationController?.pushViewController(vc, animated: true)
         case .liveGift:
-            let vc = ALLiveViewController()
+            let vc = ALLiveGiftController()
             navigationController?.pushViewController(vc, animated: true)
             
             

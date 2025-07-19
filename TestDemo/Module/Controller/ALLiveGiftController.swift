@@ -7,7 +7,7 @@
 import UIKit
 
 // MARK: - 使用示例
-class ALLiveViewController: UIViewController {
+class ALLiveGiftController: UIViewController {
     private var giftManager: ALGiftRunwayManager!
     
     override func viewDidLoad() {
@@ -23,6 +23,12 @@ class ALLiveViewController: UIViewController {
         
         giftManager = ALGiftRunwayManager(parentView: view, config: config)
         setupTestButtons()
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        
+        giftManager.clearAllRunways()
     }
     
     private func setupTestButtons() {

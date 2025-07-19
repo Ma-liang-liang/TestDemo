@@ -160,6 +160,10 @@ class ALGiftRunwayView: UIView {
                        options: [.curveEaseInOut],
                        animations: { self.comboLabel.transform = .identity })
     }
+    
+    deinit {
+        print("deinit ---- \(type(of: self))")
+    }
 }
 
 // MARK: - 跑道状态枚举
