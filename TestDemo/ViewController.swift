@@ -99,6 +99,11 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         case .collection:
             let vc = ALCollectionController()
             navigationController?.pushViewController(vc, animated: true)
+        case .liveGift:
+            let vc = ALLiveViewController()
+            navigationController?.pushViewController(vc, animated: true)
+            
+            
         }
     }
     
@@ -134,4 +139,6 @@ enum PageType: String, CaseIterable {
     case pagingTable = "PagingTableViewController"
     
     case collection = "ALCollectionController"
+    
+    case liveGift = "ALLiveViewController"
 }
