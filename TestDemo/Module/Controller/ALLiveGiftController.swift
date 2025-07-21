@@ -10,9 +10,24 @@ import UIKit
 class ALLiveGiftController: UIViewController {
     private var giftManager: ALGiftRunwayManager!
     
+    private var  broadcastManager: ALBroadcastManager!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .darkGray
+       
+        do {
+            
+            broadcastManager = ALBroadcastManager(parentView: self.view)
+            // 2. 自定义配置（可选）
+            var config = ALBroadcastConfig()
+            config.maxRunways = 2
+            config.centerHoverDuration = 1.0
+            config.offsetFromTop = 100
+            config.enterAnimationDuration = 2
+            config.exitAnimationDuration = 2
+            broadcastManager.updateConfig(config)
+        }
         
         // 初始化礼物跑道管理器
         var config = ALGiftRunwayConfig()
@@ -29,6 +44,7 @@ class ALLiveGiftController: UIViewController {
         super.viewDidDisappear(animated)
         
         giftManager.clearAllRunways()
+        broadcastManager.clearAllBroadcasts()
     }
     
     private func setupTestButtons() {
@@ -67,6 +83,47 @@ class ALLiveGiftController: UIViewController {
             stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             stackView.heightAnchor.constraint(equalToConstant: 44)
         ])
+        
+        let button4 = UIButton(type: .system)
+        button4.setTitle("发送广播", for: .normal)
+        button4.backgroundColor = .systemGray
+        button4.setTitleColor(.white, for: .normal)
+        button4.layer.cornerRadius = 8
+        button4.addTarget(self, action: #selector(sendBroadcast), for: .touchUpInside)
+        button4.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubviews {
+            button4
+        }
+
+        button4.snp.makeConstraints { make in
+            make.bottom.equalTo(stackView.snp.top).offset(-12)
+            make.leading.equalToSuperview().inset(20)
+            make.width.equalTo(120)
+            make.height.equalTo(44)
+        }
+        
+        
+    }
+    
+    @objc private func sendBroadcast() {
+        // 3. 显示广播
+//        let broadcast1 = ALBroadcastItem(
+//            title: "系统通知",
+//            message: "您有新的消息，请及时查看",
+//            backgroundColor: .systemRed
+//        )
+//        broadcastManager.showBroadcast(broadcast1)
+        
+        let broadcast2 = ALBroadcastItem(
+            title: "活动提醒",
+            message: "限时活动即将开始，快来参与吧！",
+            icon: "activity_icon",
+            backgroundColor: .random
+        )
+        broadcastManager.showBroadcast(broadcast2)
+        
+//        // 4. 清理所有广播（可选）
+//        broadcastManager.clearAllBroadcasts()
     }
     
     @objc private func sendRose() {
