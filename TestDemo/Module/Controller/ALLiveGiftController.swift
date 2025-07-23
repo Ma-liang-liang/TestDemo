@@ -12,6 +12,10 @@ class ALLiveGiftController: UIViewController {
     
     private var  broadcastManager: ALBroadcastManager!
 
+    // 创建跑马灯标签
+    let marqueeLabel = MarqueeLabel(frame: CGRect(x: 20, y: 100, width: 200, height: 40))
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .darkGray
@@ -38,6 +42,63 @@ class ALLiveGiftController: UIViewController {
         
         giftManager = ALGiftRunwayManager(parentView: view, config: config)
         setupTestButtons()
+        
+    
+
+        // 配置基本属性
+        marqueeLabel.text = "这是一段需要跑马灯效果的长文本，当文字超出标签宽度时自动滚动"
+        marqueeLabel.textColor = .white
+        marqueeLabel.backgroundColor = .red
+        marqueeLabel.font = UIFont.boldSystemFont(ofSize: 16)
+        
+        let marAtt = NSMutableAttributedString {
+            "这是一段"
+                .cg_mutableAttributedString
+                .cg_setFont(16.mediumFont)
+                .cg_setColor(.blue)
+            "需要跑马灯效果的长文本，当文字超出"
+                .cg_mutableAttributedString
+                .cg_setFont(13.regularFont)
+                .cg_setColor(.white)
+            "标签宽度"
+                .cg_mutableAttributedString
+                .cg_setFont(16.mediumFont)
+                .cg_setColor(.green)
+            "时自动滚动"
+                .cg_mutableAttributedString
+                .cg_setFont(13.regularFont)
+                .cg_setColor(.white)
+            
+        }
+        
+        marqueeLabel.attributedText = marAtt
+
+        // 配置滚动参数
+        marqueeLabel.scrollDuration = 2.0   // 滚动一遍耗时
+        marqueeLabel.spacing = 30           // 文本间距
+        marqueeLabel.direction = .left     // 从右向左滚动
+        marqueeLabel.repeatCount = 0        // 滚动2次后停止（设为0表示无限循环）
+
+        // 添加到视图
+        view.addSubview(marqueeLabel)
+        
+        marqueeLabel.snp.makeConstraints { make in
+            make.leading.trailing.equalToSuperview().inset(60)
+            make.top.equalToSuperview().offset(200)
+        }
+
+        // 手动控制动画
+//        marqueeLabel.startAnimation()      // 开始动画
+//        marqueeLabel.pauseAnimation()       // 暂停动画
+//        marqueeLabel.resumeAnimation()      // 继续动画
+//        marqueeLabel.stopAnimation()        // 停止动画
+
+        // 手动控制动画
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            
+            self.marqueeLabel.startAnimation() // 开始动画
+        }
+//        marqueeLabel.stopAnimation()  // 停止动画
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -46,6 +107,7 @@ class ALLiveGiftController: UIViewController {
         giftManager.clearAllRunways()
         broadcastManager.clearAllBroadcasts()
     }
+    
     
     private func setupTestButtons() {
         let button1 = UIButton(type: .system)
