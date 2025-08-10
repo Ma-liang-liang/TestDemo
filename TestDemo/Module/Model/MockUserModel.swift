@@ -27,6 +27,15 @@ struct MockUserModel: SmartCodable {
     
     var createdAt = ""
     
+    func didFinishMapping() {
+        
+    }
+    
+    static func mappingForKey() -> [SmartKeyTransformer]? {
+        return [
+            CodingKeys.job <--- ["job_name"]
+        ]
+    }
 }
 
 

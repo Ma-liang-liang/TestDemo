@@ -16,6 +16,11 @@ class HomeController: SKBaseController {
         super.viewDidLoad()
         
         view.backgroundColor = .white
+        setupUI()
+    }
+    
+    private func setupUI() {
+        let buttons = [jumpBtn, jumpBtn1, jumpBtn2]
         
         view.addSubviews {
             jumpBtn
@@ -23,23 +28,19 @@ class HomeController: SKBaseController {
             jumpBtn2
         }
         
-        jumpBtn.snp.makeConstraints { make in
-            make.top.leading.equalToSuperview().offset(100)
-            make.height.equalTo(36)
+        // 使用循环简化约束设置
+        for (index, button) in buttons.enumerated() {
+            button.snp.makeConstraints { make in
+                make.leading.trailing.equalToSuperview().inset(UIConstants.Spacing.huge)
+                make.height.equalTo(UIConstants.ButtonHeight.medium)
+                
+                if index == 0 {
+                    make.top.equalTo(navBar.snp.bottom).offset(UIConstants.Spacing.huge)
+                } else {
+                    make.top.equalTo(buttons[index - 1].snp.bottom).offset(UIConstants.Spacing.medium)
+                }
+            }
         }
-        
-        jumpBtn1.snp.makeConstraints { make in
-            make.leading.equalToSuperview().offset(100)
-            make.top.equalTo(jumpBtn.snp.bottom).offset(40)
-            make.height.equalTo(36)
-        }
-        
-        jumpBtn2.snp.makeConstraints { make in
-            make.top.equalTo(jumpBtn1.snp.bottom).offset(40)
-            make.leading.equalToSuperview().offset(100)
-            make.height.equalTo(36)
-        }
-        
     }
     
     @objc
@@ -66,27 +67,19 @@ class HomeController: SKBaseController {
         }
     }
     
-    lazy var jumpBtn: UIButton = {
+    // 使用工厂方法减少重复代码
+    private func createJumpButton(title: String) -> UIButton {
         let button = UIButton()
-        button.setTitle("  跳转  ", for: .normal)
-        button.setTitleColor(.red, for: .normal)
+        button.setTitle(title, for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        button.backgroundColor = UIColor.App.primary
+        button.layer.cornerRadius = UIConstants.CornerRadius.medium
+        button.titleLabel?.font = .systemFont(ofSize: 16, weight: .medium)
         button.addTarget(self, action: #selector(onJumpClick), for: .touchUpInside)
         return button
-    }()
+    }
     
-    lazy var jumpBtn1: UIButton = {
-        let button = UIButton()
-        button.setTitle("  跳转1  ", for: .normal)
-        button.setTitleColor(.red, for: .normal)
-        button.addTarget(self, action: #selector(onJumpClick), for: .touchUpInside)
-        return button
-    }()
-    
-    lazy var jumpBtn2: UIButton = {
-        let button = UIButton()
-        button.setTitle("  跳转2  ", for: .normal)
-        button.setTitleColor(.red, for: .normal)
-        button.addTarget(self, action: #selector(onJumpClick), for: .touchUpInside)
-        return button
-    }()
+    lazy var jumpBtn = createJumpButton(title: "跳转到 SwiftUI TabBar")
+    lazy var jumpBtn1 = createJumpButton(title: "显示底部弹窗")
+    lazy var jumpBtn2 = createJumpButton(title: "跳转到集合视图")
 }
