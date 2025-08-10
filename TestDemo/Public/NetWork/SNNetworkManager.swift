@@ -126,7 +126,7 @@ public class SNNetworkManager {
     private var isNetworkAvailable = true
     
     // 自定义的 SessionDelegate，用于处理双向认证
-    private class SNClientCertSessionDelegate: SessionDelegate {
+    private class SNClientCertSessionDelegate: SessionDelegate, @unchecked Sendable {
         private let clientIdentity: SecIdentity
         init(clientIdentity: SecIdentity) {
             self.clientIdentity = clientIdentity
@@ -196,7 +196,6 @@ public class SNNetworkManager {
         )
     }
     
-    // ... 其他基础方法 (createOneWayEvaluators, log, buildFullURL等保持不变) ...
     // MARK: - 创建单向认证评估器 (服务器证书验证)
     private func createOneWayEvaluators(certificateData: Data) throws -> ServerTrustManager {
         guard let host = URL(string: baseURL)?.host else {
