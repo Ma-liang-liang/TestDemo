@@ -1,0 +1,5 @@
+
+module Moya.Swift {
+  header "Moya-Swift.h"
+  requires objc
+}

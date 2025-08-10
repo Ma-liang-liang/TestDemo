@@ -1,0 +1,478 @@
+{
+  "" : {
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCodable-master.dia",
+    "emit-module-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCodable-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCodable-master-emit-module.dia",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCodable-master.swiftdeps"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/Cache/Cachable.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Cachable.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Cachable.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Cachable.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Cachable.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Cachable.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Cachable.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Cachable.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Cachable~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Decoder/DecodingCache.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingCache.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingCache.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingCache.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingCache.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingCache.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingCache.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingCache.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingCache~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Decoder/DecodingError+Extension.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingError+Extension.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingError+Extension.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingError+Extension.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingError+Extension.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingError+Extension.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingError+Extension.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingError+Extension.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DecodingError+Extension~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Decoder/Impl/JSONDecoderImpl+KeyedContainer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+KeyedContainer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+KeyedContainer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+KeyedContainer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+KeyedContainer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+KeyedContainer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+KeyedContainer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+KeyedContainer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+KeyedContainer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Decoder/Impl/JSONDecoderImpl+SingleValueContainer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+SingleValueContainer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+SingleValueContainer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+SingleValueContainer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+SingleValueContainer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+SingleValueContainer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+SingleValueContainer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+SingleValueContainer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+SingleValueContainer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Decoder/Impl/JSONDecoderImpl+UnkeyedContainer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+UnkeyedContainer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+UnkeyedContainer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+UnkeyedContainer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+UnkeyedContainer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+UnkeyedContainer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+UnkeyedContainer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+UnkeyedContainer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+UnkeyedContainer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Decoder/Impl/JSONDecoderImpl+Unwrap.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+Unwrap.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+Unwrap.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+Unwrap.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+Unwrap.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+Unwrap.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+Unwrap.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+Unwrap.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl+Unwrap~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Decoder/Impl/JSONDecoderImpl.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONDecoderImpl~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Decoder/KeysMapper.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/KeysMapper.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/KeysMapper.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/KeysMapper.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/KeysMapper.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/KeysMapper.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/KeysMapper.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/KeysMapper.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/KeysMapper~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Decoder/SmartJSONDecoder.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Decoder/SmartKeyDecodingStrategy.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Patcher/Patcher+Provider.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Provider.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Provider.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Provider.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Provider.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Provider.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Provider.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Provider.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Provider~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Patcher/Patcher+Transformer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Transformer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Transformer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Transformer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Transformer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Transformer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Transformer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Transformer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher+Transformer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Patcher/Patcher.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Patcher~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONEncoder/Container/JSONKeyedEncodingContainer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONKeyedEncodingContainer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONKeyedEncodingContainer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONKeyedEncodingContainer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONKeyedEncodingContainer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONKeyedEncodingContainer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONKeyedEncodingContainer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONKeyedEncodingContainer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONKeyedEncodingContainer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONEncoder/Container/JSONSingleValueEncodingContainer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONSingleValueEncodingContainer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONSingleValueEncodingContainer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONSingleValueEncodingContainer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONSingleValueEncodingContainer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONSingleValueEncodingContainer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONSingleValueEncodingContainer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONSingleValueEncodingContainer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONSingleValueEncodingContainer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONEncoder/Container/JSONUnkeyedEncodingContainer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONUnkeyedEncodingContainer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONUnkeyedEncodingContainer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONUnkeyedEncodingContainer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONUnkeyedEncodingContainer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONUnkeyedEncodingContainer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONUnkeyedEncodingContainer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONUnkeyedEncodingContainer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONUnkeyedEncodingContainer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONEncoder/EncodingCache.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/EncodingCache.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/EncodingCache.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/EncodingCache.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/EncodingCache.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/EncodingCache.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/EncodingCache.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/EncodingCache.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/EncodingCache~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONEncoder/Impl/JSONEncoderImpl.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONEncoderImpl.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONEncoderImpl.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONEncoderImpl.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONEncoderImpl.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONEncoderImpl.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONEncoderImpl.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONEncoderImpl.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONEncoderImpl~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONEncoder/Impl/_SpecialTreatmentEncoder.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/_SpecialTreatmentEncoder.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/_SpecialTreatmentEncoder.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/_SpecialTreatmentEncoder.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/_SpecialTreatmentEncoder.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/_SpecialTreatmentEncoder.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/_SpecialTreatmentEncoder.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/_SpecialTreatmentEncoder.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/_SpecialTreatmentEncoder~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONEncoder/JSONFuture.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONFuture.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONFuture.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONFuture.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONFuture.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONFuture.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONFuture.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONFuture.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONFuture~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONEncoder/SmartJSONEncoder.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONEncoder/SmartKeyEncodingStrategy.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONValue/JSONParser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONParser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONParser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONParser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONParser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONParser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONParser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONParser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONParser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONValue/JSONValue+Extension.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue+Extension.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue+Extension.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue+Extension.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue+Extension.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue+Extension.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue+Extension.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue+Extension.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue+Extension~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONValue/JSONValue.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/JSONValue~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/Sentinel/LogCache.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogCache.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogCache.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogCache.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogCache.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogCache.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogCache.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogCache.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogCache~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/Sentinel/LogContainer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogContainer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogContainer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogContainer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogContainer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogContainer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogContainer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogContainer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogContainer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/Sentinel/LogItem.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogItem.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogItem.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogItem.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogItem.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogItem.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogItem.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogItem.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/LogItem~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/Sentinel/SafeDictionary.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SafeDictionary.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SafeDictionary.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SafeDictionary.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SafeDictionary.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SafeDictionary.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SafeDictionary.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SafeDictionary.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SafeDictionary~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/Sentinel/SmartSentinel.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartSentinel.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartSentinel.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartSentinel.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartSentinel.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartSentinel.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartSentinel.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartSentinel.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartSentinel~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartCodable/SmartCodable.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCodable.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCodable.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCodable.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCodable.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCodable.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCodable.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCodable.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCodable~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartCodable/SmartDecodable.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartDecodable.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartDecodable.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartDecodable.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartDecodable.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartDecodable.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartDecodable.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartDecodable.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartDecodable~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartCodable/SmartEncodable.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartCodable/SmartUpdater.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartUpdater.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartUpdater.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartUpdater.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartUpdater.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartUpdater.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartUpdater.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartUpdater.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartUpdater~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartType/IgnoredKey.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/IgnoredKey.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/IgnoredKey.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/IgnoredKey.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/IgnoredKey.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/IgnoredKey.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/IgnoredKey.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/IgnoredKey.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/IgnoredKey~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartType/SmartAny/SmartAny.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAny.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAny.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAny.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAny.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAny.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAny.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAny.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAny~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartType/SmartAny/SmartAnyImpl.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAnyImpl.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAnyImpl.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAnyImpl.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAnyImpl.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAnyImpl.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAnyImpl.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAnyImpl.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartAnyImpl~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartType/SmartCaseDefaultable.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCaseDefaultable.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCaseDefaultable.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCaseDefaultable.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCaseDefaultable.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCaseDefaultable.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCaseDefaultable.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCaseDefaultable.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartCaseDefaultable~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartType/SmartColor.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartColor.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartColor.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartColor.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartColor.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartColor.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartColor.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartColor.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartColor~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartType/SmartFlat.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartType/SmartPublished.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartPublished.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartPublished.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartPublished.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartPublished.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartPublished.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartPublished.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartPublished.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartPublished~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/Transformer/ColorTransformer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/ColorTransformer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/ColorTransformer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/ColorTransformer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/ColorTransformer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/ColorTransformer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/ColorTransformer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/ColorTransformer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/ColorTransformer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/Transformer/DataTransformer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DataTransformer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DataTransformer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DataTransformer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DataTransformer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DataTransformer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DataTransformer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DataTransformer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DataTransformer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/Transformer/DateTransformer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DateTransformer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DateTransformer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DateTransformer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DateTransformer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DateTransformer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DateTransformer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DateTransformer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/DateTransformer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/Transformer/Transformer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Transformer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Transformer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Transformer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Transformer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Transformer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Transformer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Transformer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/Transformer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/Transformer/URLTransformer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/URLTransformer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/URLTransformer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/URLTransformer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/URLTransformer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/URLTransformer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/URLTransformer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/URLTransformer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/URLTransformer~partial.swiftmodule"
+  }
+}

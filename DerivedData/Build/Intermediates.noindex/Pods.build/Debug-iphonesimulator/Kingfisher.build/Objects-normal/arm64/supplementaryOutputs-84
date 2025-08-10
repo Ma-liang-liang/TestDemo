@@ -1,0 +1,48 @@
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Kingfisher/Sources/Networking/ImagePrefetcher.swift":
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.o"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.d"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.swiftconstvalues"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.dia"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.swiftdeps"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Kingfisher/Sources/Extensions/ImageView+Kingfisher.swift":
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageView+Kingfisher.o"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageView+Kingfisher.swiftconstvalues"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageView+Kingfisher.d"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageView+Kingfisher.swiftdeps"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageView+Kingfisher.dia"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Kingfisher/Sources/Image/ImageProcessor.swift":
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageProcessor.swiftconstvalues"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageProcessor.swiftdeps"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageProcessor.dia"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageProcessor.o"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageProcessor.d"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Kingfisher/Sources/Image/ImageFormat.swift":
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageFormat.swiftconstvalues"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageFormat.d"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageFormat.dia"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageFormat.swiftdeps"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageFormat.o"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Kingfisher/Sources/Image/ImageTransition.swift":
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageTransition.d"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageTransition.swiftdeps"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageTransition.swiftconstvalues"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageTransition.o"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageTransition.dia"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Kingfisher/Sources/Image/ImageProgressive.swift":
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageProgressive.dia"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageProgressive.swiftdeps"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageProgressive.swiftconstvalues"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageProgressive.o"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageProgressive.d"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Kingfisher/Sources/Networking/ImageModifier.swift":
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageModifier.o"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageModifier.swiftdeps"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageModifier.d"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageModifier.dia"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/ImageModifier.swiftconstvalues"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Kingfisher/Sources/Views/Indicator.swift":
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/Indicator.swiftconstvalues"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/Indicator.swiftdeps"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/Indicator.dia"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/Indicator.o"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Kingfisher.build/Objects-normal/arm64/Indicator.d"

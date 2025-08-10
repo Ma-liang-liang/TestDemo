@@ -1,0 +1,18 @@
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Moya/Sources/Moya/Plugin.swift":
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/Plugin.dia"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/Plugin.swiftdeps"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/Plugin.swiftconstvalues"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/Plugin.d"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/Plugin.o"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Moya/Sources/Moya/Plugins/NetworkLoggerPlugin.swift":
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/NetworkLoggerPlugin.o"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/NetworkLoggerPlugin.dia"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/NetworkLoggerPlugin.swiftdeps"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/NetworkLoggerPlugin.d"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/NetworkLoggerPlugin.swiftconstvalues"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Moya/Sources/Moya/RequestTypeWrapper.swift":
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/RequestTypeWrapper.o"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/RequestTypeWrapper.d"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/RequestTypeWrapper.swiftdeps"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/RequestTypeWrapper.dia"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/Objects-normal/arm64/RequestTypeWrapper.swiftconstvalues"

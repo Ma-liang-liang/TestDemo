@@ -1,0 +1,30 @@
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/MijickPopups/Sources/Public/Popup/Public+Popup+Main.swift":
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Main.swiftdeps"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Main.dia"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Main.swiftconstvalues"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Main.o"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Main.d"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/MijickPopups/Sources/Public/Popup/Public+Popup+Utilities.swift":
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Utilities.o"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Utilities.dia"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Utilities.d"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Utilities.swiftconstvalues"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Utilities.swiftdeps"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/MijickPopups/Sources/Public/Present/Public+Present+Popup.swift":
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Present+Popup.swiftconstvalues"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Present+Popup.d"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Present+Popup.o"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Present+Popup.swiftdeps"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Present+Popup.dia"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/MijickPopups/Sources/Public/Popup/Public+Popup+Config.swift":
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Config.swiftdeps"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Config.swiftconstvalues"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Config.dia"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Config.d"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Popup+Config.o"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/MijickPopups/Sources/Public/Setup/Public+Setup+Config.swift":
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Setup+Config.o"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Setup+Config.swiftdeps"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Setup+Config.swiftconstvalues"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Setup+Config.dia"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/Public+Setup+Config.d"

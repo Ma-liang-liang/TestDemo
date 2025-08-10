@@ -1,0 +1,36 @@
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONEncoder/SmartKeyEncodingStrategy.swift":
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy.d"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy.swiftconstvalues"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy.swiftdeps"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy.o"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyEncodingStrategy.dia"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Decoder/SmartJSONDecoder.swift":
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder.swiftdeps"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder.swiftconstvalues"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder.o"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder.d"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONDecoder.dia"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONEncoder/SmartJSONEncoder.swift":
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder.swiftdeps"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder.d"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder.o"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder.swiftconstvalues"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartJSONEncoder.dia"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/JSONDecoder/Decoder/SmartKeyDecodingStrategy.swift":
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy.dia"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy.swiftdeps"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy.o"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy.swiftconstvalues"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartKeyDecodingStrategy.d"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartType/SmartFlat.swift":
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat.swiftdeps"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat.o"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat.swiftconstvalues"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat.d"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartFlat.dia"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/SmartCodable/SmartCodable/Classes/SmartCodable/SmartEncodable.swift":
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable.swiftconstvalues"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable.d"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable.dia"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable.o"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SmartCodable.build/Objects-normal/arm64/SmartEncodable.swiftdeps"

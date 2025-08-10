@@ -1,0 +1,56 @@
+{
+  "source": "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/ALTopUpPage.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Immediate recharge",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "K coin",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 84
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current balance",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 133
+        }
+      },
+      {
+        "comment": "",
+        "key": "Transaction record",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "Apple支付",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 190
+        }
+      }
+    ]
+  },
+  "version": 1
+}

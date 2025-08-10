@@ -1,0 +1,16 @@
+{
+  "source": "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/HomeListPage.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Home List",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 47
+        }
+      }
+    ]
+  },
+  "version": 1
+}

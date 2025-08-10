@@ -1,0 +1,30 @@
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Alamofire/Source/Features/URLEncodedFormEncoder.swift":
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLEncodedFormEncoder.swiftconstvalues"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLEncodedFormEncoder.o"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLEncodedFormEncoder.dia"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLEncodedFormEncoder.swiftdeps"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLEncodedFormEncoder.d"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Alamofire/Source/Extensions/URLSessionConfiguration+Alamofire.swift":
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.dia"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.o"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.d"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.swiftdeps"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLSessionConfiguration+Alamofire.swiftconstvalues"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Alamofire/Source/Extensions/URLRequest+Alamofire.swift":
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.dia"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.swiftconstvalues"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.swiftdeps"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.o"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/URLRequest+Alamofire.d"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Alamofire/Source/Core/WebSocketRequest.swift":
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/WebSocketRequest.d"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/WebSocketRequest.dia"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/WebSocketRequest.swiftdeps"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/WebSocketRequest.o"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/WebSocketRequest.swiftconstvalues"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/Alamofire/Source/Features/Validation.swift":
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Validation.d"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Validation.swiftdeps"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Validation.dia"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Validation.swiftconstvalues"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/Objects-normal/arm64/Validation.o"

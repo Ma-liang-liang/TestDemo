@@ -1,0 +1,5 @@
+
+module ZLPhotoBrowser.Swift {
+  header "ZLPhotoBrowser-Swift.h"
+  requires objc
+}

@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "Moya-Swift.h",
+      "external-contents": "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Moya.build/unextended-interface-header.h",
+    }]
+  }]
+}

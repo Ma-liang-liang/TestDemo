@@ -1,0 +1,18 @@
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UICollectionView+Combine.swift":
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine.d"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine.dia"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine.o"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine.swiftconstvalues"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine.swiftdeps"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UIControl+Combine.swift":
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine.swiftdeps"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine.d"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine.swiftconstvalues"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine.dia"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine.o"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UIDatePicker+Combine.swift":
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine.swiftconstvalues"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine.swiftdeps"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine.d"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine.o"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine.dia"

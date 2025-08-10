@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Products/Debug-iphonesimulator/MijickPopups/MijickPopups.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Products/Debug-iphonesimulator/MijickPopups/MijickPopups.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "MijickPopups-Swift.h",
+      "external-contents": "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/unextended-interface-header.h",
+    }]
+  }]
+}

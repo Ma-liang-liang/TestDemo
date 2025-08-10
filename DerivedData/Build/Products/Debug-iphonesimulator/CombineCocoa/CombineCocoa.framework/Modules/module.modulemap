@@ -1,0 +1,11 @@
+framework module CombineCocoa {
+  umbrella header "CombineCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CombineCocoa.Swift {
+  header "CombineCocoa-Swift.h"
+  requires objc
+}

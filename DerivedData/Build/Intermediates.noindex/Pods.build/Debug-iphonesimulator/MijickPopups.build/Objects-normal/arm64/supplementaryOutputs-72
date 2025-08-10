@@ -1,0 +1,30 @@
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/MijickPopups/Sources/Internal/Extensions/View+tvOS.swift":
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/View+tvOS.swiftconstvalues"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/View+tvOS.d"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/View+tvOS.o"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/View+tvOS.dia"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/View+tvOS.swiftdeps"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/MijickPopups/Sources/Internal/View Models/ViewModel.swift":
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel.swiftconstvalues"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel.swiftdeps"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel.dia"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel.o"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel.d"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/MijickPopups/Sources/Internal/Extensions/View+ReadHeight.swift":
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/View+ReadHeight.dia"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/View+ReadHeight.d"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/View+ReadHeight.swiftconstvalues"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/View+ReadHeight.o"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/View+ReadHeight.swiftdeps"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/MijickPopups/Sources/Internal/View Models/ViewModel+CentreStack.swift":
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel+CentreStack.swiftconstvalues"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel+CentreStack.d"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel+CentreStack.o"
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel+CentreStack.swiftdeps"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel+CentreStack.dia"
+"/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/Pods/MijickPopups/Sources/Internal/View Models/ViewModel+VerticalStack.swift":
+  swift-dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel+VerticalStack.swiftdeps"
+  const-values: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel+VerticalStack.swiftconstvalues"
+  diagnostics: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel+VerticalStack.dia"
+  dependencies: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel+VerticalStack.d"
+  object: "/Users/maliangliang/Desktop/\u7EC3\u4E60demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/MijickPopups.build/Objects-normal/arm64/ViewModel+VerticalStack.o"

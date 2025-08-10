@@ -1,0 +1,5 @@
+
+module MijickPopups.Swift {
+  header "MijickPopups-Swift.h"
+  requires objc
+}

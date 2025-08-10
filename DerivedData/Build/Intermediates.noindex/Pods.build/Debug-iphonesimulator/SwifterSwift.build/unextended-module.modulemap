@@ -1,0 +1,10 @@
+framework module SwifterSwift {
+  umbrella header "SwifterSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwifterSwift.__Swift {
+  exclude header "SwifterSwift-Swift.h"
+}

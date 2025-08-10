@@ -1,0 +1,4 @@
+
+module MijickPopups.__Swift {
+  exclude header "MijickPopups-Swift.h"
+}

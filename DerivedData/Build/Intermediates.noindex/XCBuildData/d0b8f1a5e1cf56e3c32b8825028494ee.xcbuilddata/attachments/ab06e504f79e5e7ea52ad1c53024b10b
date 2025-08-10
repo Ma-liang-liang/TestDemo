@@ -1,0 +1,4 @@
+
+module HXPhotoPicker.__Swift {
+  exclude header "HXPhotoPicker-Swift.h"
+}

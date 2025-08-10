@@ -1,0 +1,4 @@
+
+module AlertToast.__Swift {
+  exclude header "AlertToast-Swift.h"
+}

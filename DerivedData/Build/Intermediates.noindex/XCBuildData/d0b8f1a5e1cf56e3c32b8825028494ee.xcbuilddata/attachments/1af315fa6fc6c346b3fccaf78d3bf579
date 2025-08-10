@@ -1,0 +1,1058 @@
+{
+  "" : {
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TestDemo-master.dia",
+    "emit-module-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TestDemo-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TestDemo-master-emit-module.dia",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TestDemo-master.swiftdeps"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/APIService/SKAPIConfiguration.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIConfiguration.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIConfiguration.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIConfiguration.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIConfiguration.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIConfiguration.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIConfiguration.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIConfiguration.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIConfiguration~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/APIService/SKAPIDefine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIDefine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIDefine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIDefine.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIDefine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIDefine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIDefine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIDefine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIDefine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/APIService/SKAPIError.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIError.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIError.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIError.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIError.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIError.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIError.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIError.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIError~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/APIService/SKAPILogger.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPILogger.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPILogger.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPILogger.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPILogger.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPILogger.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPILogger.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPILogger.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPILogger~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/APIService/SKAPIService.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIService-3841ec47a6e1ad8858287883d346cee3.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIService-3841ec47a6e1ad8858287883d346cee3.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIService-3841ec47a6e1ad8858287883d346cee3.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIService-3841ec47a6e1ad8858287883d346cee3.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIService-3841ec47a6e1ad8858287883d346cee3.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIService-3841ec47a6e1ad8858287883d346cee3.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIService-3841ec47a6e1ad8858287883d346cee3.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPIService-3841ec47a6e1ad8858287883d346cee3~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/APIService/SKAPITarget.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPITarget.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPITarget.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPITarget.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPITarget.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPITarget.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPITarget.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPITarget.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKAPITarget~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/AppDelegate.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/API/MockApi.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockApi.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockApi.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockApi.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockApi.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockApi.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockApi.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockApi.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockApi~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/API/ReqResApi.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ReqResApi.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ReqResApi.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ReqResApi.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ReqResApi.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ReqResApi.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ReqResApi.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ReqResApi.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ReqResApi~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Controller/ALCollectionController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALCollectionController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALCollectionController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALCollectionController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALCollectionController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALCollectionController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALCollectionController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALCollectionController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALCollectionController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Controller/ALLiveBroadcastController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveBroadcastController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveBroadcastController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveBroadcastController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveBroadcastController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveBroadcastController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveBroadcastController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveBroadcastController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveBroadcastController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Controller/ALLiveGiftController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveGiftController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveGiftController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveGiftController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveGiftController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveGiftController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveGiftController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveGiftController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALLiveGiftController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Controller/HomeController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Controller/IconFontController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/IconFontController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/IconFontController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/IconFontController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/IconFontController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/IconFontController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/IconFontController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/IconFontController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/IconFontController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Controller/PagingTableViewController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PagingTableViewController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PagingTableViewController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PagingTableViewController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PagingTableViewController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PagingTableViewController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PagingTableViewController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PagingTableViewController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PagingTableViewController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Controller/SKThemeSetController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKThemeSetController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKThemeSetController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKThemeSetController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKThemeSetController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKThemeSetController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKThemeSetController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKThemeSetController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKThemeSetController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Controller/SecondController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SecondController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SecondController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SecondController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SecondController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SecondController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SecondController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SecondController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SecondController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Controller/StoreBoxController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StoreBoxController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StoreBoxController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StoreBoxController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StoreBoxController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StoreBoxController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StoreBoxController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StoreBoxController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StoreBoxController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Controller/TabScrollViewController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TabScrollViewController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TabScrollViewController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TabScrollViewController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TabScrollViewController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TabScrollViewController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TabScrollViewController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TabScrollViewController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TabScrollViewController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Controller/ThirdController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Controller/VideoDemoController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoDemoController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoDemoController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoDemoController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoDemoController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoDemoController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoDemoController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoDemoController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoDemoController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/Model/MockUserModel.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockUserModel.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockUserModel.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockUserModel.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockUserModel.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockUserModel.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockUserModel.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockUserModel.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MockUserModel~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/ALDetailItemPage.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALDetailItemPage.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALDetailItemPage.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALDetailItemPage.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALDetailItemPage.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALDetailItemPage.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALDetailItemPage.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALDetailItemPage.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALDetailItemPage~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/ALMainTabView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALMainTabView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALMainTabView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALMainTabView.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALMainTabView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALMainTabView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALMainTabView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALMainTabView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALMainTabView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/ALNavBarView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALNavBarView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALNavBarView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALNavBarView.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALNavBarView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALNavBarView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALNavBarView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALNavBarView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALNavBarView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/ALScrollCardView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALScrollCardView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALScrollCardView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALScrollCardView.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALScrollCardView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALScrollCardView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALScrollCardView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALScrollCardView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALScrollCardView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/ALSheetPage.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALSheetPage.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALSheetPage.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALSheetPage.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALSheetPage.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALSheetPage.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALSheetPage.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALSheetPage.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALSheetPage~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/ALTopUpPage.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpPage.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpPage.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpPage.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpPage.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpPage.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpPage.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpPage.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpPage~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/CGKitContentView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGKitContentView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGKitContentView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGKitContentView.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGKitContentView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGKitContentView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGKitContentView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGKitContentView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGKitContentView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/ComplexUIDemo.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ComplexUIDemo.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ComplexUIDemo.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ComplexUIDemo.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ComplexUIDemo.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ComplexUIDemo.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ComplexUIDemo.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ComplexUIDemo.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ComplexUIDemo~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/CustomPullToRefreshView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomPullToRefreshView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomPullToRefreshView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomPullToRefreshView.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomPullToRefreshView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomPullToRefreshView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomPullToRefreshView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomPullToRefreshView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomPullToRefreshView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/CustomSwipeBackView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomSwipeBackView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomSwipeBackView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomSwipeBackView.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomSwipeBackView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomSwipeBackView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomSwipeBackView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomSwipeBackView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomSwipeBackView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/HomeListPage.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeListPage.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeListPage.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeListPage.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeListPage.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeListPage.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeListPage.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeListPage.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/HomeListPage~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/SwiftUI/InputPage.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InputPage.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InputPage.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InputPage.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InputPage.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InputPage.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InputPage.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InputPage.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InputPage~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/View/CustomImageTextView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomImageTextView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomImageTextView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomImageTextView.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomImageTextView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomImageTextView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomImageTextView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomImageTextView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomImageTextView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/View/VideoPlayer.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayer.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayer.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayer.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayer.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayer.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayer.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayer.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayer~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/View/VideoPlayerControlView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayerControlView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayerControlView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayerControlView.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayerControlView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayerControlView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayerControlView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayerControlView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/VideoPlayerControlView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/ViewModel/ALTopUpViewModel.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpViewModel.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpViewModel.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpViewModel.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpViewModel.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpViewModel.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpViewModel.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpViewModel.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALTopUpViewModel~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Module/ViewModel/ThirdViewModel.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdViewModel.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdViewModel.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdViewModel.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdViewModel.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdViewModel.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdViewModel.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdViewModel.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ThirdViewModel~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Base/InsetLabel.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InsetLabel.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InsetLabel.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InsetLabel.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InsetLabel.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InsetLabel.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InsetLabel.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InsetLabel.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/InsetLabel~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Base/MarqueeLabel.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MarqueeLabel.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MarqueeLabel.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MarqueeLabel.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MarqueeLabel.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MarqueeLabel.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MarqueeLabel.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MarqueeLabel.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MarqueeLabel~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Base/SKBaseCollectionCell.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseCollectionCell.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseCollectionCell.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseCollectionCell.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseCollectionCell.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseCollectionCell.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseCollectionCell.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseCollectionCell.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseCollectionCell~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Base/SKBaseController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Base/SKBaseTableCell.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseTableCell.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseTableCell.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseTableCell.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseTableCell.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseTableCell.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseTableCell.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseTableCell.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseTableCell~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Base/SKBaseView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseView.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Base/SKNavigationBar.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNavigationBar.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNavigationBar.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNavigationBar.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNavigationBar.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNavigationBar.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNavigationBar.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNavigationBar.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNavigationBar~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Base/TableBaseController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TableBaseController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TableBaseController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TableBaseController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TableBaseController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TableBaseController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TableBaseController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TableBaseController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TableBaseController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Base/TextTappedLabel.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TextTappedLabel.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TextTappedLabel.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TextTappedLabel.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TextTappedLabel.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TextTappedLabel.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TextTappedLabel.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TextTappedLabel.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/TextTappedLabel~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Constants/Defines.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Defines.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Defines.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Defines.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Defines.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Defines.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Defines.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Defines.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Defines~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Constants/UIConstants.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIConstants.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIConstants.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIConstants.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIConstants.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIConstants.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIConstants.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIConstants.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIConstants~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/DCApiService/SKApiConfig.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiConfig.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiConfig.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiConfig.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiConfig.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiConfig.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiConfig.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiConfig.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiConfig~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/DCApiService/SKApiProtcolTarget.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtcolTarget.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtcolTarget.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtcolTarget.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtcolTarget.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtcolTarget.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtcolTarget.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtcolTarget.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtcolTarget~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/DCApiService/SKApiProtocol.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtocol.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtocol.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtocol.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtocol.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtocol.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtocol.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtocol.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiProtocol~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/DCApiService/SKApiService.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiService-2f3caba3c8a1b474b1f627885fc0044c.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiService-2f3caba3c8a1b474b1f627885fc0044c.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiService-2f3caba3c8a1b474b1f627885fc0044c.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiService-2f3caba3c8a1b474b1f627885fc0044c.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiService-2f3caba3c8a1b474b1f627885fc0044c.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiService-2f3caba3c8a1b474b1f627885fc0044c.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiService-2f3caba3c8a1b474b1f627885fc0044c.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKApiService-2f3caba3c8a1b474b1f627885fc0044c~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/DCApiService/SKBaseModel.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseModel.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseModel.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseModel.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseModel.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseModel.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseModel.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseModel.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKBaseModel~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/DCApiService/SKDownloadDestination.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKDownloadDestination.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKDownloadDestination.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKDownloadDestination.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKDownloadDestination.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKDownloadDestination.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKDownloadDestination.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKDownloadDestination.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKDownloadDestination~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/DCApiService/SKMultiPartFormData.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKMultiPartFormData.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKMultiPartFormData.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKMultiPartFormData.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKMultiPartFormData.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKMultiPartFormData.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKMultiPartFormData.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKMultiPartFormData.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKMultiPartFormData~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/DCApiService/SKServiceError.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKServiceError.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKServiceError.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKServiceError.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKServiceError.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKServiceError.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKServiceError.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKServiceError.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKServiceError~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/FileManger.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/FileManger.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/FileManger.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/FileManger.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/FileManger.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/FileManger.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/FileManger.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/FileManger.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/FileManger~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/JSONSerialization+Extension.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/JSONSerialization+Extension.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/JSONSerialization+Extension.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/JSONSerialization+Extension.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/JSONSerialization+Extension.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/JSONSerialization+Extension.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/JSONSerialization+Extension.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/JSONSerialization+Extension.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/JSONSerialization+Extension~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/NumberExtension.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NumberExtension.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NumberExtension.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NumberExtension.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NumberExtension.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NumberExtension.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NumberExtension.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NumberExtension.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NumberExtension~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/StringExtension.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StringExtension.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StringExtension.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StringExtension.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StringExtension.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StringExtension.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StringExtension.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StringExtension.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/StringExtension~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/UIButton+Extension.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Extension.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Extension.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Extension.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Extension.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Extension.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Extension.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Extension.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Extension~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/UIColor++.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIColor++.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIColor++.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIColor++.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIColor++.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIColor++.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIColor++.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIColor++.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIColor++~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/UIImageExtension.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageExtension.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageExtension.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageExtension.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageExtension.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageExtension.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageExtension.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageExtension.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageExtension~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/UILabelExtension.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabelExtension.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabelExtension.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabelExtension.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabelExtension.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabelExtension.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabelExtension.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabelExtension.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabelExtension~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/UIScreen++.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScreen++.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScreen++.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScreen++.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScreen++.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScreen++.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScreen++.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScreen++.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScreen++~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/UIView++.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView++.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView++.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView++.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView++.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView++.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView++.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView++.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView++~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/View++.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View++.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View++.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View++.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View++.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View++.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View++.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View++.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View++~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/View+Extension.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View+Extension.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View+Extension.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View+Extension.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View+Extension.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View+Extension.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View+Extension.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View+Extension.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/View+Extension~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/chain/CALayer+Chain.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CALayer+Chain.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CALayer+Chain.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CALayer+Chain.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CALayer+Chain.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CALayer+Chain.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CALayer+Chain.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CALayer+Chain.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CALayer+Chain~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/chain/NSAttributedString+Chain.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NSAttributedString+Chain.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NSAttributedString+Chain.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NSAttributedString+Chain.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NSAttributedString+Chain.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NSAttributedString+Chain.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NSAttributedString+Chain.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NSAttributedString+Chain.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/NSAttributedString+Chain~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/chain/UIButton+Chain.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Chain.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Chain.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Chain.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Chain.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Chain.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Chain.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Chain.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIButton+Chain~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/chain/UIImageView+Chain.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageView+Chain.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageView+Chain.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageView+Chain.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageView+Chain.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageView+Chain.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageView+Chain.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageView+Chain.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIImageView+Chain~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/chain/UILabel+Chain.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabel+Chain.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabel+Chain.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabel+Chain.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabel+Chain.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabel+Chain.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabel+Chain.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabel+Chain.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UILabel+Chain~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/chain/UIScrollView+Chain.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScrollView+Chain.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScrollView+Chain.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScrollView+Chain.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScrollView+Chain.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScrollView+Chain.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScrollView+Chain.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScrollView+Chain.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIScrollView+Chain~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/chain/UITableView+Chain.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableView+Chain.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableView+Chain.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableView+Chain.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableView+Chain.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableView+Chain.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableView+Chain.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableView+Chain.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableView+Chain~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/chain/UITableViewCell+Chain.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableViewCell+Chain.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableViewCell+Chain.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableViewCell+Chain.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableViewCell+Chain.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableViewCell+Chain.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableViewCell+Chain.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableViewCell+Chain.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITableViewCell+Chain~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/chain/UITextField+Chain.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextField+Chain.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextField+Chain.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextField+Chain.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextField+Chain.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextField+Chain.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextField+Chain.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextField+Chain.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextField+Chain~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/chain/UITextView+Chain.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextView+Chain.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextView+Chain.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextView+Chain.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextView+Chain.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextView+Chain.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextView+Chain.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextView+Chain.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UITextView+Chain~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Extension/chain/UIView+Chain.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView+Chain.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView+Chain.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView+Chain.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView+Chain.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView+Chain.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView+Chain.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView+Chain.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/UIView+Chain~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/IconFont/AppIcon.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppIcon.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppIcon.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppIcon.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppIcon.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppIcon.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppIcon.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppIcon.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/AppIcon~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/IconFont/SystemIcon.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SystemIcon.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SystemIcon.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SystemIcon.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SystemIcon.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SystemIcon.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SystemIcon.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SystemIcon.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SystemIcon~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/MessageCenter.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MessageCenter.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MessageCenter.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MessageCenter.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MessageCenter.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MessageCenter.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MessageCenter.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MessageCenter.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MessageCenter~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/NetWork/SNNetworkManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SNNetworkManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SNNetworkManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SNNetworkManager.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SNNetworkManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SNNetworkManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SNNetworkManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SNNetworkManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SNNetworkManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/PhotoBrower/Brower+Cell.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Brower+Cell.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Brower+Cell.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Brower+Cell.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Brower+Cell.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Brower+Cell.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Brower+Cell.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Brower+Cell.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/Brower+Cell~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/PhotoBrower/MediaBrowserController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MediaBrowserController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MediaBrowserController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MediaBrowserController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MediaBrowserController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MediaBrowserController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MediaBrowserController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MediaBrowserController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/MediaBrowserController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/SKNotificationProtocol.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNotificationProtocol.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNotificationProtocol.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNotificationProtocol.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNotificationProtocol.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNotificationProtocol.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNotificationProtocol.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNotificationProtocol.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKNotificationProtocol~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/SKPropertyWrapper.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKPropertyWrapper.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKPropertyWrapper.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKPropertyWrapper.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKPropertyWrapper.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKPropertyWrapper.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKPropertyWrapper.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKPropertyWrapper.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/SKPropertyWrapper~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Utils/ALBroadcastManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALBroadcastManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALBroadcastManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALBroadcastManager.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALBroadcastManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALBroadcastManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALBroadcastManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALBroadcastManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALBroadcastManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Utils/ALGiftRunwayManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALGiftRunwayManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALGiftRunwayManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALGiftRunwayManager.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALGiftRunwayManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALGiftRunwayManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALGiftRunwayManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALGiftRunwayManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALGiftRunwayManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Utils/ALIAPManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALIAPManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALIAPManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALIAPManager.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALIAPManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALIAPManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALIAPManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALIAPManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALIAPManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Utils/ALRTCManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALRTCManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALRTCManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALRTCManager.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALRTCManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALRTCManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALRTCManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALRTCManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALRTCManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Utils/ALThemeManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALThemeManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALThemeManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALThemeManager.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALThemeManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALThemeManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALThemeManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALThemeManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALThemeManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Utils/LiveStreamManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/LiveStreamManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/LiveStreamManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/LiveStreamManager.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/LiveStreamManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/LiveStreamManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/LiveStreamManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/LiveStreamManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/LiveStreamManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Utils/PDFManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PDFManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PDFManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PDFManager.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PDFManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PDFManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PDFManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PDFManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/PDFManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Utils/RouterManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/RouterManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/RouterManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/RouterManager.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/RouterManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/RouterManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/RouterManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/RouterManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/RouterManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Utils/SwiftUI/ALHUDManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALHUDManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALHUDManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALHUDManager.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALHUDManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALHUDManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALHUDManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALHUDManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ALHUDManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/Utils/SwiftUI/CGNavigationManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGNavigationManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGNavigationManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGNavigationManager.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGNavigationManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGNavigationManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGNavigationManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGNavigationManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CGNavigationManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/WebView/CustomWebView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomWebView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomWebView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomWebView.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomWebView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomWebView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomWebView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomWebView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/CustomWebView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/WebView/WebViewConfigurator.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewConfigurator.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewConfigurator.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewConfigurator.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewConfigurator.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewConfigurator.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewConfigurator.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewConfigurator.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewConfigurator~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/WebView/WebViewController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/Public/WebView/WebViewMessageHandler.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewMessageHandler.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewMessageHandler.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewMessageHandler.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewMessageHandler.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewMessageHandler.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewMessageHandler.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewMessageHandler.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/WebViewMessageHandler~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/TestDemo/ViewController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ViewController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ViewController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ViewController.dia",
+    "index-unit-output-path" : "/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ViewController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ViewController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ViewController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ViewController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/TestDemo.build/Debug-iphonesimulator/TestDemo.build/Objects-normal/arm64/ViewController~partial.swiftmodule"
+  }
+}

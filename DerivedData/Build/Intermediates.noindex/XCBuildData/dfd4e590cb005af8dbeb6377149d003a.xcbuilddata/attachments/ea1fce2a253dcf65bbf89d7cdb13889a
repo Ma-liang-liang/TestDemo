@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Products/Debug-iphonesimulator/AlertToast/AlertToast.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AlertToast.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Products/Debug-iphonesimulator/AlertToast/AlertToast.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "AlertToast-Swift.h",
+      "external-contents": "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/AlertToast.build/unextended-interface-header.h",
+    }]
+  }]
+}

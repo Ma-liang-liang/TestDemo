@@ -1,0 +1,10 @@
+framework module MijickPopups {
+  umbrella header "MijickPopups-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MijickPopups.__Swift {
+  exclude header "MijickPopups-Swift.h"
+}

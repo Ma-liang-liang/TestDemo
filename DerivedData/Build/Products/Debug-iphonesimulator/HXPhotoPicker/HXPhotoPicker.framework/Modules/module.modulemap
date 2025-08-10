@@ -1,0 +1,11 @@
+framework module HXPhotoPicker {
+  umbrella header "HXPhotoPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module HXPhotoPicker.Swift {
+  header "HXPhotoPicker-Swift.h"
+  requires objc
+}

@@ -1,0 +1,4 @@
+
+module SwifterSwift.__Swift {
+  exclude header "SwifterSwift-Swift.h"
+}

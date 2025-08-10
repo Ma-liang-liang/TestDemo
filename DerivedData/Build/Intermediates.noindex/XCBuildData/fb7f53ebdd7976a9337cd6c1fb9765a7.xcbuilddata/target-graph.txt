@@ -1,0 +1,65 @@
+Target dependency graph (24 targets)
+Target 'TestDemo' in project 'TestDemo'
+➜ Implicit dependency on target 'Pods-TestDemo' in project 'Pods' via file 'Pods_TestDemo.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'Alamofire' in project 'Pods' via options '-framework Alamofire' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'AlertToast' in project 'Pods' via options '-framework AlertToast' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'CombineCocoa' in project 'Pods' via options '-framework CombineCocoa' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'HXPhotoPicker' in project 'Pods' via options '-framework HXPhotoPicker' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'Kingfisher' in project 'Pods' via options '-framework Kingfisher' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'MMKV' in project 'Pods' via options '-framework MMKV' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'MMKVCore' in project 'Pods' via options '-framework MMKVCore' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'MijickPopups' in project 'Pods' via options '-framework MijickPopups' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'Moya' in project 'Pods' via options '-framework Moya' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SVProgressHUD' in project 'Pods' via options '-framework SVProgressHUD' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SmartCodable' in project 'Pods' via options '-framework SmartCodable' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SnapKit' in project 'Pods' via options '-framework SnapKit' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SwifterSwift' in project 'Pods' via options '-framework SwifterSwift' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'ZLPhotoBrowser' in project 'Pods' via options '-framework ZLPhotoBrowser' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-TestDemo' in project 'Pods'
+➜ Explicit dependency on target 'AgoraInfra_iOS' in project 'Pods'
+➜ Explicit dependency on target 'AgoraRtcEngine_iOS' in project 'Pods'
+➜ Explicit dependency on target 'Alamofire' in project 'Pods'
+➜ Explicit dependency on target 'AlertToast' in project 'Pods'
+➜ Explicit dependency on target 'CombineCocoa' in project 'Pods'
+➜ Explicit dependency on target 'HXPhotoPicker' in project 'Pods'
+➜ Explicit dependency on target 'Kingfisher' in project 'Pods'
+➜ Explicit dependency on target 'MMKV' in project 'Pods'
+➜ Explicit dependency on target 'MMKVCore' in project 'Pods'
+➜ Explicit dependency on target 'MijickPopups' in project 'Pods'
+➜ Explicit dependency on target 'Moya' in project 'Pods'
+➜ Explicit dependency on target 'SVProgressHUD' in project 'Pods'
+➜ Explicit dependency on target 'SmartCodable' in project 'Pods'
+➜ Explicit dependency on target 'SnapKit' in project 'Pods'
+➜ Explicit dependency on target 'SwifterSwift' in project 'Pods'
+➜ Explicit dependency on target 'ZLPhotoBrowser' in project 'Pods'
+Target 'ZLPhotoBrowser' in project 'Pods'
+➜ Explicit dependency on target 'ZLPhotoBrowser-ZLPhotoBrowser_Privacy' in project 'Pods'
+Target 'ZLPhotoBrowser-ZLPhotoBrowser_Privacy' in project 'Pods' (no dependencies)
+Target 'SwifterSwift' in project 'Pods'
+➜ Explicit dependency on target 'SwifterSwift-SwifterSwift_Privacy' in project 'Pods'
+Target 'SwifterSwift-SwifterSwift_Privacy' in project 'Pods' (no dependencies)
+Target 'SnapKit' in project 'Pods'
+➜ Explicit dependency on target 'SnapKit-SnapKit_Privacy' in project 'Pods'
+Target 'SnapKit-SnapKit_Privacy' in project 'Pods' (no dependencies)
+Target 'SmartCodable' in project 'Pods' (no dependencies)
+Target 'SVProgressHUD' in project 'Pods' (no dependencies)
+Target 'Moya' in project 'Pods'
+➜ Explicit dependency on target 'Alamofire' in project 'Pods'
+Target 'MijickPopups' in project 'Pods' (no dependencies)
+Target 'MMKV' in project 'Pods'
+➜ Explicit dependency on target 'MMKVCore' in project 'Pods'
+Target 'MMKVCore' in project 'Pods' (no dependencies)
+Target 'Kingfisher' in project 'Pods'
+➜ Explicit dependency on target 'Kingfisher-Kingfisher' in project 'Pods'
+Target 'Kingfisher-Kingfisher' in project 'Pods' (no dependencies)
+Target 'HXPhotoPicker' in project 'Pods'
+➜ Explicit dependency on target 'HXPhotoPicker-HXPhotoPicker_Privacy' in project 'Pods'
+Target 'HXPhotoPicker-HXPhotoPicker_Privacy' in project 'Pods' (no dependencies)
+Target 'CombineCocoa' in project 'Pods' (no dependencies)
+Target 'AlertToast' in project 'Pods' (no dependencies)
+Target 'Alamofire' in project 'Pods'
+➜ Explicit dependency on target 'Alamofire-Alamofire' in project 'Pods'
+Target 'Alamofire-Alamofire' in project 'Pods' (no dependencies)
+Target 'AgoraRtcEngine_iOS' in project 'Pods'
+➜ Explicit dependency on target 'AgoraInfra_iOS' in project 'Pods'
+Target 'AgoraInfra_iOS' in project 'Pods' (no dependencies)

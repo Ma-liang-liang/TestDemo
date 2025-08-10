@@ -1,0 +1,698 @@
+{
+  "" : {
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoBrowser-master.dia",
+    "emit-module-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoBrowser-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoBrowser-master-emit-module.dia",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoBrowser-master.swiftdeps"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Animation/ZLClipImageDismissAnimatedTransition.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageDismissAnimatedTransition.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageDismissAnimatedTransition.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageDismissAnimatedTransition.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageDismissAnimatedTransition.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageDismissAnimatedTransition.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageDismissAnimatedTransition.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageDismissAnimatedTransition.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageDismissAnimatedTransition~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Animation/ZLImagePreviewDismissInteractiveTransition.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewDismissInteractiveTransition.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewDismissInteractiveTransition.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewDismissInteractiveTransition.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewDismissInteractiveTransition.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewDismissInteractiveTransition.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewDismissInteractiveTransition.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewDismissInteractiveTransition.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewDismissInteractiveTransition~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Animation/ZLPhotoPreviewAnimatedTransition.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewAnimatedTransition.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewAnimatedTransition.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewAnimatedTransition.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewAnimatedTransition.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewAnimatedTransition.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewAnimatedTransition.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewAnimatedTransition.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewAnimatedTransition~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Animation/ZLPhotoPreviewPopInteractiveTransition.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewPopInteractiveTransition.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewPopInteractiveTransition.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewPopInteractiveTransition.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewPopInteractiveTransition.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewPopInteractiveTransition.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewPopInteractiveTransition.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewPopInteractiveTransition.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewPopInteractiveTransition~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Camera/ZLCustomCamera.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomCamera.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomCamera.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomCamera.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomCamera.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomCamera.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomCamera.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomCamera.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomCamera~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLAdjustSlider.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAdjustSlider.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAdjustSlider.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAdjustSlider.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAdjustSlider.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAdjustSlider.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAdjustSlider.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAdjustSlider.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAdjustSlider~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLBaseStickerView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickerView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickerView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickerView.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickerView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickerView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickerView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickerView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickerView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLBaseStickertState.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickertState.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickertState.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickertState.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickertState.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickertState.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickertState.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickertState.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLBaseStickertState~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLClipImageViewController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageViewController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageViewController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageViewController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageViewController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageViewController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageViewController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageViewController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipImageViewController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLClipOverlayView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipOverlayView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipOverlayView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipOverlayView.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipOverlayView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipOverlayView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipOverlayView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipOverlayView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLClipOverlayView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLEditImageViewController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageViewController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageViewController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageViewController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageViewController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageViewController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageViewController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageViewController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageViewController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLEditToolCells.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditToolCells.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditToolCells.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditToolCells.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditToolCells.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditToolCells.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditToolCells.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditToolCells.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditToolCells~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLEditVideoViewController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditVideoViewController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditVideoViewController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditVideoViewController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditVideoViewController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditVideoViewController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditVideoViewController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditVideoViewController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditVideoViewController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLEditorManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditorManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditorManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditorManager.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditorManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditorManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditorManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditorManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditorManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLFilter.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFilter.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFilter.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFilter.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFilter.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFilter.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFilter.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFilter.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFilter~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLImageStickerView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageStickerView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageStickerView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageStickerView.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageStickerView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageStickerView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageStickerView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageStickerView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageStickerView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLInputTextViewController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLInputTextViewController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLInputTextViewController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLInputTextViewController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLInputTextViewController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLInputTextViewController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLInputTextViewController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLInputTextViewController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLInputTextViewController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLPaths.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPaths.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPaths.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPaths.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPaths.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPaths.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPaths.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPaths.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPaths~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Edit/ZLTextStickerView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLTextStickerView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLTextStickerView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLTextStickerView.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLTextStickerView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLTextStickerView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLTextStickerView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLTextStickerView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLTextStickerView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/AVCaptureDevice+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/AVCaptureDevice+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/AVCaptureDevice+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/AVCaptureDevice+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/AVCaptureDevice+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/AVCaptureDevice+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/AVCaptureDevice+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/AVCaptureDevice+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/AVCaptureDevice+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/Array+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Array+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Array+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Array+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Array+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Array+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Array+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Array+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Array+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/Bool+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bool+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bool+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bool+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bool+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bool+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bool+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bool+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bool+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/Bundle+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bundle+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bundle+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bundle+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bundle+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bundle+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bundle+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bundle+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Bundle+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/CGFloat+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/CGFloat+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/CGFloat+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/CGFloat+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/CGFloat+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/CGFloat+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/CGFloat+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/CGFloat+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/CGFloat+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/Cell+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Cell+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Cell+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Cell+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Cell+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Cell+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Cell+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Cell+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/Cell+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/NSError+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/NSError+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/NSError+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/NSError+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/NSError+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/NSError+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/NSError+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/NSError+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/NSError+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/PHAsset+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHAsset+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHAsset+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHAsset+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHAsset+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHAsset+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHAsset+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHAsset+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHAsset+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/PHPhotoLibrary+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHPhotoLibrary+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHPhotoLibrary+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHPhotoLibrary+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHPhotoLibrary+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHPhotoLibrary+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHPhotoLibrary+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHPhotoLibrary+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/PHPhotoLibrary+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/String+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/String+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/String+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/String+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/String+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/String+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/String+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/String+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/String+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/UIColor+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIColor+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIColor+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIColor+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIColor+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIColor+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIColor+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIColor+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIColor+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/UIFont+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIFont+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIFont+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIFont+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIFont+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIFont+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIFont+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIFont+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIFont+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/UIGraphicsImageRenderer+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIGraphicsImageRenderer+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIGraphicsImageRenderer+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIGraphicsImageRenderer+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIGraphicsImageRenderer+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIGraphicsImageRenderer+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIGraphicsImageRenderer+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIGraphicsImageRenderer+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIGraphicsImageRenderer+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/UIImage+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIImage+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIImage+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIImage+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIImage+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIImage+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIImage+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIImage+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIImage+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/UIScrollView+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIScrollView+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIScrollView+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIScrollView+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIScrollView+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIScrollView+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIScrollView+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIScrollView+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIScrollView+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/UIView+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIView+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIView+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIView+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIView+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIView+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIView+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIView+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIView+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/Extensions/UIViewController+ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIViewController+ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIViewController+ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIViewController+ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIViewController+ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIViewController+ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIViewController+ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIViewController+ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/UIViewController+ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLAddPhotoCell.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAddPhotoCell.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAddPhotoCell.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAddPhotoCell.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAddPhotoCell.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAddPhotoCell.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAddPhotoCell.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAddPhotoCell.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAddPhotoCell~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLAlbumListCell.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListCell.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListCell.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListCell.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListCell.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListCell.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListCell.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListCell.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListCell~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLAlbumListController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLAlbumListModel.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListModel.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListModel.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListModel.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListModel.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListModel.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListModel.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListModel.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAlbumListModel~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLAnimationUtils.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAnimationUtils.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAnimationUtils.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAnimationUtils.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAnimationUtils.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAnimationUtils.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAnimationUtils.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAnimationUtils.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLAnimationUtils~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLCameraCell.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraCell.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraCell.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraCell.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraCell.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraCell.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraCell.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraCell.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraCell~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLCameraConfiguration.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraConfiguration.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraConfiguration.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraConfiguration.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraConfiguration.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraConfiguration.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraConfiguration.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraConfiguration.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCameraConfiguration~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLCollectionViewFlowLayout.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCollectionViewFlowLayout.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCollectionViewFlowLayout.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCollectionViewFlowLayout.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCollectionViewFlowLayout.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCollectionViewFlowLayout.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCollectionViewFlowLayout.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCollectionViewFlowLayout.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCollectionViewFlowLayout~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLCustomAlertProtocol.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomAlertProtocol.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomAlertProtocol.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomAlertProtocol.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomAlertProtocol.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomAlertProtocol.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomAlertProtocol.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomAlertProtocol.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLCustomAlertProtocol~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLEditImageConfiguration.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageConfiguration.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageConfiguration.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageConfiguration.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageConfiguration.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageConfiguration.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageConfiguration.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageConfiguration.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEditImageConfiguration~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLEmbedAlbumListView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEmbedAlbumListView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEmbedAlbumListView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEmbedAlbumListView.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEmbedAlbumListView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEmbedAlbumListView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEmbedAlbumListView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEmbedAlbumListView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEmbedAlbumListView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLEnlargeButton.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEnlargeButton.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEnlargeButton.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEnlargeButton.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEnlargeButton.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEnlargeButton.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEnlargeButton.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEnlargeButton.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLEnlargeButton~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLFetchImageOperation.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFetchImageOperation.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFetchImageOperation.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFetchImageOperation.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFetchImageOperation.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFetchImageOperation.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFetchImageOperation.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFetchImageOperation.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLFetchImageOperation~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLGeneralDefine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLGeneralDefine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLGeneralDefine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLGeneralDefine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLGeneralDefine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLGeneralDefine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLGeneralDefine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLGeneralDefine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLGeneralDefine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLImageNavController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageNavController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageNavController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageNavController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageNavController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageNavController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageNavController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageNavController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImageNavController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLImagePreviewController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLImagePreviewController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLLanguageDefine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLLanguageDefine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLLanguageDefine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLLanguageDefine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLLanguageDefine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLLanguageDefine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLLanguageDefine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLLanguageDefine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLLanguageDefine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLPhotoBrowser.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoBrowser.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoBrowser.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoBrowser.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoBrowser.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoBrowser.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoBrowser.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoBrowser.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoBrowser~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLPhotoConfiguration+Chaining.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration+Chaining.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration+Chaining.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration+Chaining.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration+Chaining.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration+Chaining.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration+Chaining.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration+Chaining.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration+Chaining~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLPhotoConfiguration.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoConfiguration~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLPhotoManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoManager.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoManager~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLPhotoModel.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoModel.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoModel.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoModel.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoModel.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoModel.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoModel.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoModel.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoModel~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLPhotoPreviewCell.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewCell.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewCell.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewCell.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewCell.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewCell.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewCell.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewCell.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewCell~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLPhotoPreviewController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLPhotoPreviewSheet.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewSheet.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewSheet.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewSheet.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewSheet.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewSheet.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewSheet.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewSheet.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoPreviewSheet~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLPhotoUIConfiguration+Chaining.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration+Chaining.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration+Chaining.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration+Chaining.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration+Chaining.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration+Chaining.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration+Chaining.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration+Chaining.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration+Chaining~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLPhotoUIConfiguration.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLPhotoUIConfiguration~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLProgressHUD.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressHUD.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressHUD.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressHUD.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressHUD.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressHUD.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressHUD.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressHUD.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressHUD~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLProgressView.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressView.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressView.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressView.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressView.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressView.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressView.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressView.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLProgressView~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLResultModel.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLResultModel.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLResultModel.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLResultModel.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLResultModel.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLResultModel.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLResultModel.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLResultModel.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLResultModel~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLThumbnailPhotoCell.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailPhotoCell.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailPhotoCell.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailPhotoCell.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailPhotoCell.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailPhotoCell.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailPhotoCell.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailPhotoCell.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailPhotoCell~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLThumbnailViewController.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailViewController.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailViewController.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailViewController.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailViewController.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailViewController.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailViewController.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailViewController.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLThumbnailViewController~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/ZLPhotoBrowser/Sources/General/ZLVideoManager.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLVideoManager.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLVideoManager.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLVideoManager.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLVideoManager.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLVideoManager.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLVideoManager.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLVideoManager.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ZLPhotoBrowser.build/Objects-normal/arm64/ZLVideoManager~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,4 @@
+
+module SmartCodable.__Swift {
+  exclude header "SmartCodable-Swift.h"
+}

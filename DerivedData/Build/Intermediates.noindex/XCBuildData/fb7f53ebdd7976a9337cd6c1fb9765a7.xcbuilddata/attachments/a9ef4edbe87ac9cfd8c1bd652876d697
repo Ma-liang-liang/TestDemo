@@ -1,0 +1,5 @@
+
+module AlertToast.Swift {
+  header "AlertToast-Swift.h"
+  requires objc
+}

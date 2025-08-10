@@ -1,0 +1,4 @@
+
+module ZLPhotoBrowser.__Swift {
+  exclude header "ZLPhotoBrowser-Swift.h"
+}

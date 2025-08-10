@@ -1,0 +1,4 @@
+
+module CombineCocoa.__Swift {
+  exclude header "CombineCocoa-Swift.h"
+}

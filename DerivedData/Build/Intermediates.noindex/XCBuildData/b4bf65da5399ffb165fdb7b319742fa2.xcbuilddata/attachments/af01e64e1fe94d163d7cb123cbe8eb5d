@@ -1,0 +1,5 @@
+
+module HXPhotoPicker.Swift {
+  header "HXPhotoPicker-Swift.h"
+  requires objc
+}

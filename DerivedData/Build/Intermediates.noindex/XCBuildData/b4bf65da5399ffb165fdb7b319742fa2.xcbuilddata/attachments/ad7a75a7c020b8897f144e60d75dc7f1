@@ -1,0 +1,258 @@
+{
+  "" : {
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineCocoa-master.dia",
+    "emit-module-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineCocoa-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineCocoa-master-emit-module.dia",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineCocoa-master.swiftdeps"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/AnimatedAssignSubscriber.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/AnimatedAssignSubscriber.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/AnimatedAssignSubscriber.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/AnimatedAssignSubscriber.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/AnimatedAssignSubscriber.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/AnimatedAssignSubscriber.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/AnimatedAssignSubscriber.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/AnimatedAssignSubscriber.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/AnimatedAssignSubscriber~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/CombineControlEvent.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlEvent.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlEvent.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlEvent.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlEvent.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlEvent.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlEvent.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlEvent.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlEvent~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/CombineControlProperty.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlProperty.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlProperty.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlProperty.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlProperty.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlProperty.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlProperty.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlProperty.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlProperty~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/CombineControlTarget.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlTarget.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlTarget.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlTarget.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlTarget.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlTarget.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlTarget.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlTarget.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/CombineControlTarget~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/NSTextStorage+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/NSTextStorage+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/NSTextStorage+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/NSTextStorage+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/NSTextStorage+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/NSTextStorage+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/NSTextStorage+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/NSTextStorage+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/NSTextStorage+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UIBarButtonItem+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIBarButtonItem+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIBarButtonItem+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIBarButtonItem+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIBarButtonItem+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIBarButtonItem+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIBarButtonItem+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIBarButtonItem+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIBarButtonItem+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UIButton+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIButton+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIButton+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIButton+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIButton+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIButton+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIButton+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIButton+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIButton+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UICollectionView+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UICollectionView+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UIControl+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIControl+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UIDatePicker+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIDatePicker+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UIGestureRecognizer+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIGestureRecognizer+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIGestureRecognizer+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIGestureRecognizer+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIGestureRecognizer+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIGestureRecognizer+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIGestureRecognizer+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIGestureRecognizer+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIGestureRecognizer+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UIPageControl+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIPageControl+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIPageControl+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIPageControl+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIPageControl+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIPageControl+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIPageControl+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIPageControl+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIPageControl+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UIRefreshControl+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIRefreshControl+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIRefreshControl+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIRefreshControl+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIRefreshControl+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIRefreshControl+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIRefreshControl+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIRefreshControl+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIRefreshControl+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UIScrollView+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIScrollView+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIScrollView+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIScrollView+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIScrollView+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIScrollView+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIScrollView+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIScrollView+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIScrollView+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UISearchBar+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISearchBar+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISearchBar+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISearchBar+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISearchBar+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISearchBar+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISearchBar+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISearchBar+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISearchBar+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UISegmentedControl+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISegmentedControl+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISegmentedControl+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISegmentedControl+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISegmentedControl+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISegmentedControl+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISegmentedControl+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISegmentedControl+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISegmentedControl+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UISlider+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISlider+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISlider+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISlider+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISlider+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISlider+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISlider+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISlider+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISlider+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UIStepper+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIStepper+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIStepper+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIStepper+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIStepper+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIStepper+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIStepper+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIStepper+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UIStepper+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UISwitch+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISwitch+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISwitch+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISwitch+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISwitch+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISwitch+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISwitch+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISwitch+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UISwitch+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UITableView+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITableView+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITableView+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITableView+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITableView+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITableView+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITableView+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITableView+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITableView+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UITextField+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextField+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextField+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextField+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextField+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextField+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextField+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextField+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextField+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/Controls/UITextView+Combine.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextView+Combine.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextView+Combine.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextView+Combine.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextView+Combine.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextView+Combine.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextView+Combine.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextView+Combine.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/UITextView+Combine~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/DelegateProxy/DelegateProxy.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxy.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxy.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxy.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxy.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxy.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxy.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxy.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxy~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/DelegateProxy/DelegateProxyPublisher.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyPublisher.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyPublisher.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyPublisher.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyPublisher.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyPublisher.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyPublisher.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyPublisher.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyPublisher~partial.swiftmodule"
+  },
+  "/Users/maliangliang/Desktop/练习demo/TestDemo/Pods/CombineCocoa/Sources/CombineCocoa/DelegateProxy/DelegateProxyType.swift" : {
+    "const-values" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyType.swiftconstvalues",
+    "dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyType.d",
+    "diagnostics" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyType.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyType.o",
+    "llvm-bc" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyType.bc",
+    "object" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyType.o",
+    "swift-dependencies" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyType.swiftdeps",
+    "swiftmodule" : "/Users/maliangliang/Desktop/练习demo/TestDemo/DerivedData/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CombineCocoa.build/Objects-normal/arm64/DelegateProxyType~partial.swiftmodule"
+  }
+}

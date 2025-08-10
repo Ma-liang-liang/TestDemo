@@ -1,0 +1,5 @@
+
+module CombineCocoa.Swift {
+  header "CombineCocoa-Swift.h"
+  requires objc
+}

@@ -1,0 +1,5 @@
+
+module SmartCodable.Swift {
+  header "SmartCodable-Swift.h"
+  requires objc
+}

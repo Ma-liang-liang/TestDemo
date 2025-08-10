@@ -1,0 +1,10 @@
+framework module AlertToast {
+  umbrella header "AlertToast-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AlertToast.__Swift {
+  exclude header "AlertToast-Swift.h"
+}
